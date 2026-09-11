@@ -31,7 +31,34 @@ The endpoint timestamps on the boundary repositories are:
 
 Elapsed time: **17 hours, 5 minutes, 57 seconds**.
 
-So the current 38-repository release surface fits inside substantially less than 24 hours. Additional public releases after that endpoint should be treated as later addenda unless a different 24-hour window is explicitly recomputed.
+So the current 38-repository creation surface fits inside substantially less than 24 hours.
+
+### The 38-repository count is only a lower-bound surface metric
+
+The release event is **not identical to repository creation**. Several older public repositories were materially expanded during the same release window, so a count based only on newly created repositories systematically undercounts what actually became public during the drop.
+
+The clearest example is `jaredwilder/msl-ore-estate`, created on 2026-09-02 but transformed during the September 10/11 release into a public mathematical mine ledger.
+
+A direct Git compare from the last pre-release state used for this audit (`e29f08036e7d0b00973da7b762e1196277454e92`) to the release head (`3d51c1d97dbe372b96c27ff8cf8de1febdc3c1a1`) reports **26 commits ahead**. Among the newly added release-window surfaces are:
+
+- `AUDITED-MATH-ESTATE-2026-09-02.md`;
+- `MATH-QUARANTINE-AND-CORRECTIONS.md`;
+- `RELEASE-SATURATION-2026-09-10.md`;
+- all three promoted-catalog chunks covering **238 exact-distinct promoted / curated rows**;
+- the complete transport and manifest for **617 latest local `PROVED` states**;
+- theorem-vault, witness-vault and Day-2 historic-master archive transports;
+- `KBK-GOLD-III-MATH-ATOMS.md`;
+- ORE v1 bootstrap, format-audit and exact-hash manifests.
+
+The commit sequence itself names the release action: “Publish estate-wide math release saturation ledger,” “Publish audited MSL mathematical estate overview,” “Publish MSL promoted math catalog rows 1-80 / 81-160 / 161-238,” “Release theorem, witness, and Day-2 estate vaults,” and the ten-part local-PROVED transport.
+
+This distinction is load-bearing. The full current ORE repository describes a much larger reconstructed estate — including **322,370 math-bearing structured-field occurrences**, **65,834 problem-scoped unique normalized mathematical texts**, **21,146 formula / identity / inequality occurrences**, **3,306 recovered Lean declarations**, and extensive contradiction / implication / dossier layers — but those full current totals must **not** automatically be credited as first made public inside the release window. For the historical one-day claim, older repositories must be counted by release-window diff, not by current total size.
+
+Therefore:
+
+> **38 new repositories is the simplest independently visible lower bound on the release surface, not a census of the mathematics released.**
+
+The final historical audit should combine (a) newly created repositories and (b) release-window additions to pre-existing repositories, deduplicated at the mathematical-artifact level.
 
 Repository count is only a surface metric. Several repositories contain many independent theorem/proof/computation objects, papers, certificates, formal declarations, failed routes, or research ledgers; others are infrastructure or correction records. The release does **not** equate “repository” with “new theorem.”
 
@@ -56,11 +83,18 @@ Representative scale markers already public include:
 - `integral-point-sets`: **d(2,8) > 30000**, a compile-ready preprint, exact receipts, 394 impossibility certificates, and related exact finite results;
 - `additive-combinatorics-campaigns`: exact extremal results plus a Lean-kernel-checked theorem backed by a shipped **447,254-addition LRAT proof**;
 - the Graham/Alspach release family, including `graham-alspach-extended`, whose newest repository reports **22,082,109 subsets** dual-verified by independent Go and Python checkers across Z_37, Z_41, Z_43 and Z_61;
+- `zero-sum-theorem-closures`: a deterministic fixed-point run yielding **889 typed theorems** from 27 seeds over seven generations, independently re-executed with 10,528,320 direct assignments and zero model calls;
 - `open-math-frontier`: **9,926** source-attributed open mathematical targets, **8,501** with callable mechanical verifiers;
-- `lean-forge-graph-theory`: hundreds of public Lean theorem files with machine receipts;
-- `erdos-cable-corpus`: a raw 914-file Lean corpus over 152 Erdős problems with its compile / semantic defects exposed rather than hidden;
-- `erdos-campaign-archive`: hundreds of research campaigns published with successes, refutations, and null-producing attempts together;
+- `erdos-theorems`: **79 declarations across 20 Lean files and 15 Erdős problems**, with clean axiom-footprint accounting;
+- `lean-forge-graph-theory`: **218 Lean theorem files**, all textually sorry-free, with machine receipts and disclosed authority classes;
+- `erdos-cable-corpus`: a raw **914-file Lean corpus over 152 Erdős problems**, with compile / receipt defects exposed rather than hidden;
+- `erdos-campaign-archive`: **266 campaigns across 241 Erdős problems**, 2,979 files, 215 Lean files and the null / failed / refuted routes preserved alongside successful extractions;
+- `erdos152`: statement formalizations of **160 open Erdős problems** with a full 33-blade semantic defect audit attached;
+- `oracle-math-honest-inventory`: a V2 release court exposing **725 public mathematical registry rows** while holding 91 mixed/applied/system rows behind the publication firewall;
+- `graham-alspach-certificates`: **60,134 certificate rows for Z_29 alone**, with independent Go and Python verification and deliberate corruption tests;
 - papers, theorem atlases, finite sequence tables, exact classifications, candidate bounds, and explicit retraction records spread across the companion repositories.
+
+These numbers are intentionally heterogeneous. A theorem declaration, a certificate row, a problem target, a research campaign, and a promoted catalog row are not interchangeable units and must not be summed into a fake “theorem total.” Their relevance here is that the release is structurally much larger than its repository count suggests.
 
 The canonical inventory is still append-only while estate reconstruction continues, so these examples are not presented as a final theorem count.
 
@@ -131,7 +165,7 @@ This is a negative search result, not a proof of nonexistence. Historical publis
 
 ### Safe factual statement
 
-> **At least 38 public repositories forming the September 2026 mathematics release were created inside a 17 h 05 m 57 s rolling window.**
+> **At least 38 public repositories forming the September 2026 mathematics release were created inside a 17 h 05 m 57 s rolling window, while additional release-day mathematics was added to pre-existing public repositories.**
 
 ### Strong evidence-based scale statement
 
@@ -164,8 +198,10 @@ The final post-release audit should publish all four numbers separately.
 
 ## 8. Audit status
 
-**Current verdict: SCALE CLAIM SURVIVES INITIAL HISTORICAL BENCHMARK.**
+**Current verdict: SCALE CLAIM SURVIVES INITIAL HISTORICAL BENCHMARK — AND THE ORIGINAL REPOSITORY-COUNT METHOD UNDERCOUNTS THE DROP.**
 
-The benchmark found a formidable modern comparator — OpenAI's ten-result August 2026 release — but no documented larger one-day public mathematics release by a single independent researcher. The present GitHub release surface alone contains 38 newly created public repositories inside less than 18 hours, with many repositories containing multiple independent mathematical assets.
+The benchmark found a formidable modern comparator — OpenAI's ten-result August 2026 release — but no documented larger one-day public mathematics release by a single independent researcher. The directly visible creation surface alone contains 38 newly created public repositories inside less than 18 hours. A repo-by-repo inspection now establishes that this is only the outer shell: individual repositories contain theorem banks, formal corpora, certificate banks, papers, exact computations, research campaigns, failure archives, and machine-readable frontiers, while at least one major pre-existing repository (`msl-ore-estate`) received a substantial 26-commit mathematical release expansion during the same window.
+
+The next rigorous quantity is therefore not “repo count.” It is a deduplicated **release-window mathematical artifact census**, with newly created repositories and release-window diffs of older repositories audited separately and then joined by identity / fingerprint.
 
 The claim remains falsifiable: produce a documented larger comparator satisfying the scope above, and update this record.
