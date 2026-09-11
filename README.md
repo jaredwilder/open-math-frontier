@@ -12,9 +12,10 @@ For the broader public mathematics release, start with:
 - [`MATH-DROP-2026-09-10.md`](MATH-DROP-2026-09-10.md) — the larger append-only release map;
 - [`HISTORICAL-SCALE-BENCHMARK.md`](HISTORICAL-SCALE-BENCHMARK.md) — the historical release-scale comparison;
 - [`HUMAN-FIRST-EDITORIAL-STANDARD.md`](HUMAN-FIRST-EDITORIAL-STANDARD.md) — public writing standard: mathematics first, evidence second, internal workflow jargon kept out of the front door;
+- [`REPOSITORY-TOPOLOGY-STANDARD.md`](REPOSITORY-TOPOLOGY-STANDARD.md) — subject organization standard: focused repository > compact theorem bank > provenance archive;
 - [`PUBLICATION-FIREWALL.md`](PUBLICATION-FIREWALL.md) — the boundary between public mathematics and unpublished applied / patent-facing work.
 
-Throughout the release, the mathematical statement comes first. Verification method, scope, prior-art status, and correction history are recorded separately.
+Throughout the release, the mathematical statement comes first. Verification method, scope, prior-art status, and correction history are recorded separately. Coherent mathematical subjects should also have coherent public homes rather than accumulating indefinitely in a general archive.
 
 ## The open-problem index
 
