@@ -10,6 +10,7 @@ The release is larger than its repository count: some repositories were created 
 
 For the full map, see [`MATH-DROP-2026-09-10.md`](MATH-DROP-2026-09-10.md).  
 For the historical scale comparison, see [`HISTORICAL-SCALE-BENCHMARK.md`](HISTORICAL-SCALE-BENCHMARK.md).  
+For the public writing standard, see [`HUMAN-FIRST-EDITORIAL-STANDARD.md`](HUMAN-FIRST-EDITORIAL-STANDARD.md).  
 For the boundary protecting unpublished applied and patent-facing work, see [`PUBLICATION-FIREWALL.md`](PUBLICATION-FIREWALL.md).
 
 ## Release-day scale
@@ -112,12 +113,12 @@ The archive also keeps the material needed to check mistakes and semantic drift:
 
 A correction record affects the claim it corrects. It is not a substitute for describing unrelated mathematics on its own terms.
 
-## Applied-IP boundary
+## Applied-work boundary
 
-The mathematics release is not a blanket release of the broader research estate. Pure theorem/proof/code assets may be published after review; applied biomedical, control, energy, simulation, product, trade-secret, patent-claim, or commercially load-bearing embodiments remain held unless separately cleared.
+The mathematics release is not a blanket release of the broader research estate. Pure mathematical results and their verification material may be published after review; application-specific biomedical, industrial, product, proprietary, or patent-facing implementations remain outside the release unless they are separately and deliberately cleared.
 
 See [`PUBLICATION-FIREWALL.md`](PUBLICATION-FIREWALL.md) before extracting material from mixed mathematical/applied sources.
 
 ## Live-release rule
 
-This file is a front door, not a frozen inventory. As additional pure-mathematics objects are checked for correctness, evidence, literature status, and publication/IP boundaries, they can be added to the larger map and promoted here when they materially improve a new reader's understanding of the release.
+This file is a front door, not a frozen inventory. As additional pure mathematics is checked for correctness, evidence, literature status, and publication boundaries, it can be added to the larger map and included here when it materially improves a new reader's understanding of the release.
