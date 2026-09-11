@@ -5,6 +5,18 @@ callable mechanical verifier.**
 
 Author: Jared Wilder. First public timestamp: 2026-09-10.
 
+## September 10, 2026 release map
+
+For the public map of the broader mathematics drop, claim classes, strongest results, curated
+repos, raw corpora, retractions, and suggested reading order, start here:
+
+- [`MATH-DROP-2026-09-10.md`](MATH-DROP-2026-09-10.md)
+- [`PUBLICATION-FIREWALL.md`](PUBLICATION-FIREWALL.md) — explicit boundary between this open
+  mathematics release and unpublished applied / patent-facing IP.
+
+The release doctrine is simple: theorem, candidate, finite computation, working record, and
+retraction are different classes and remain visibly different in public.
+
 ## `frontier/open-frontier.jsonl`
 
 One JSON object per line. Each carries a target id, family, parameters, the statement or a link to
