@@ -9,6 +9,8 @@ This is the shortest route into the mathematics released under the `jaredwilder`
 The release is larger than its repository count: some repositories were created during the release window, while older public repositories also received substantial new mathematical material. The useful object is therefore the mathematics itself—its statements, proofs, computations, certificates, formalizations, papers, and research records.
 
 For the full map, see [`MATH-DROP-2026-09-10.md`](MATH-DROP-2026-09-10.md).  
+For the **buried-program promotion index**, see [`BURIED-PROGRAMS-INDEX.md`](BURIED-PROGRAMS-INDEX.md).  
+For the rule governing problem repos vs theorem banks vs archives, see [`REPOSITORY-TOPOLOGY-STANDARD.md`](REPOSITORY-TOPOLOGY-STANDARD.md).  
 For the historical scale comparison, see [`HISTORICAL-SCALE-BENCHMARK.md`](HISTORICAL-SCALE-BENCHMARK.md).  
 For the public writing standard, see [`HUMAN-FIRST-EDITORIAL-STANDARD.md`](HUMAN-FIRST-EDITORIAL-STANDARD.md).  
 For the boundary protecting unpublished applied and patent-facing work, see [`PUBLICATION-FIREWALL.md`](PUBLICATION-FIREWALL.md).
@@ -97,7 +99,7 @@ Useful entry points:
 - `erdos-theorems` — 79 curated kernel-clean theorem declarations;
 - `lean-forge-graph-theory` — 218 standalone sorry-free graph-theory theorem files;
 - `lean-contributions` — a 1,473-line zero-sorry Steiner/Kirkman development, an Erdős 1066 statement formalization/API, and other Lean work;
-- `erdos595-barrier-tower` — 27 sorry-free files proving the sharp continuum coverability barrier and related structure;
+- `erdos595-barrier-tower` — 27 sorry-free barrier files plus the recovered 65-card triangle-cover structural theorem bank;
 - `erdos152` and `erdos-cable-corpus` — large formalization corpora with explicit per-file evidence.
 
 ## Corrections and formalization audits
@@ -105,9 +107,9 @@ Useful entry points:
 The archive also keeps the material needed to check mistakes and semantic drift:
 
 - `lean-semantic-blades` — 33 deterministic checks for whether a Lean formalization still matches its source statement;
-- `erdos835-lean-audit` — focused axiom audit of the Erdős 835 formal artifacts;
-- `erdos-findings-ledger` — 52 mathematical result records linking statements to evidence and later corrections;
-- `erdos-campaign-archive` — 266 automated proof-search runs across 241 Erdős problems, including the full success/failure distribution;
+- `erdos835-lean-audit` — now the broader #835 problem home: Johnson-graph axiom audit plus SQS(20) residual-completion, rigidity and trade results;
+- `erdos-findings-ledger` — mathematical result records linking statements to evidence and later corrections;
+- `erdos-campaign-archive` — automated proof-search runs across Erdős problems, including success/failure distributions;
 - `erdos-attack-logs` — research logs, computations, refutations, and prior-art findings;
 - `eg411-superseded-closure-claims` and `erdos411-retraction-record` — preserved historical correction records.
 
