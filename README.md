@@ -1,62 +1,75 @@
-# open-math-frontier
+# Open Math Frontier
 
-**9,926 open mathematical problems in machine-readable form, with 8,501 of them carrying a callable mechanical verifier.**
+**9,926 open mathematical problems collected in structured form, with executable checkers for 8,501 of them.**
 
 Author: Jared Wilder. First public timestamp: 2026-09-10.
 
 ## September 2026 mathematics release
 
-For the broader public mathematics release, **start with the results-first front door**:
+For the broader public mathematics release, start with:
 
-- [`START-HERE.md`](START-HERE.md) — strongest mathematics, evidence classes, ORE scale, formal layer, and audit layer;
-- [`MATH-DROP-2026-09-10.md`](MATH-DROP-2026-09-10.md) — the larger append-only estate map;
-- [`HISTORICAL-SCALE-BENCHMARK.md`](HISTORICAL-SCALE-BENCHMARK.md) — the falsifiable historical-scale comparison;
-- [`PUBLICATION-FIREWALL.md`](PUBLICATION-FIREWALL.md) — the boundary between the open mathematics release and unpublished applied / patent-facing IP.
+- [`START-HERE.md`](START-HERE.md) — strongest mathematics and a short reading path;
+- [`MATH-DROP-2026-09-10.md`](MATH-DROP-2026-09-10.md) — the larger append-only release map;
+- [`HISTORICAL-SCALE-BENCHMARK.md`](HISTORICAL-SCALE-BENCHMARK.md) — the historical release-scale comparison;
+- [`PUBLICATION-FIREWALL.md`](PUBLICATION-FIREWALL.md) — the boundary between public mathematics and unpublished applied / patent-facing work.
 
-The release doctrine is simple: **the theorem statement says what was established, the evidence class says how strongly, and the audit record says what failed.** The classes remain separate rather than one being used to rhetorically substitute for another.
+Throughout the release, the mathematical statement comes first. Verification method, scope, prior-art status, and correction history are recorded separately.
 
-## `frontier/open-frontier.jsonl`
+## The open-problem index
 
-One JSON object per line. Each carries a target id, family, parameters, the statement or a link to it, the openness marking **with its source**, prize money where any exists, whether the problem is already formalized in Lean, OEIS cross-references, a verifier field, and an explicit claim ceiling.
+`frontier/open-frontier.jsonl` contains one JSON object per target. A row may include:
+
+- problem identifier and mathematical family;
+- parameters and statement, or a source link;
+- the public source marking the problem open;
+- prize information where applicable;
+- Lean formalization status;
+- OEIS cross-references;
+- an executable checker where one exists;
+- a scope field describing exactly what a successful computation would establish.
 
 | | count |
 |---|---:|
-| targets | **9,926** |
-| with a callable mechanical verifier | **8,501** |
+| indexed targets | **9,926** |
+| targets with an executable checker | **8,501** |
 | already formalized in Lean | 307 |
 | carrying prize money | 51 |
 
-### By source
+### Sources
 
 | source | targets |
 |---|---:|
 | La Jolla Covering Repository | 7,419 |
 | google-deepmind/formal-conjectures | 1,020 |
-| erdosproblems.com community database (teorth/erdosproblems) | 607 |
-| Wikipedia, list of unsolved problems in mathematics | 598 |
-| OEIS keyword:hard | 220 |
-| Radziszowski, Small Ramsey Numbers DS1.17 | 52 |
-| Brouwer binary code tables | 10 |
+| erdosproblems.com community database (`teorth/erdosproblems`) | 607 |
+| Wikipedia list of unsolved problems in mathematics | 598 |
+| OEIS keyword `hard` | 220 |
+| Radziszowski, *Small Ramsey Numbers* DS1.17 | 52 |
+| Brouwer binary-code tables | 10 |
 
-## The rule that makes this usable
+## How open status is assigned
 
-**Openness is the source's marking, never the author's.** A target is listed as open because a maintained database says it is open, with that database named in the row. Nothing here is called open because an attempt failed. Every row carries its own claim ceiling stating what a result against that target establishes.
+A target is listed as open because its cited source marks it open. The repository does not infer openness from whether a local attempt succeeded or failed.
 
-The La Jolla entries are covering numbers the repository does not mark as proven optimal. The Ramsey entries are coordinate-parsed from the published survey only where lower and upper bounds differ. The binary-code entries are rows where the lower bound is strictly below the upper bound.
+Likewise, an executable checker establishes only the finite or formal statement encoded by that checker. Each row records its scope so a bounded computation cannot silently become a universal theorem.
+
+The La Jolla entries are covering numbers not marked proven optimal by that repository. Ramsey entries are included where the published lower and upper bounds differ. Binary-code entries are included where the lower bound is strictly below the upper bound.
 
 ## Other files
 
-- `frontier/closed-frontier.jsonl` — closed targets, retained so the open set can be diffed against a frozen complement;
-- `frontier/formal-corpus.jsonl` (54 MB) — the formal statement corpus;
+- `frontier/closed-frontier.jsonl` — closed targets, retained so the open set can be compared against them;
+- `frontier/formal-corpus.jsonl` (54 MB) — formal problem statements;
 - `frontier/published-bounds.json` — published bounds cross-checked against targets;
-- `frontier/erdos-statements.json`, `erdos-enriched.json`, `erdos-next-targets.json`, `erdos-uncovered-worklist.json` — the Erdős slice with tags, prizes and Lean status;
-- `frontier/lean-attackability-audit.json` — which formalized targets expose a callable prover-facing surface;
-- `frontier/implication-graph.json` — implications between targets;
-- `ledgers/` — witnesses, transfer certificates, equivalences and leads produced against the frontier.
+- `frontier/erdos-statements.json`, `erdos-enriched.json`, `erdos-next-targets.json`, `erdos-uncovered-worklist.json` — the Erdős subset with tags, prizes and Lean status;
+- `frontier/lean-attackability-audit.json` — historical filename for the audit of which formalized targets have an executable proof/test interface;
+- `frontier/implication-graph.json` — recorded implications between targets;
+- `ledgers/` — witnesses, transfer certificates, equivalences, and research leads.
 
-## Attackability boundary
+## Executable-check boundary
 
-A target is most useful to a machine when it has a pinned instance, an enumerator, a verifier and a claim ceiling. A title-only row is still useful as indexed problem data but is not mechanically attackable in the same sense. That is why the release reports **8,501 callable verifiers separately from 9,926 total targets** rather than collapsing those quantities.
+Not every indexed problem is mechanically testable. A title-only record is still useful as problem data, but it cannot be run through a finite checker. The **8,501** figure counts targets with an executable checking procedure; **9,926** is the total indexed open-problem collection.
+
+Keeping those figures separate makes the dataset easier to interpret.
 
 ## License
 
