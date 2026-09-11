@@ -9,8 +9,28 @@ The release is still expanding. Do **not** use a fixed repository count as the d
 The authoritative object is the public material itself, classified by evidence level and claim ceiling.
 
 For the full map, use [`MATH-DROP-2026-09-10.md`](MATH-DROP-2026-09-10.md).  
+For the historical scale benchmark, use [`HISTORICAL-SCALE-BENCHMARK.md`](HISTORICAL-SCALE-BENCHMARK.md).  
 For the publication boundary protecting unpublished applied / patent-facing work, use
 [`PUBLICATION-FIREWALL.md`](PUBLICATION-FIREWALL.md).
+
+## Release-day scale
+
+> **A serious candidate for the largest one-day public release of mathematical research by a single independent researcher.**
+
+The phrase **“the biggest one-day drop in math history”** is being used here as a release-volume claim,
+not as a claim that every file is a new theorem or that this release outranks every historical event in
+mathematical importance.
+
+The literal one-day condition has been checked. GitHub's exact creation-time query returns **38 public
+repositories** created between `2026-09-10T15:24:22Z` and `2026-09-11T08:30:19Z` — a rolling window of
+**17 hours, 5 minutes, 57 seconds**. Many of those repositories contain multiple independent papers,
+theorems, formal declarations, exact computations, certificates, or research records.
+
+The historical benchmark found a formidable modern comparator in OpenAI's 1 August 2026 ten-result
+mathematics / theoretical-CS release, but no documented larger one-day public mathematics release by a
+single independent researcher. Because no global database indexes this exact historical category, the
+claim remains explicitly falsifiable rather than presented as a certified world record. If a larger
+documented comparator is found, the benchmark should be corrected.
 
 ## 30-second view
 
