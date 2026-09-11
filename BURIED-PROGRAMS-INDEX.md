@@ -59,6 +59,19 @@ The program includes:
 
 A human README now exists in the archive, but the program warrants its own repository.
 
+### Fiber coherence / cycle-rank / rank-three kernel
+
+Current sources:
+
+- `jaredwilder/unpublished-math-papers/fiber-coherence-theorem-bank/`
+- `jaredwilder/unpublished-math-papers/rank-three-kernel/`
+
+The main bank contains **216 records across nine mathematical layers**, progressing from relational self-growth and coherence CSPs through unicyclic/cactus structure, theta collision, the rank-three kernel classification and three-way recursive bridges.
+
+The rank-three extraction alone contains **24 theorem/target cards**: 22 unconditional results/reductions and two explicit next targets. It classifies every loopless 2-connected cyclomatic-rank-three kernel, after suppressing degree-two paths, into exactly four types (`Q4`, `T221`, `D22`, `K4`); gives universal finite K4-free realizations of binary CSPs; records fixed-rank tractability versus unbounded-rank NP-completeness; and isolates rank four as the first unclassified fixed-rank regime.
+
+This program must **not** be confused with `jaredwilder/ck-gold-and-r3-envelope`: the `r_3` there is the Roth/3-term-AP extremal function, a different subject entirely.
+
 ### Erdős #890 ↔ #1093
 
 Current compact home: `jaredwilder/erdos-proved-lemmas/erdos890-1093-bridge.md`  
@@ -104,9 +117,10 @@ Mathematical layers include complement-covering duality, finite-to-global densit
 
 ### Lonely Runner — 13 effective speeds
 
-Current source: `jaredwilder/unpublished-math-papers/lonely-runner-13/`
+Current richer source: `jaredwilder/unpublished-math-papers/lonely-runner-13/`  
+Existing compact home: `jaredwilder/combinatorial-records/lonely-runner/`
 
-The archive contains a 14KB late-round theorem bank, terminal normal form, structured theorem bank/supplement, and deeper master provenance. A new human README now surfaces the program.
+The archive contains a 14KB late-round theorem bank, terminal normal form, structured theorem bank/supplement, and deeper master provenance. A human README now surfaces the program. `combinatorial-records` already provides a sensible compact family-level home for an earlier 42-entry collection, but the recovered late-round program is now large enough to justify graduation to a dedicated repository rather than indefinite expansion of a cross-subject records repo.
 
 Among the late deductions are:
 
@@ -116,24 +130,42 @@ Among the late deductions are:
 - a strict deletion theorem producing a non-tight 12-speed deletion;
 - a robust private deletion interval.
 
-This is a coherent research program and should receive a dedicated repository.
+### Erdős #77 — diagonal Ramsey asymptotics
 
-## Priority C — focused finite / structural programs
+Current source: `jaredwilder/unpublished-math-papers/erdos77-ramsey-asymptotics/`
 
-The following archive subjects are already strong standalone candidates and should be checked for existing homes before any new repo is created:
+The program develops thin-corridor comparison, equivalence of diagonal exponential growth with sublinear off-diagonal corridors, generalized-inverse formulations, clone saturation, summably sublinear composition-error accumulation, bilinear/polarity constructions, tensor/rank identities, and a sharp fiber obstruction. The unresolved spine is a composition theorem strong enough to yield approximate supermultiplicativity or an equivalent container/rank bound.
 
-- `fiber-coherence-theorem-bank/` + `rank-three-kernel/` — related graph/CSP structural work;
-- `ramsey-r55-circulant-structure/` — 41-vertex circulant `(5,5)` Ramsey structure/certificates;
+A zero-commit public shell named `jaredwilder/diagonal-ramsey-corridor` exists and is a **probable** intended destination because the source program is explicitly organized around diagonal/off-diagonal corridor reductions. That mapping is not being treated as confirmed until a source-side link or initial commit establishes it.
+
+### R(5,5) — 41-vertex circulant structural program
+
+Current source: `jaredwilder/unpublished-math-papers/ramsey-r55-circulant-structure/`
+
+This is much more than a construction witness. It contains the complete classification of half-density 41-vertex circulant `(5,5)` Ramsey graphs into one multiplier/affine class, explicit self-complementation, exact chromatic/circular/fractional values, automorphism group `D_41`, exact clique/independence fingerprints, one-vertex nonextension, a general fixed-`k` extension criterion and a SAT interface for the global 42/43 decision problem. The old graph itself is not claimed new and no global Ramsey bound is claimed.
+
+## Priority C — focused structural programs requiring one more topology pass
+
+The following archive subjects remain strong candidates and should be checked for existing homes before a new repository is created:
+
 - `polynomial-dynamics-coordinates/` — recurrence/coordinate mathematics;
-- `product-gp-free-50/` — exact finite extremal classification with 240 extremizers;
-- `f31-sum-product-avoidance/`;
-- `f73-mixed-avoidance/`;
 - `erdos1142-order-sieve/` if its program-scale computation/formal artifacts exceed the compact theorem-bank summary;
 - `erdos949-sumfree-ip/`;
 - `erdos1066-lattice-barriers/`;
 - `erdos156-maximal-sidon-barrier/`;
 - `erdos247-sparse-binary-irrationality/`;
 - `erdos243-divisibility-irrationality/`.
+
+## Already placed correctly in family-level repositories
+
+These exact finite projects were initially on the standalone queue but are already organized correctly in `jaredwilder/combinatorial-records`, whose role is compact finite/combinatorial classifications:
+
+- `F_31^*` simultaneous sum/product avoidance — maximum 8, nine extremizers;
+- `F_73^*` simultaneous sum/product/3-AP avoidance — maximum 12, three extremizers;
+- product-free + nontrivial-3-term-GP-free subsets of `[50]` — maximum 35, 240 extremizers;
+- the restricted circulant-family Ramsey exhaustions for `R(3,10)` at 40 and `R(4,6)` at 36.
+
+These should stay together unless a larger coherent family grows around one of them.
 
 ## Consolidated instead of split
 
