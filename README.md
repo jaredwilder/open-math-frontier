@@ -11,6 +11,7 @@ For the broader public mathematics release, start with:
 - [`START-HERE.md`](START-HERE.md) — strongest mathematics and a short reading path;
 - [`MATH-DROP-2026-09-10.md`](MATH-DROP-2026-09-10.md) — the larger append-only release map;
 - [`HISTORICAL-SCALE-BENCHMARK.md`](HISTORICAL-SCALE-BENCHMARK.md) — the historical release-scale comparison;
+- [`HUMAN-FIRST-EDITORIAL-STANDARD.md`](HUMAN-FIRST-EDITORIAL-STANDARD.md) — public writing standard: mathematics first, evidence second, internal workflow jargon kept out of the front door;
 - [`PUBLICATION-FIREWALL.md`](PUBLICATION-FIREWALL.md) — the boundary between public mathematics and unpublished applied / patent-facing work.
 
 Throughout the release, the mathematical statement comes first. Verification method, scope, prior-art status, and correction history are recorded separately.
