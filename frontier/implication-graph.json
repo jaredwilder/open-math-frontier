@@ -1,0 +1,502 @@
+{
+ "schema": "oracle.frontier-formalizer.implication-graph.v1",
+ "statements": 148,
+ "total_pairs": 10878,
+ "attempted": 40,
+ "edges_found": 10,
+ "tally": {
+  "NOT_PROVED": 30,
+  "IMPLIES": 10
+ },
+ "cost": 0.3238,
+ "wall_s": 1115.4,
+ "atlas_edges": [
+  {
+   "source": "target:erdos:712",
+   "target": "target:erdos:500",
+   "type": "IMPLIES",
+   "authority": "LEAN_KERNEL",
+   "evidence": "kernel accepted a proof over both statements"
+  },
+  {
+   "source": "target:erdos:270",
+   "target": "target:erdos:381",
+   "type": "IMPLIES",
+   "authority": "LEAN_KERNEL",
+   "evidence": "kernel accepted a proof over both statements"
+  },
+  {
+   "source": "target:erdos:586",
+   "target": "target:erdos:948",
+   "type": "IMPLIES",
+   "authority": "LEAN_KERNEL",
+   "evidence": "kernel accepted a proof over both statements"
+  },
+  {
+   "source": "target:erdos:381",
+   "target": "target:erdos:783",
+   "type": "IMPLIES",
+   "authority": "LEAN_KERNEL",
+   "evidence": "kernel accepted a proof over both statements"
+  },
+  {
+   "source": "target:erdos:270",
+   "target": "target:erdos:783",
+   "type": "IMPLIES",
+   "authority": "LEAN_KERNEL",
+   "evidence": "kernel accepted a proof over both statements"
+  },
+  {
+   "source": "target:erdos:948",
+   "target": "target:erdos:909",
+   "type": "IMPLIES",
+   "authority": "LEAN_KERNEL",
+   "evidence": "kernel accepted a proof over both statements"
+  },
+  {
+   "source": "target:erdos:586",
+   "target": "target:erdos:909",
+   "type": "IMPLIES",
+   "authority": "LEAN_KERNEL",
+   "evidence": "kernel accepted a proof over both statements"
+  },
+  {
+   "source": "target:erdos:381",
+   "target": "target:erdos:948",
+   "type": "IMPLIES",
+   "authority": "LEAN_KERNEL",
+   "evidence": "kernel accepted a proof over both statements"
+  },
+  {
+   "source": "target:erdos:381",
+   "target": "target:erdos:586",
+   "type": "IMPLIES",
+   "authority": "LEAN_KERNEL",
+   "evidence": "kernel accepted a proof over both statements"
+  },
+  {
+   "source": "target:erdos:270",
+   "target": "target:erdos:948",
+   "type": "IMPLIES",
+   "authority": "LEAN_KERNEL",
+   "evidence": "kernel accepted a proof over both statements"
+  }
+ ],
+ "_authority": "Every edge here was accepted by the Lean kernel over both statements. No model's opinion survives into an edge.",
+ "_absence": "An ABSENT edge means UNPROVEN, never unrelated. NOT_PROVED is not evidence of independence.",
+ "rows": [
+  {
+   "verdict": "NOT_PROVED",
+   "cost": 0.00833985,
+   "why": "model found none",
+   "a": "erdos-339-spec.lean",
+   "b": "erdos-449-spec.lean",
+   "vocab_overlap": 0.6
+  },
+  {
+   "verdict": "NOT_PROVED",
+   "cost": 0.010846,
+   "kernel_errors": 2,
+   "first": "77:24: Function expected at\n  HasSmallPrimeFactor\nbut this term has type\n  ?m.1\n\nNote: Expected a function because this term is being applie",
+   "a": "erdos-175-spec.lean",
+   "b": "erdos-384-spec.lean",
+   "vocab_overlap": 0.5556
+  },
+  {
+   "verdict": "IMPLIES",
+   "cost": 0.01414256,
+   "seconds": 0.394,
+   "edge": {
+    "source": "target:erdos:712",
+    "target": "target:erdos:500",
+    "type": "IMPLIES",
+    "authority": "LEAN_KERNEL",
+    "evidence": "kernel accepted a proof over both statements"
+   },
+   "a": "erdos-500-spec.lean",
+   "b": "erdos-712-spec.lean",
+   "vocab_overlap": 0.5
+  },
+  {
+   "verdict": "NOT_PROVED",
+   "cost": 0.01354,
+   "why": "model found none",
+   "a": "erdos-223-spec.lean",
+   "b": "erdos-606-spec.lean",
+   "vocab_overlap": 0.4615
+  },
+  {
+   "verdict": "IMPLIES",
+   "cost": 0.0053614,
+   "seconds": 0.118,
+   "edge": {
+    "source": "target:erdos:270",
+    "target": "target:erdos:381",
+    "type": "IMPLIES",
+    "authority": "LEAN_KERNEL",
+    "evidence": "kernel accepted a proof over both statements"
+   },
+   "a": "erdos-270-spec.lean",
+   "b": "erdos-381-spec.lean",
+   "vocab_overlap": 0.4545
+  },
+  {
+   "verdict": "NOT_PROVED",
+   "cost": 0.0048032,
+   "kernel_errors": 2,
+   "first": "102:10: Unknown identifier `vaughan_no_constant`",
+   "a": "erdos-763-spec.lean",
+   "b": "erdos-764-spec.lean",
+   "vocab_overlap": 0.4444
+  },
+  {
+   "verdict": "NOT_PROVED",
+   "cost": 0.00325694,
+   "kernel_errors": 2,
+   "first": "159:8: Unknown identifier `question_follows_from_liu_sawhney`",
+   "a": "erdos-305-spec.lean",
+   "b": "erdos-784-spec.lean",
+   "vocab_overlap": 0.4286
+  },
+  {
+   "verdict": "NOT_PROVED",
+   "cost": 0.00643436,
+   "kernel_errors": 5,
+   "first": "136:6: Function expected at\n  IsPlanar\nbut this term has type\n  ?m.1\n\nNote: Expected a function because this term is being applied to the ar",
+   "a": "erdos-631-spec.lean",
+   "b": "erdos-632-spec.lean",
+   "vocab_overlap": 0.4211
+  },
+  {
+   "verdict": "NOT_PROVED",
+   "cost": 0.009103,
+   "kernel_errors": 6,
+   "first": "124:10: Function expected at\n  IsMonochromatic\nbut this term has type\n  ?m.3\n\nNote: Expected a function because this term is being applied t",
+   "a": "erdos-191-spec.lean",
+   "b": "erdos-784-spec.lean",
+   "vocab_overlap": 0.4167
+  },
+  {
+   "verdict": "NOT_PROVED",
+   "cost": 0.013714,
+   "kernel_errors": 3,
+   "first": "100:22: Unknown identifier `A.Claim`",
+   "a": "erdos-577-spec.lean",
+   "b": "erdos-718-spec.lean",
+   "vocab_overlap": 0.4118
+  },
+  {
+   "verdict": "NOT_PROVED",
+   "cost": 0.009308,
+   "kernel_errors": 2,
+   "first": "108:10: Function expected at\n  DisjointCycles\nbut this term has type\n  ?m.1\n\nNote: Expected a function because this term is being applied to",
+   "a": "erdos-577-spec.lean",
+   "b": "erdos-622-spec.lean",
+   "vocab_overlap": 0.4118
+  },
+  {
+   "verdict": "IMPLIES",
+   "cost": 0.0044228,
+   "seconds": 0.196,
+   "edge": {
+    "source": "target:erdos:586",
+    "target": "target:erdos:948",
+    "type": "IMPLIES",
+    "authority": "LEAN_KERNEL",
+    "evidence": "kernel accepted a proof over both statements"
+   },
+   "a": "erdos-586-spec.lean",
+   "b": "erdos-948-spec.lean",
+   "vocab_overlap": 0.4
+  },
+  {
+   "verdict": "NOT_PROVED",
+   "cost": 0.0047664,
+   "kernel_errors": 3,
+   "first": "132:9: Invalid `\u27e8...\u27e9` notation: The expected type `AbsoluteBound` is not an inductive type\n\nNote: This notation can only be used when the e",
+   "a": "erdos-395-spec.lean",
+   "b": "erdos-407-spec.lean",
+   "vocab_overlap": 0.4
+  },
+  {
+   "verdict": "NOT_PROVED",
+   "cost": 0.0027648,
+   "kernel_errors": 2,
+   "first": "126:9: Unknown identifier `answer_is_no`",
+   "a": "erdos-381-spec.lean",
+   "b": "erdos-764-spec.lean",
+   "vocab_overlap": 0.4
+  },
+  {
+   "verdict": "NOT_PROVED",
+   "cost": 0.0032328,
+   "kernel_errors": 2,
+   "first": "123:11: Unknown identifier `vaughan_no_constant`",
+   "a": "erdos-270-spec.lean",
+   "b": "erdos-764-spec.lean",
+   "vocab_overlap": 0.4
+  },
+  {
+   "verdict": "NOT_PROVED",
+   "cost": 0.0136814,
+   "why": "model found none",
+   "a": "erdos-140-spec.lean",
+   "b": "erdos-49-spec.lean",
+   "vocab_overlap": 0.4
+  },
+  {
+   "verdict": "NOT_PROVED",
+   "cost": 0.0038314,
+   "kernel_errors": 2,
+   "first": "144:8: Unknown identifier `answer`",
+   "a": "erdos-121-spec.lean",
+   "b": "erdos-754-spec.lean",
+   "vocab_overlap": 0.3889
+  },
+  {
+   "verdict": "NOT_PROVED",
+   "cost": 0.013477,
+   "why": "model found none",
+   "a": "erdos-702-spec.lean",
+   "b": "erdos-722-spec.lean",
+   "vocab_overlap": 0.3846
+  },
+  {
+   "verdict": "NOT_PROVED",
+   "cost": 0.0083606,
+   "kernel_errors": 3,
+   "first": "120:14: Function expected at\n  possibleValues\nbut this term has type\n  ?m.2\n\nNote: Expected a function because this term is being applied to",
+   "a": "erdos-437-spec.lean",
+   "b": "erdos-606-spec.lean",
+   "vocab_overlap": 0.3846
+  },
+  {
+   "verdict": "IMPLIES",
+   "cost": 0.0062044,
+   "seconds": 0.448,
+   "edge": {
+    "source": "target:erdos:381",
+    "target": "target:erdos:783",
+    "type": "IMPLIES",
+    "authority": "LEAN_KERNEL",
+    "evidence": "kernel accepted a proof over both statements"
+   },
+   "a": "erdos-381-spec.lean",
+   "b": "erdos-783-spec.lean",
+   "vocab_overlap": 0.3846
+  },
+  {
+   "verdict": "NOT_PROVED",
+   "cost": 0.0136648,
+   "why": "model found none",
+   "a": "erdos-356-spec.lean",
+   "b": "erdos-948-spec.lean",
+   "vocab_overlap": 0.3846
+  },
+  {
+   "verdict": "IMPLIES",
+   "cost": 0.0073526,
+   "seconds": 0.35,
+   "edge": {
+    "source": "target:erdos:270",
+    "target": "target:erdos:783",
+    "type": "IMPLIES",
+    "authority": "LEAN_KERNEL",
+    "evidence": "kernel accepted a proof over both statements"
+   },
+   "a": "erdos-270-spec.lean",
+   "b": "erdos-783-spec.lean",
+   "vocab_overlap": 0.3846
+  },
+  {
+   "verdict": "NOT_PROVED",
+   "cost": 0.0110434,
+   "why": "model found none",
+   "a": "erdos-606-spec.lean",
+   "b": "erdos-733-spec.lean",
+   "vocab_overlap": 0.375
+  },
+  {
+   "verdict": "NOT_PROVED",
+   "cost": 0.01124641,
+   "kernel_errors": 2,
+   "first": "145:22: Unknown identifier `B.Claim`",
+   "a": "erdos-255-spec.lean",
+   "b": "erdos-998-spec.lean",
+   "vocab_overlap": 0.375
+  },
+  {
+   "verdict": "NOT_PROVED",
+   "cost": 0.00724136,
+   "kernel_errors": 4,
+   "first": "127:6: Function expected at\n  HasSourceCounts\nbut this term has type\n  ?m.1\n\nNote: Expected a function because this term is being applied to",
+   "a": "erdos-632-spec.lean",
+   "b": "erdos-915-spec.lean",
+   "vocab_overlap": 0.3684
+  },
+  {
+   "verdict": "NOT_PROVED",
+   "cost": 0.013381,
+   "kernel_errors": 3,
+   "first": "98:6: Function expected at\n  DisjointCycles\nbut this term has type\n  ?m.1\n\nNote: Expected a function because this term is being applied to t",
+   "a": "erdos-577-spec.lean",
+   "b": "erdos-715-spec.lean",
+   "vocab_overlap": 0.3684
+  },
+  {
+   "verdict": "IMPLIES",
+   "cost": 0.0081422,
+   "seconds": 0.222,
+   "edge": {
+    "source": "target:erdos:948",
+    "target": "target:erdos:909",
+    "type": "IMPLIES",
+    "authority": "LEAN_KERNEL",
+    "evidence": "kernel accepted a proof over both statements"
+   },
+   "a": "erdos-909-spec.lean",
+   "b": "erdos-948-spec.lean",
+   "vocab_overlap": 0.3636
+  },
+  {
+   "verdict": "NOT_PROVED",
+   "cost": 0.0089714,
+   "why": "model found none",
+   "a": "erdos-702-spec.lean",
+   "b": "erdos-83-spec.lean",
+   "vocab_overlap": 0.3636
+  },
+  {
+   "verdict": "NOT_PROVED",
+   "cost": 0.0076092,
+   "kernel_errors": 2,
+   "first": "134:8: Unknown identifier `elekes_result`",
+   "a": "erdos-605-spec.lean",
+   "b": "erdos-652-spec.lean",
+   "vocab_overlap": 0.3636
+  },
+  {
+   "verdict": "IMPLIES",
+   "cost": 0.0037164,
+   "seconds": 0.151,
+   "edge": {
+    "source": "target:erdos:586",
+    "target": "target:erdos:909",
+    "type": "IMPLIES",
+    "authority": "LEAN_KERNEL",
+    "evidence": "kernel accepted a proof over both statements"
+   },
+   "a": "erdos-586-spec.lean",
+   "b": "erdos-909-spec.lean",
+   "vocab_overlap": 0.3636
+  },
+  {
+   "verdict": "NOT_PROVED",
+   "cost": 0.0111232,
+   "kernel_errors": 2,
+   "first": "122:4: Type mismatch\n  finite_cycle_length_theorem\nhas type\n  Prop\nof sort `Type` but is expected to have type\n  finite_cycle_length_theorem",
+   "a": "erdos-577-spec.lean",
+   "b": "erdos-752-spec.lean",
+   "vocab_overlap": 0.3636
+  },
+  {
+   "verdict": "NOT_PROVED",
+   "cost": 0.0051618,
+   "kernel_errors": 2,
+   "first": "127:10: Unknown identifier `vaughan_no_constant`",
+   "a": "erdos-471-spec.lean",
+   "b": "erdos-764-spec.lean",
+   "vocab_overlap": 0.3636
+  },
+  {
+   "verdict": "NOT_PROVED",
+   "cost": 0.00905192,
+   "kernel_errors": 2,
+   "first": "154:10: Function expected at\n  lowerDensity\nbut this term has type\n  ?m.1\n\nNote: Expected a function because this term is being applied to t",
+   "a": "erdos-449-spec.lean",
+   "b": "erdos-523-spec.lean",
+   "vocab_overlap": 0.3636
+  },
+  {
+   "verdict": "NOT_PROVED",
+   "cost": 0.011487,
+   "kernel_errors": 3,
+   "first": "72:24: Function expected at\n  HasSmallPrimeFactor\nbut this term has type\n  ?m.1\n\nNote: Expected a function because this term is being applie",
+   "a": "erdos-384-spec.lean",
+   "b": "erdos-702-spec.lean",
+   "vocab_overlap": 0.3636
+  },
+  {
+   "verdict": "IMPLIES",
+   "cost": 0.0086504,
+   "seconds": 0.378,
+   "edge": {
+    "source": "target:erdos:381",
+    "target": "target:erdos:948",
+    "type": "IMPLIES",
+    "authority": "LEAN_KERNEL",
+    "evidence": "kernel accepted a proof over both statements"
+   },
+   "a": "erdos-381-spec.lean",
+   "b": "erdos-948-spec.lean",
+   "vocab_overlap": 0.3636
+  },
+  {
+   "verdict": "NOT_PROVED",
+   "cost": 0.0034068,
+   "kernel_errors": 2,
+   "first": "107:22: Unknown identifier `answer_is_no`",
+   "a": "erdos-381-spec.lean",
+   "b": "erdos-763-spec.lean",
+   "vocab_overlap": 0.3636
+  },
+  {
+   "verdict": "IMPLIES",
+   "cost": 0.0046544,
+   "seconds": 0.969,
+   "edge": {
+    "source": "target:erdos:381",
+    "target": "target:erdos:586",
+    "type": "IMPLIES",
+    "authority": "LEAN_KERNEL",
+    "evidence": "kernel accepted a proof over both statements"
+   },
+   "a": "erdos-381-spec.lean",
+   "b": "erdos-586-spec.lean",
+   "vocab_overlap": 0.3636
+  },
+  {
+   "verdict": "NOT_PROVED",
+   "cost": 0.0082406,
+   "kernel_errors": 2,
+   "first": "102:33: Function expected at\n  UnitFractionCount\nbut this term has type\n  ?m.2\n\nNote: Expected a function because this term is being applied",
+   "a": "erdos-297-spec.lean",
+   "b": "erdos-784-spec.lean",
+   "vocab_overlap": 0.3636
+  },
+  {
+   "verdict": "IMPLIES",
+   "cost": 0.0040888,
+   "seconds": 2.047,
+   "edge": {
+    "source": "target:erdos:270",
+    "target": "target:erdos:948",
+    "type": "IMPLIES",
+    "authority": "LEAN_KERNEL",
+    "evidence": "kernel accepted a proof over both statements"
+   },
+   "a": "erdos-270-spec.lean",
+   "b": "erdos-948-spec.lean",
+   "vocab_overlap": 0.3636
+  },
+  {
+   "verdict": "NOT_PROVED",
+   "cost": 0.0059262,
+   "kernel_errors": 2,
+   "first": "103:11: Unknown identifier `answer_no`",
+   "a": "erdos-270-spec.lean",
+   "b": "erdos-763-spec.lean",
+   "vocab_overlap": 0.3636
+  }
+ ]
+}

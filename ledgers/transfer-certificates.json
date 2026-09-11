@@ -1,0 +1,447 @@
+{
+ "_what": "B33/B27 transfer-certificate registry. One row per artifact whose Lean domain is a REDUCTION of its source domain.",
+ "_law": "A MISSING certificate is a B33 BLOCK: the reduction is detected, the required theorem is named, and the equivalence is unproved. B33 NEVER reports PASS without a kernel-sealed transfer theorem hash for EVERY obligation the reduction generates. An EMITTED_PROBE is not a certificate.",
+ "_seal_store": "oracle/evidence/targets/transfer-seals.json",
+ "_seal_protocol": "the integrator compiles the probe, and on CLOSES writes seals[<probe file name>] = {sealed_sha: <sha256 of the probe file text>, lean_receipt: ...}. This module recomputes that hash from disk on every run: a mismatch is FAIL, not MISSING.",
+ "statuses": [
+  "MISSING",
+  "EMITTED_PROBE",
+  "KERNEL_SEALED"
+ ],
+ "artifacts": {
+  "erdos-100": {
+   "verdict": "BLOCKED_INCONCLUSIVE",
+   "why": "1 of 2 transfer obligations are unsealed; the reduction is detected, the theorem is named, and the equivalence is NOT proved. Standard B33: BLOCK equivalence without the transfer theorem.",
+   "reductions": [
+    {
+     "kind": "REAL_TO_RATIONAL",
+     "marker": "real_plane",
+     "source_carrier": "ℝ × ℝ",
+     "lean_carrier": "ℚ × ℚ",
+     "preserved_predicates": [
+      "Admissible",
+      "LinearDiameterClaim"
+     ],
+     "evidence": "the source demands real_plane; the target's cone declares its objects over the restricted carrier"
+    }
+   ],
+   "obligations": [
+    {
+     "id": "erdos-100.REAL_TO_RATIONAL.forward",
+     "leg": "forward",
+     "lemma": "transport_erdos_100_forward",
+     "required": "∀ x : ℝ × ℝ, (the source hypotheses hold of x) → ∃ y : ℚ × ℚ, agree x y ∧ (P y ↔ P x) for every preserved predicate P among `Admissible`, `LinearDiameterClaim`. THE HARD DIRECTION: it asserts the reduced carrier LOSES NO CONFIGURATION.",
+     "provability": "NONELEMENTARY",
+     "adjudication": "the forward leg asserts that every real configuration admitted by the source is realized over rational coordinates with its predicates intact. That is FALSE in general - Perles' configuration is realizable over ℝ and not over ℚ, and Mnëv universality says the realization space of an order type can be an arbitrary semialgebraic set. A transfer certificate here is not 'unproved tonight', it is a research obligation to identify the subclass of configurations for which the source question is rationally faithful.",
+     "status": "MISSING",
+     "why": "no probe is emitted for this obligation: the forward leg asserts that every real configuration admitted by the source is realized over rational coordinates with its predicates intact. That is FALSE in general - Perles' configuration is realizable over ℝ and not over ℚ, and Mnëv universality says the realization space of an order type can be an arbitrary semialgebraic set. A transfer certificate here is not 'unproved tonight', it is a research obligation to identify the subclass of configurations for which the source question is rationally faithful.",
+     "probe_path": null,
+     "sealed_sha": null,
+     "last_kernel_verdict": null,
+     "seal_gap": false
+    },
+    {
+     "id": "erdos-100.REAL_TO_RATIONAL.backward",
+     "leg": "backward",
+     "lemma": "embed_erdos_100_backward",
+     "required": "∀ y : ℚ × ℚ, ∃ x : ℝ × ℝ, agree x y ∧ (P y ↔ P x) for every preserved predicate P among `Admissible`, `LinearDiameterClaim`. It asserts the encoding INVENTS NO OBJECT the source does not contain, and that the encoded predicates mean what the source ones mean on the embedded objects.",
+     "provability": "ELEMENTARY",
+     "adjudication": "the artifact's distance is already ℝ-valued on ℚ points; the agreement with the Euclidean metric on embedded points is a cast",
+     "status": "KERNEL_SEALED",
+     "why": "kernel seal matches the probe on disk and the probe is sorry-free",
+     "probe_path": "oracle/evidence/targets/transfer-probes/erdos-100-B33-agree-distance-79e7aa.lean",
+     "sealed_sha": "79e7aad52a05aa8500d493b00adb42e60c587f1bac1655918d39bd20b2a24514",
+     "last_kernel_verdict": "CLOSES",
+     "seal_gap": false
+    }
+   ]
+  },
+  "erdos-101": {
+   "verdict": "BLOCKED_INCONCLUSIVE",
+   "why": "1 of 2 transfer obligations are unsealed; the reduction is detected, the theorem is named, and the equivalence is NOT proved. Standard B33: BLOCK equivalence without the transfer theorem.",
+   "reductions": [
+    {
+     "kind": "REAL_TO_RATIONAL",
+     "marker": "real_plane",
+     "source_carrier": "ℝ × ℝ",
+     "lean_carrier": "ℚ × ℚ",
+     "preserved_predicates": [
+      "collinear",
+      "allCollinear",
+      "noFiveOnALine",
+      "admissible",
+      "erdosClaim"
+     ],
+     "evidence": "the source demands real_plane; the target's cone declares its objects over the restricted carrier"
+    }
+   ],
+   "obligations": [
+    {
+     "id": "erdos-101.REAL_TO_RATIONAL.forward",
+     "leg": "forward",
+     "lemma": "transport_erdos_101_forward",
+     "required": "∀ x : ℝ × ℝ, (the source hypotheses hold of x) → ∃ y : ℚ × ℚ, agree x y ∧ (P y ↔ P x) for every preserved predicate P among `collinear`, `allCollinear`, `noFiveOnALine`, `admissible`, `erdosClaim`. THE HARD DIRECTION: it asserts the reduced carrier LOSES NO CONFIGURATION.",
+     "provability": "NONELEMENTARY",
+     "adjudication": "the forward leg asserts that every real configuration admitted by the source is realized over rational coordinates with its predicates intact. That is FALSE in general - Perles' configuration is realizable over ℝ and not over ℚ, and Mnëv universality says the realization space of an order type can be an arbitrary semialgebraic set. A transfer certificate here is not 'unproved tonight', it is a research obligation to identify the subclass of configurations for which the source question is rationally faithful.",
+     "status": "MISSING",
+     "why": "no probe is emitted for this obligation: the forward leg asserts that every real configuration admitted by the source is realized over rational coordinates with its predicates intact. That is FALSE in general - Perles' configuration is realizable over ℝ and not over ℚ, and Mnëv universality says the realization space of an order type can be an arbitrary semialgebraic set. A transfer certificate here is not 'unproved tonight', it is a research obligation to identify the subclass of configurations for which the source question is rationally faithful.",
+     "probe_path": null,
+     "sealed_sha": null,
+     "last_kernel_verdict": null,
+     "seal_gap": false
+    },
+    {
+     "id": "erdos-101.REAL_TO_RATIONAL.backward",
+     "leg": "backward",
+     "lemma": "embed_erdos_101_backward",
+     "required": "∀ y : ℚ × ℚ, ∃ x : ℝ × ℝ, agree x y ∧ (P y ↔ P x) for every preserved predicate P among `collinear`, `allCollinear`, `noFiveOnALine`, `admissible`, `erdosClaim`. It asserts the encoding INVENTS NO OBJECT the source does not contain, and that the encoded predicates mean what the source ones mean on the embedded objects.",
+     "provability": "ELEMENTARY",
+     "adjudication": "collinearity is a polynomial identity; ℚ → ℝ is a ring embedding",
+     "status": "KERNEL_SEALED",
+     "why": "kernel seal matches the probe on disk and the probe is sorry-free",
+     "probe_path": "oracle/evidence/targets/transfer-probes/erdos-101-B33-agree-collinear-780246.lean",
+     "sealed_sha": "7802465133c114fb2d83fb5bc9565332219b6322b24812eb5aa501f7057502c7",
+     "last_kernel_verdict": "CLOSES",
+     "seal_gap": false
+    }
+   ]
+  },
+  "erdos-1073": {
+   "verdict": "PASS",
+   "why": "every transfer obligation this reduction generates is kernel-sealed and its hash matches the probe on disk",
+   "reductions": [
+    {
+     "kind": "BOUNDED_SEARCH",
+     "marker": "range:u",
+     "source_carrier": "∃ n : ℕ",
+     "lean_carrier": "∃ n ∈ Finset.range E",
+     "preserved_predicates": [
+      "FactorialCongruence",
+      "IsValid",
+      "Subpolynomial"
+     ],
+     "evidence": "`FactorialCongruence` searches `n` over a range bounded by its own parameter (`u`) while the source states the existential without a bound"
+    }
+   ],
+   "obligations": [
+    {
+     "id": "erdos-1073.BOUNDED_SEARCH.forward",
+     "leg": "forward",
+     "lemma": "transport_erdos_1073_forward",
+     "required": "∀ x : ∃ n : ℕ, (the source hypotheses hold of x) → ∃ y : ∃ n ∈ Finset.range E, agree x y ∧ (P y ↔ P x) for every preserved predicate P among `FactorialCongruence`, `IsValid`, `Subpolynomial`. THE HARD DIRECTION: it asserts the reduced carrier LOSES NO CONFIGURATION.",
+     "provability": "ELEMENTARY",
+     "adjudication": "u ∣ n!+1 with u ≤ n forces u ∣ 1; the cutoff is WLOG",
+     "status": "KERNEL_SEALED",
+     "why": "kernel seal matches the probe on disk and the probe is sorry-free",
+     "probe_path": "oracle/evidence/targets/transfer-probes/erdos-1073-B33-bounded-search-50e100.lean",
+     "sealed_sha": "50e10003830eb22677ea14d17036eb1810217fc74a84e8a5985ab1208ac3b5e3",
+     "last_kernel_verdict": "CLOSES",
+     "seal_gap": false
+    },
+    {
+     "id": "erdos-1073.BOUNDED_SEARCH.backward",
+     "leg": "backward",
+     "lemma": "embed_erdos_1073_backward",
+     "required": "∀ y : ∃ n ∈ Finset.range E, ∃ x : ∃ n : ℕ, agree x y ∧ (P y ↔ P x) for every preserved predicate P among `FactorialCongruence`, `IsValid`, `Subpolynomial`. It asserts the encoding INVENTS NO OBJECT the source does not contain, and that the encoded predicates mean what the source ones mean on the embedded objects.",
+     "provability": "ELEMENTARY",
+     "adjudication": "the bounded witness is a witness; the iff carries both legs",
+     "status": "KERNEL_SEALED",
+     "why": "kernel seal matches the probe on disk and the probe is sorry-free",
+     "probe_path": "oracle/evidence/targets/transfer-probes/erdos-1073-B33-bounded-search-50e100.lean",
+     "sealed_sha": "50e10003830eb22677ea14d17036eb1810217fc74a84e8a5985ab1208ac3b5e3",
+     "last_kernel_verdict": "CLOSES",
+     "seal_gap": false
+    }
+   ]
+  },
+  "erdos-1087": {
+   "verdict": "BLOCKED_INCONCLUSIVE",
+   "why": "1 of 2 transfer obligations are unsealed; the reduction is detected, the theorem is named, and the equivalence is NOT proved. Standard B33: BLOCK equivalence without the transfer theorem.",
+   "reductions": [
+    {
+     "kind": "REAL_TO_RATIONAL",
+     "marker": "real_plane",
+     "source_carrier": "ℝ × ℝ",
+     "lean_carrier": "ℚ × ℚ",
+     "preserved_predicates": [
+      "equalDistancePairs",
+      "Degenerate",
+      "NearCubic"
+     ],
+     "evidence": "the source demands real_plane; the target's cone declares its objects over the restricted carrier"
+    }
+   ],
+   "obligations": [
+    {
+     "id": "erdos-1087.REAL_TO_RATIONAL.forward",
+     "leg": "forward",
+     "lemma": "transport_erdos_1087_forward",
+     "required": "∀ x : ℝ × ℝ, (the source hypotheses hold of x) → ∃ y : ℚ × ℚ, agree x y ∧ (P y ↔ P x) for every preserved predicate P among `equalDistancePairs`, `Degenerate`, `NearCubic`. THE HARD DIRECTION: it asserts the reduced carrier LOSES NO CONFIGURATION.",
+     "provability": "NONELEMENTARY",
+     "adjudication": "the forward leg asserts that every real configuration admitted by the source is realized over rational coordinates with its predicates intact. That is FALSE in general - Perles' configuration is realizable over ℝ and not over ℚ, and Mnëv universality says the realization space of an order type can be an arbitrary semialgebraic set. A transfer certificate here is not 'unproved tonight', it is a research obligation to identify the subclass of configurations for which the source question is rationally faithful.",
+     "status": "MISSING",
+     "why": "no probe is emitted for this obligation: the forward leg asserts that every real configuration admitted by the source is realized over rational coordinates with its predicates intact. That is FALSE in general - Perles' configuration is realizable over ℝ and not over ℚ, and Mnëv universality says the realization space of an order type can be an arbitrary semialgebraic set. A transfer certificate here is not 'unproved tonight', it is a research obligation to identify the subclass of configurations for which the source question is rationally faithful.",
+     "probe_path": null,
+     "sealed_sha": null,
+     "last_kernel_verdict": null,
+     "seal_gap": false
+    },
+    {
+     "id": "erdos-1087.REAL_TO_RATIONAL.backward",
+     "leg": "backward",
+     "lemma": "embed_erdos_1087_backward",
+     "required": "∀ y : ℚ × ℚ, ∃ x : ℝ × ℝ, agree x y ∧ (P y ↔ P x) for every preserved predicate P among `equalDistancePairs`, `Degenerate`, `NearCubic`. It asserts the encoding INVENTS NO OBJECT the source does not contain, and that the encoded predicates mean what the source ones mean on the embedded objects.",
+     "provability": "ELEMENTARY",
+     "adjudication": "rational squared distance agrees with the Euclidean distance on embedded points, since sqrt is injective on nonnegatives",
+     "status": "KERNEL_SEALED",
+     "why": "kernel seal matches the probe on disk and the probe is sorry-free",
+     "probe_path": "oracle/evidence/targets/transfer-probes/erdos-1087-B33-agree-distsq-3e5889.lean",
+     "sealed_sha": "3e588922efb562e05fcee9735063c6bf551011835e72b57a994624364477be14",
+     "last_kernel_verdict": "CLOSES",
+     "seal_gap": false
+    }
+   ]
+  },
+  "erdos-1171": {
+   "verdict": "BLOCKED_INCONCLUSIVE",
+   "why": "2 of 2 transfer obligations are unsealed; the reduction is detected, the theorem is named, and the equivalence is NOT proved. Standard B33: BLOCK equivalence without the transfer theorem.",
+   "reductions": [
+    {
+     "kind": "TRANSFINITE_TO_FINITE",
+     "marker": "ir_domain:ordinal",
+     "source_carrier": "Ordinal",
+     "lean_carrier": "Fin n / Finset",
+     "preserved_predicates": [
+      "monoClique",
+      "finiteArrow"
+     ],
+     "evidence": "the frozen IR's ambient domain is ordinal and the cone carries only a finite index-type carrier [rule paid for by #1171]"
+    }
+   ],
+   "obligations": [
+    {
+     "id": "erdos-1171.TRANSFINITE_TO_FINITE.forward",
+     "leg": "forward",
+     "lemma": "transport_erdos_1171_forward",
+     "required": "∀ x : Ordinal, (the source hypotheses hold of x) → ∃ y : Fin n / Finset, agree x y ∧ (P y ↔ P x) for every preserved predicate P among `monoClique`, `finiteArrow`. THE HARD DIRECTION: it asserts the reduced carrier LOSES NO CONFIGURATION.",
+     "provability": "NONELEMENTARY",
+     "adjudication": "there is no transfer to earn. #1171 replaced a partition relation on ω₁ by a finite Ramsey theorem; the finite statement does not imply the transfinite one (the standard's own row records that the finite version has an elementary proof, which is the tell). The honest repair is to restate the target over ordinals, not to certify a bridge.",
+     "status": "MISSING",
+     "why": "no probe is emitted for this obligation: there is no transfer to earn. #1171 replaced a partition relation on ω₁ by a finite Ramsey theorem; the finite statement does not imply the transfinite one (the standard's own row records that the finite version has an elementary proof, which is the tell). The honest repair is to restate the target over ordinals, not to certify a bridge.",
+     "probe_path": null,
+     "sealed_sha": null,
+     "last_kernel_verdict": null,
+     "seal_gap": false
+    },
+    {
+     "id": "erdos-1171.TRANSFINITE_TO_FINITE.backward",
+     "leg": "backward",
+     "lemma": "embed_erdos_1171_backward",
+     "required": "∀ y : Fin n / Finset, ∃ x : Ordinal, agree x y ∧ (P y ↔ P x) for every preserved predicate P among `monoClique`, `finiteArrow`. It asserts the encoding INVENTS NO OBJECT the source does not contain, and that the encoded predicates mean what the source ones mean on the embedded objects.",
+     "provability": "NONELEMENTARY",
+     "adjudication": "there is no transfer to earn. #1171 replaced a partition relation on ω₁ by a finite Ramsey theorem; the finite statement does not imply the transfinite one (the standard's own row records that the finite version has an elementary proof, which is the tell). The honest repair is to restate the target over ordinals, not to certify a bridge.",
+     "status": "MISSING",
+     "why": "no probe is emitted for this obligation: there is no transfer to earn. #1171 replaced a partition relation on ω₁ by a finite Ramsey theorem; the finite statement does not imply the transfinite one (the standard's own row records that the finite version has an elementary proof, which is the tell). The honest repair is to restate the target over ordinals, not to certify a bridge.",
+     "probe_path": null,
+     "sealed_sha": null,
+     "last_kernel_verdict": null,
+     "seal_gap": false
+    }
+   ]
+  },
+  "erdos-530": {
+   "verdict": "BLOCKED_INCONCLUSIVE",
+   "why": "2 of 2 transfer obligations are unsealed; the reduction is detected, the theorem is named, and the equivalence is NOT proved. Standard B33: BLOCK equivalence without the transfer theorem.",
+   "reductions": [
+    {
+     "kind": "REAL_TO_INTEGER_LABELS",
+     "marker": "ir_domain:R",
+     "source_carrier": "Finset ℝ",
+     "lean_carrier": "Finset (Fin B)",
+     "preserved_predicates": [
+      "IsSidon",
+      "HasSidonSubset",
+      "Good"
+     ],
+     "evidence": "the frozen IR's ambient domain is R and the cone carries only a finite index-type carrier [rule paid for by #530]"
+    }
+   ],
+   "obligations": [
+    {
+     "id": "erdos-530.REAL_TO_INTEGER_LABELS.forward",
+     "leg": "forward",
+     "lemma": "transport_erdos_530_forward",
+     "required": "∀ x : Finset ℝ, (the source hypotheses hold of x) → ∃ y : Finset (Fin B), agree x y ∧ (P y ↔ P x) for every preserved predicate P among `IsSidon`, `HasSidonSubset`, `Good`. THE HARD DIRECTION: it asserts the reduced carrier LOSES NO CONFIGURATION.",
+     "provability": "NONELEMENTARY",
+     "adjudication": "the forward leg is the Freiman-type transfer the standard's #530 row names: every finite A ⊂ ℝ of size N must be mapped to integer labels so that the additive quadruples a+b=c+d correspond exactly (a Freiman isomorphism of order 2). Such a map exists for finite real sets, but the proof is real additive combinatorics - it is not a cast - and B33's row says plausible is not proved. No probe is emitted for a research obligation.",
+     "status": "MISSING",
+     "why": "no probe is emitted for this obligation: the forward leg is the Freiman-type transfer the standard's #530 row names: every finite A ⊂ ℝ of size N must be mapped to integer labels so that the additive quadruples a+b=c+d correspond exactly (a Freiman isomorphism of order 2). Such a map exists for finite real sets, but the proof is real additive combinatorics - it is not a cast - and B33's row says plausible is not proved. No probe is emitted for a research obligation.",
+     "probe_path": null,
+     "sealed_sha": null,
+     "last_kernel_verdict": null,
+     "seal_gap": false
+    },
+    {
+     "id": "erdos-530.REAL_TO_INTEGER_LABELS.backward",
+     "leg": "backward",
+     "lemma": "embed_erdos_530_backward",
+     "required": "∀ y : Finset (Fin B), ∃ x : Finset ℝ, agree x y ∧ (P y ↔ P x) for every preserved predicate P among `IsSidon`, `HasSidonSubset`, `Good`. It asserts the encoding INVENTS NO OBJECT the source does not contain, and that the encoded predicates mean what the source ones mean on the embedded objects.",
+     "provability": "ELEMENTARY_UNEMITTED",
+     "adjudication": "elementary in principle - Fin B ↪ ℝ by `val` preserves a+b=c+d, so the encoded Sidon predicate agrees with the real one on the image - but no probe is emitted here: this artifact's certificate is decided by the forward Freiman leg, and a green receipt beside a permanently blocked artifact is exactly the reading this blade exists to prevent. Left explicitly to the integrator rather than silently classified as unknown.",
+     "status": "MISSING",
+     "why": "no probe is emitted for this obligation: elementary in principle - Fin B ↪ ℝ by `val` preserves a+b=c+d, so the encoded Sidon predicate agrees with the real one on the image - but no probe is emitted here: this artifact's certificate is decided by the forward Freiman leg, and a green receipt beside a permanently blocked artifact is exactly the reading this blade exists to prevent. Left explicitly to the integrator rather than silently classified as unknown.",
+     "probe_path": null,
+     "sealed_sha": null,
+     "last_kernel_verdict": null,
+     "seal_gap": false
+    }
+   ]
+  },
+  "erdos-604": {
+   "verdict": "BLOCKED_INCONCLUSIVE",
+   "why": "1 of 2 transfer obligations are unsealed; the reduction is detected, the theorem is named, and the equivalence is NOT proved. Standard B33: BLOCK equivalence without the transfer theorem.",
+   "reductions": [
+    {
+     "kind": "REAL_TO_RATIONAL",
+     "marker": "real_plane",
+     "source_carrier": "ℝ × ℝ",
+     "lean_carrier": "ℚ × ℚ",
+     "preserved_predicates": [
+      "WeakPinnedDistanceConjecture",
+      "StrongPinnedDistanceConjecture",
+      "PinnedDistanceQuestion"
+     ],
+     "evidence": "the source demands real_plane; the target's cone declares its objects over the restricted carrier"
+    }
+   ],
+   "obligations": [
+    {
+     "id": "erdos-604.REAL_TO_RATIONAL.forward",
+     "leg": "forward",
+     "lemma": "transport_erdos_604_forward",
+     "required": "∀ x : ℝ × ℝ, (the source hypotheses hold of x) → ∃ y : ℚ × ℚ, agree x y ∧ (P y ↔ P x) for every preserved predicate P among `WeakPinnedDistanceConjecture`, `StrongPinnedDistanceConjecture`, `PinnedDistanceQuestion`. THE HARD DIRECTION: it asserts the reduced carrier LOSES NO CONFIGURATION.",
+     "provability": "NONELEMENTARY",
+     "adjudication": "the forward leg asserts that every real configuration admitted by the source is realized over rational coordinates with its predicates intact. That is FALSE in general - Perles' configuration is realizable over ℝ and not over ℚ, and Mnëv universality says the realization space of an order type can be an arbitrary semialgebraic set. A transfer certificate here is not 'unproved tonight', it is a research obligation to identify the subclass of configurations for which the source question is rationally faithful.",
+     "status": "MISSING",
+     "why": "no probe is emitted for this obligation: the forward leg asserts that every real configuration admitted by the source is realized over rational coordinates with its predicates intact. That is FALSE in general - Perles' configuration is realizable over ℝ and not over ℚ, and Mnëv universality says the realization space of an order type can be an arbitrary semialgebraic set. A transfer certificate here is not 'unproved tonight', it is a research obligation to identify the subclass of configurations for which the source question is rationally faithful.",
+     "probe_path": null,
+     "sealed_sha": null,
+     "last_kernel_verdict": null,
+     "seal_gap": false
+    },
+    {
+     "id": "erdos-604.REAL_TO_RATIONAL.backward",
+     "leg": "backward",
+     "lemma": "embed_erdos_604_backward",
+     "required": "∀ y : ℚ × ℚ, ∃ x : ℝ × ℝ, agree x y ∧ (P y ↔ P x) for every preserved predicate P among `WeakPinnedDistanceConjecture`, `StrongPinnedDistanceConjecture`, `PinnedDistanceQuestion`. It asserts the encoding INVENTS NO OBJECT the source does not contain, and that the encoded predicates mean what the source ones mean on the embedded objects.",
+     "provability": "ELEMENTARY",
+     "adjudication": "rational squared distance agrees with the Euclidean distance on embedded points, since sqrt is injective on nonnegatives",
+     "status": "KERNEL_SEALED",
+     "why": "kernel seal matches the probe on disk and the probe is sorry-free",
+     "probe_path": "oracle/evidence/targets/transfer-probes/erdos-604-B33-agree-distsq-6cdf0f.lean",
+     "sealed_sha": "6cdf0f7e52cf22b959c9b342d2df96cb25228d8376dc3973a2840be5c8f59053",
+     "last_kernel_verdict": "CLOSES",
+     "seal_gap": false
+    }
+   ]
+  },
+  "erdos-62": {
+   "verdict": "BLOCKED_INCONCLUSIVE",
+   "why": "2 of 2 transfer obligations are unsealed; the reduction is detected, the theorem is named, and the equivalence is NOT proved. Standard B33: BLOCK equivalence without the transfer theorem.",
+   "reductions": [
+    {
+     "kind": "TRANSFINITE_TO_FINITE",
+     "marker": "ir_domain:ordinal",
+     "source_carrier": "Ordinal",
+     "lean_carrier": "Fin n / Finset",
+     "preserved_predicates": [
+      "Edge",
+      "ThreeColorable",
+      "K4Embedding",
+      "CommonK4",
+      "Erdos62FiniteInstance"
+     ],
+     "evidence": "the frozen IR's ambient domain is ordinal and the cone carries only a finite index-type carrier [rule paid for by #1171]"
+    }
+   ],
+   "obligations": [
+    {
+     "id": "erdos-62.TRANSFINITE_TO_FINITE.forward",
+     "leg": "forward",
+     "lemma": "transport_erdos_62_forward",
+     "required": "∀ x : Ordinal, (the source hypotheses hold of x) → ∃ y : Fin n / Finset, agree x y ∧ (P y ↔ P x) for every preserved predicate P among `Edge`, `ThreeColorable`, `K4Embedding`, `CommonK4`, `Erdos62FiniteInstance`. THE HARD DIRECTION: it asserts the reduced carrier LOSES NO CONFIGURATION.",
+     "provability": "NONELEMENTARY",
+     "adjudication": "the artifact's own header calls itself 'the decidable finite K₄-instance approximation': graphs of chromatic number ℵ₁ are replaced by finite graphs with no 3-colouring, and a common K₄ stands in for a common subgraph of chromatic number 4. A transfer certificate would have to prove that the finite instance decides the ℵ₁ one, and it does not - uncountable chromatic number is not the limit of the finite obstruction. The file is a test bed; the obligation names what it is not.",
+     "status": "MISSING",
+     "why": "no probe is emitted for this obligation: the artifact's own header calls itself 'the decidable finite K₄-instance approximation': graphs of chromatic number ℵ₁ are replaced by finite graphs with no 3-colouring, and a common K₄ stands in for a common subgraph of chromatic number 4. A transfer certificate would have to prove that the finite instance decides the ℵ₁ one, and it does not - uncountable chromatic number is not the limit of the finite obstruction. The file is a test bed; the obligation names what it is not.",
+     "probe_path": null,
+     "sealed_sha": null,
+     "last_kernel_verdict": null,
+     "seal_gap": false
+    },
+    {
+     "id": "erdos-62.TRANSFINITE_TO_FINITE.backward",
+     "leg": "backward",
+     "lemma": "embed_erdos_62_backward",
+     "required": "∀ y : Fin n / Finset, ∃ x : Ordinal, agree x y ∧ (P y ↔ P x) for every preserved predicate P among `Edge`, `ThreeColorable`, `K4Embedding`, `CommonK4`, `Erdos62FiniteInstance`. It asserts the encoding INVENTS NO OBJECT the source does not contain, and that the encoded predicates mean what the source ones mean on the embedded objects.",
+     "provability": "NONELEMENTARY",
+     "adjudication": "the artifact's own header calls itself 'the decidable finite K₄-instance approximation': graphs of chromatic number ℵ₁ are replaced by finite graphs with no 3-colouring, and a common K₄ stands in for a common subgraph of chromatic number 4. A transfer certificate would have to prove that the finite instance decides the ℵ₁ one, and it does not - uncountable chromatic number is not the limit of the finite obstruction. The file is a test bed; the obligation names what it is not.",
+     "status": "MISSING",
+     "why": "no probe is emitted for this obligation: the artifact's own header calls itself 'the decidable finite K₄-instance approximation': graphs of chromatic number ℵ₁ are replaced by finite graphs with no 3-colouring, and a common K₄ stands in for a common subgraph of chromatic number 4. A transfer certificate would have to prove that the finite instance decides the ℵ₁ one, and it does not - uncountable chromatic number is not the limit of the finite obstruction. The file is a test bed; the obligation names what it is not.",
+     "probe_path": null,
+     "sealed_sha": null,
+     "last_kernel_verdict": null,
+     "seal_gap": false
+    }
+   ]
+  },
+  "erdos-929": {
+   "verdict": "BLOCKED_INCONCLUSIVE",
+   "why": "1 of 2 transfer obligations are unsealed; the reduction is detected, the theorem is named, and the equivalence is NOT proved. Standard B33: BLOCK equivalence without the transfer theorem.",
+   "reductions": [
+    {
+     "kind": "DENSITY_TO_PERIODIC",
+     "marker": "b27_periodic_witness",
+     "source_carrier": "{n : ℕ | P n} of positive density",
+     "lean_carrier": "one residue below the period",
+     "preserved_predicates": [
+      "covered",
+      "coverable",
+      "minimalThreshold"
+     ],
+     "evidence": "the source states a positive-density condition, the cone searches a finite range of modulus size, and no density notion appears anywhere in the cone"
+    }
+   ],
+   "obligations": [
+    {
+     "id": "erdos-929.DENSITY_TO_PERIODIC.periodicity",
+     "leg": "periodicity",
+     "lemma": "transport_erdos_929_periodicity",
+     "required": "∀ (params) (n : ℕ), covered n ↔ covered (n + M) -- the covering predicate is invariant under the claimed period M, so one residue below M decides every n in its class. Preserved predicates: `covered`, `coverable`, `minimalThreshold`",
+     "provability": "ELEMENTARY",
+     "adjudication": "every prime p ≤ x divides (x+1)!, so p ∣ n+i iff p ∣ n+(x+1)!+i",
+     "status": "KERNEL_SEALED",
+     "why": "kernel seal matches the probe on disk and the probe is sorry-free",
+     "probe_path": "oracle/evidence/targets/transfer-probes/erdos-929-B33-b27-periodicity-c1babe.lean",
+     "sealed_sha": "c1babe2e217149446a4e10673dce4db06bb031b1590779c85762279c8270b4be",
+     "last_kernel_verdict": "CLOSES",
+     "seal_gap": false
+    },
+    {
+     "id": "erdos-929.DENSITY_TO_PERIODIC.density",
+     "leg": "density_equivalence",
+     "lemma": "agree_erdos_929_density",
+     "required": "(∃ r < M, covered r) ↔ the set {n | covered n} has positive natural density, with the density computed EXACTLY (card of the residue class / M). A finite witness below M and a positive-density set are different objects until this iff is proved.",
+     "provability": "NONELEMENTARY",
+     "adjudication": "the artifact carries NO density notion at all - the equivalence quantifies over an object the file never defines, so the obligation cannot even be stated in the file's own vocabulary without first developing natural density of a residue class. That is a Mathlib development, not a tactic call, and until it exists #929's periodic encoding is a well-defined finite predicate that has not been shown to be the source question.",
+     "status": "MISSING",
+     "why": "no probe is emitted for this obligation: the artifact carries NO density notion at all - the equivalence quantifies over an object the file never defines, so the obligation cannot even be stated in the file's own vocabulary without first developing natural density of a residue class. That is a Mathlib development, not a tactic call, and until it exists #929's periodic encoding is a well-defined finite predicate that has not been shown to be the source question.",
+     "probe_path": null,
+     "sealed_sha": null,
+     "last_kernel_verdict": null,
+     "seal_gap": false
+    }
+   ]
+  }
+ }
+}

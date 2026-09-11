@@ -1,0 +1,303 @@
+{
+ "schema": "formalizer-gold-leads-v1",
+ "generated_at": "2026-08-31T15:19:24Z",
+ "doctrine": "Section 7: status drift is a DISCOVERY ENGINE, not hygiene. Every row here is a lead to be worked, not a result. Human-checked is not kernel-checked, and nothing in this file may be cited as a closure.",
+ "snapshot": {
+  "commit_sha": "b11dbaab3bf1aefbeeabafed4748fc482a2febbe",
+  "commit_date": "2026-08-31T12:16:22Z",
+  "fetched_at": "2026-08-31T15:15:56Z",
+  "content_sha256": "54503e429d8126aa4f3a24a732b23b3206daaad043835b31755899314aaea741",
+  "unavailable_because": null
+ },
+ "leads": [
+  {
+   "ticket": "#119",
+   "problem": "119",
+   "status": "LEAD_OPEN",
+   "resolved": false,
+   "kernel_checked": false,
+   "frozen_target": {
+    "lean_file": "oracle/evidence/certified-corpus/erdos-119.lean",
+    "declarations": [
+     "erdosProblem119",
+     "erdos_problem_119",
+     "finitePowerGrowth",
+     "infinitelyOftenPower",
+     "limsupInfinite",
+     "maximumModulus",
+     "polynomial",
+     "summedPowerGrowth",
+     "unitSequence",
+     "witness_neg",
+     "witness_pos"
+    ],
+    "frozen_question": "Let $z_i$ be an infinite sequence of complex numbers such that $\\lvert z_i\\rvert=1$ for all $i\\geq 1$, and for $n\\geq 1$ let\\[p_n(z)=\\prod_{i\\leq n} (z-z_i).\\]Let $M_n=\\max_{\\lvert z\\rvert=1}\\lvert p_n(z)\\rvert$. Is it true that $\\limsup M_n=\\infty$? Is it true that there exists $c>0$ such that for infinitely many $n$ we have $M_n > n^c$? Is it true that there exists $c>0$ such that, for all large $n$,\\[\\sum_{k\\leq n}M_k > n^{1+c}?\\]",
+    "entry_graph_source_sha256": "33fd72fe0e5ead5bec6245f2523440217aa307f9c4a4a0bd398cfd5ffb20dd44",
+    "entry_graph_present": true
+   },
+   "registry_signal": {
+    "available": true,
+    "unavailable_because": null,
+    "frozen_state": "solved (Lean)",
+    "frozen_informal_state": "solved",
+    "frozen_last_update": "2026-08-23",
+    "snapshot_state": "solved (Lean)",
+    "snapshot_informal_state": "solved",
+    "snapshot_last_update": "2026-08-23",
+    "snapshot_formal_state": "Lean",
+    "moved_since_freeze": false
+   },
+   "page_signal": {
+    "problem": "119",
+    "url": "https://www.erdosproblems.com/119",
+    "ok": true,
+    "bytes": 34210,
+    "sha256": "7267797a3072f7db1410640d03a7c1f49bbccd342664edf0a29d05c9bf162f1f",
+    "file": "pages/erdos-119.html",
+    "live_resolution_announcements": [
+     "THIS_WAS_RESOLVED_BY",
+     "ANSWERED"
+    ],
+    "mentions_lean": true,
+    "proof_claims": true
+   },
+   "frozen_page_announcements": [
+    "THIS_WAS_RESOLVED_BY",
+    "ANSWERED"
+   ],
+   "standard_current_signal": "2026 claimed stronger resolution of remaining growth part, independently human-checked.",
+   "implication_for_frozen_target": "Frozen open target may now be proof-ready.",
+   "trust_caution": "Human-checked is not identical to kernel-checked.",
+   "caution_source": "BLADES-STANDARD-v1.0.md section 7, verbatim",
+   "next_move": "adjudicate the delta by hand, then either retire the frozen target or re-freeze it against the current source; do NOT promote either way from this file"
+  },
+  {
+   "ticket": "#131",
+   "problem": "131",
+   "status": "LEAD_OPEN",
+   "resolved": false,
+   "kernel_checked": false,
+   "frozen_target": {
+    "lean_file": "oracle/evidence/certified-corpus/erdos-131.lean",
+    "declarations": [
+     "Admissible",
+     "CsabaExponent",
+     "F",
+     "HalfPowerQuestion",
+     "NonDividing",
+     "PhamZakharovExponent",
+     "StrausConstant",
+     "erdos_131_resolution",
+     "explicitUpperBound",
+     "problemNumber",
+     "witness_neg",
+     "witness_pos"
+    ],
+    "frozen_question": "Let $F(N)$ be the maximal size of $A\\subseteq\\{1,\\ldots,N\\}$ such that no $a\\in A$ divides the sum of any distinct elements of $A\\backslash\\{a\\}$. Estimate $F(N)$. In particular, is it true that\\[F(N) > N^{1/2-o(1)}?\\]",
+    "entry_graph_source_sha256": "968a9fbbc629bd365eecf9fafd14e762a56d7706a66fe53bb88a7f7453552044",
+    "entry_graph_present": true
+   },
+   "registry_signal": {
+    "available": true,
+    "unavailable_because": null,
+    "frozen_state": "open",
+    "frozen_informal_state": "open",
+    "frozen_last_update": "2025-08-31",
+    "snapshot_state": "open",
+    "snapshot_informal_state": "open",
+    "snapshot_last_update": "2025-08-31",
+    "snapshot_formal_state": "unformalized",
+    "moved_since_freeze": false
+   },
+   "page_signal": {
+    "problem": "131",
+    "url": "https://www.erdosproblems.com/131",
+    "ok": true,
+    "bytes": 33843,
+    "sha256": "5dc98af0c1778f77d721cc2236d655fe90c019851fd7c3689beab321d11d3616",
+    "file": "pages/erdos-131.html",
+    "live_resolution_announcements": [
+     "ORIGINAL_QUESTION_ANSWERED_NO"
+    ],
+    "mentions_lean": false,
+    "proof_claims": true
+   },
+   "frozen_page_announcements": [
+    "ORIGINAL_QUESTION_ANSWERED_NO"
+   ],
+   "standard_current_signal": "Public Lean project proves stronger F(N)=N^(1/5+o(1)).",
+   "implication_for_frozen_target": "Ticket\u2019s weaker half-power negation becomes a corollary.",
+   "trust_caution": "Current development exposes external mathematical interfaces/axioms; report them.",
+   "caution_source": "BLADES-STANDARD-v1.0.md section 7, verbatim",
+   "next_move": "adjudicate the delta by hand, then either retire the frozen target or re-freeze it against the current source; do NOT promote either way from this file"
+  },
+  {
+   "ticket": "#451",
+   "problem": "451",
+   "status": "LEAD_OPEN",
+   "resolved": false,
+   "kernel_checked": false,
+   "frozen_target": {
+    "lean_file": "oracle/evidence/certified-corpus/erdos-451.lean",
+    "declarations": [
+     "Good",
+     "IsNk",
+     "PrimeFactorFree",
+     "intervalProduct",
+     "open_estimate",
+     "witness_neg",
+     "witness_pos"
+    ],
+    "frozen_question": "Estimate $n_k$, the smallest integer $>2k$ such that $\\prod_{1\\leq i\\leq k}(n_k-i)$ has no prime factor in $(k,2k)$.",
+    "entry_graph_source_sha256": "e73681875cac40b4fa4cfa29903847c640ee313ba74f2f85d71a2522cff117aa",
+    "entry_graph_present": true
+   },
+   "registry_signal": {
+    "available": true,
+    "unavailable_because": null,
+    "frozen_state": "open",
+    "frozen_informal_state": "open",
+    "frozen_last_update": "2025-08-31",
+    "snapshot_state": "open",
+    "snapshot_informal_state": "open",
+    "snapshot_last_update": "2025-08-31",
+    "snapshot_formal_state": "unformalized",
+    "moved_since_freeze": false
+   },
+   "page_signal": {
+    "problem": "451",
+    "url": "https://www.erdosproblems.com/451",
+    "ok": true,
+    "bytes": 32535,
+    "sha256": "ae2396bd138b4e306f300b455d99cdcd5817a419099dea7ac354fcc5233da77e",
+    "file": "pages/erdos-451.html",
+    "live_resolution_announcements": [],
+    "mentions_lean": false,
+    "proof_claims": false
+   },
+   "frozen_page_announcements": [],
+   "standard_current_signal": "van Doorn\u2013Tang 2026 lower bound stronger than every polynomial; public Lean development.",
+   "implication_for_frozen_target": "Immediately implies the ticket lower-side conjecture.",
+   "trust_caution": "Lean file reports one Baker\u2013Harman\u2013Pintz axiom; full source asks more than ticket.",
+   "caution_source": "BLADES-STANDARD-v1.0.md section 7, verbatim",
+   "next_move": "adjudicate the delta by hand, then either retire the frozen target or re-freeze it against the current source; do NOT promote either way from this file"
+  },
+  {
+   "ticket": "#569",
+   "problem": "569",
+   "status": "LEAD_OPEN",
+   "resolved": false,
+   "kernel_checked": false,
+   "frozen_target": {
+    "lean_file": "oracle/evidence/certified-corpus/erdos-569.lean",
+    "declarations": [
+     "ContainsCycle",
+     "EmbedsInComplement",
+     "Graph",
+     "IsGraph",
+     "NoIsolated",
+     "RamseyAt",
+     "Valid",
+     "edgeCount",
+     "emptyGraph",
+     "main_conjecture",
+     "oneEdgeGraph",
+     "witness_neg",
+     "witness_pos"
+    ],
+    "frozen_question": "Let $k\\geq 1$. What is the best possible $c_k$ such that\\[R(C_{2k+1},H)\\leq c_k m\\]for any graph $H$ on $m$ edges without isolated vertices?",
+    "entry_graph_source_sha256": "40b0e1d6918aa8dbd1834331d192b919d20d4ddd7b9b7b3870810f29ba474dd5",
+    "entry_graph_present": true
+   },
+   "registry_signal": {
+    "available": true,
+    "unavailable_because": null,
+    "frozen_state": "open",
+    "frozen_informal_state": "open",
+    "frozen_last_update": "2025-08-31",
+    "snapshot_state": "open",
+    "snapshot_informal_state": "open",
+    "snapshot_last_update": "2025-08-31",
+    "snapshot_formal_state": "unformalized",
+    "moved_since_freeze": false
+   },
+   "page_signal": {
+    "problem": "569",
+    "url": "https://www.erdosproblems.com/569",
+    "ok": true,
+    "bytes": 31348,
+    "sha256": "ed78dcb2aa9b31604d8513934fe074df7c06197735caeb8da9f9feb7cfa08aee",
+    "file": "pages/erdos-569.html",
+    "live_resolution_announcements": [],
+    "mentions_lean": false,
+    "proof_claims": true
+   },
+   "frozen_page_announcements": [],
+   "standard_current_signal": "Cambie\u2013Freschi, June 2026: exact constant c_s=s.",
+   "implication_for_frozen_target": "Ticket\u2019s least constant becomes c_k=2k+1; direct path from new theorem to frozen target.",
+   "trust_caution": "Verify formal graph-model match before Lean transfer.",
+   "caution_source": "BLADES-STANDARD-v1.0.md section 7, verbatim",
+   "next_move": "adjudicate the delta by hand, then either retire the frozen target or re-freeze it against the current source; do NOT promote either way from this file"
+  },
+  {
+   "ticket": "#1039",
+   "problem": "1039",
+   "status": "LEAD_OPEN",
+   "resolved": false,
+   "kernel_checked": false,
+   "frozen_target": {
+    "lean_file": "oracle/evidence/certified-corpus/erdos-1039.lean",
+    "declarations": [
+     "admissible",
+     "containsDisc",
+     "erdos_1039",
+     "inverseLinearBound",
+     "klrBound",
+     "klrScale",
+     "polynomial",
+     "pommerenkeBound",
+     "pommerenkeScale",
+     "powerMinusOne",
+     "powerMinusOneSublevel",
+     "powerMinusOneUpperBound",
+     "problemNumber",
+     "sublevelSet",
+     "witness_neg",
+     "witness_pos"
+    ],
+    "frozen_question": "Let $f(z)=\\prod_{i=1}^n(z-z_i)\\in \\mathbb{C}[z]$ with $\\lvert z_i\\rvert \\leq 1$ for all $i$. Let $\\rho(f)$ be the radius of the largest disc which is contained in $\\{z: \\lvert f(z)\\rvert< 1\\}$. Determine the behaviour of $\\rho(f)$. In particular, is it always true that $\\rho(f)\\gg 1/n$?",
+    "entry_graph_source_sha256": "9051a1aea2e6c90c36886f1b660d9a2b956cbb71014f0453ad1822070bee2d6c",
+    "entry_graph_present": true
+   },
+   "registry_signal": {
+    "available": true,
+    "unavailable_because": null,
+    "frozen_state": "open",
+    "frozen_informal_state": "open",
+    "frozen_last_update": "2025-09-15",
+    "snapshot_state": "open",
+    "snapshot_informal_state": "open",
+    "snapshot_last_update": "2025-09-15",
+    "snapshot_formal_state": "unformalized",
+    "moved_since_freeze": false
+   },
+   "page_signal": {
+    "problem": "1039",
+    "url": "https://www.erdosproblems.com/1039",
+    "ok": true,
+    "bytes": 32086,
+    "sha256": "938f0b3d02d32296267253b2933ac19d8e3fe7bed3d3a1ee33ee252249928732",
+    "file": "pages/erdos-1039.html",
+    "live_resolution_announcements": [],
+    "mentions_lean": false,
+    "proof_claims": false
+   },
+   "frozen_page_announcements": [],
+   "standard_current_signal": "May 2026 argument gives rho \\>= (log 2)/n; public Lean formalization independently vouched for in source discussion.",
+   "implication_for_frozen_target": "Directly targets the ticket\u2019s inverse-linear bound.",
+   "trust_caution": "Broader \u201cdetermine behavior\u201d remains; audit proof dependencies before kernel-closed label.",
+   "caution_source": "BLADES-STANDARD-v1.0.md section 7, verbatim",
+   "next_move": "adjudicate the delta by hand, then either retire the frozen target or re-freeze it against the current source; do NOT promote either way from this file"
+  }
+ ]
+}

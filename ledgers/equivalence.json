@@ -1,0 +1,41 @@
+{
+ "schema": "oracle.frontier-formalizer.equivalence.v1",
+ "measured": 3,
+ "requested": 3,
+ "tally": {
+  "DIVERGED": 2,
+  "CONVERGED": 1
+ },
+ "cost": 0.0689,
+ "_method": "two independent generations, equivalence PROVED BY THE KERNEL",
+ "_scope": "CONVERGED is strong evidence of a stable reading, NOT proof that either reading matches the English. A shared misreading would also converge.",
+ "rows": [
+  {
+   "verdict": "DIVERGED",
+   "cost": 0.0159882,
+   "identical_text": false,
+   "kernel_errors": 1,
+   "messages": [
+    "5:0 invalid 'import' command, it must be used in the beginning of the file"
+   ],
+   "_meaning": "no proof of equivalence survived the kernel",
+   "file": "erdos-157-spec.lean"
+  },
+  {
+   "verdict": "DIVERGED",
+   "cost": 0.0208786,
+   "identical_text": false,
+   "why": "NOT_EQUIVALENT: A.Claim asserts the existence of such a positive constant, whereas B.Claim asserts the negation of the corresponding existence statement.",
+   "_meaning": "the model declined to prove equivalence; the two readings differ",
+   "file": "erdos-135-spec.lean"
+  },
+  {
+   "verdict": "CONVERGED",
+   "cost": 0.032057,
+   "identical_text": false,
+   "seconds": 35.688,
+   "_meaning": "two independent readings PROVED equivalent by the kernel. This is strong evidence of a stable reading. It is NOT proof that either matches the English: a shared misreading would also converge.",
+   "file": "erdos-1010-spec.lean"
+  }
+ ]
+}

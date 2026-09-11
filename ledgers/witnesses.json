@@ -1,0 +1,184 @@
+{
+ "schema": "oracle.frontier-formalizer.witnesses.v1",
+ "measured": 25,
+ "requested": 25,
+ "tally": {
+  "WITNESSES_REJECTED": 12,
+  "NO_WITNESSES": 3,
+  "DECLARED_DEGENERATE": 3,
+  "CERTIFIED_DISCRIMINATING": 7
+ },
+ "certified": 7,
+ "cost": 0.2635,
+ "wall_s": 939.4,
+ "_certificate": "BOTH a positive and a negative witness accepted by the Lean kernel: the predicate is neither always true nor always false.",
+ "_scope": "This certifies the PREDICATE, not the conjecture. The main theorem remains `sorry` because the problem is OPEN.",
+ "rows": [
+  {
+   "file": "erdos-1006-spec.lean",
+   "verdict": "WITNESSES_REJECTED",
+   "cost": 0.01204364,
+   "kernel_errors": 2,
+   "first": "103:8: `W.validGraph_witness_pos` has already been declared"
+  },
+  {
+   "file": "erdos-1009-spec.lean",
+   "verdict": "WITNESSES_REJECTED",
+   "cost": 0.0078426,
+   "kernel_errors": 2,
+   "first": "81:8: `W.triangle_witness_pos` has already been declared"
+  },
+  {
+   "file": "erdos-1010-spec.lean",
+   "verdict": "WITNESSES_REJECTED",
+   "cost": 0.0053924,
+   "kernel_errors": 2,
+   "first": "70:8: `W.Question1010_witness_pos` has already been declared"
+  },
+  {
+   "file": "erdos-110-spec.lean",
+   "verdict": "NO_WITNESSES",
+   "cost": 0.0096606
+  },
+  {
+   "file": "erdos-118-spec.lean",
+   "verdict": "DECLARED_DEGENERATE",
+   "why": "DEGENERATE: Question is always true, because its hypothesis forces the vertex type to be a subsingleton, making every coloring satisfy RedClique.",
+   "cost": 0.0108484
+  },
+  {
+   "file": "erdos-121-spec.lean",
+   "verdict": "CERTIFIED_DISCRIMINATING",
+   "cost": 0.0113244,
+   "sorries": 6,
+   "_meaning": "the kernel accepted BOTH a positive and a negative witness: this predicate is neither always true nor always false"
+  },
+  {
+   "file": "erdos-127-spec.lean",
+   "verdict": "WITNESSES_REJECTED",
+   "cost": 0.0115966,
+   "kernel_errors": 1,
+   "first": "94:31: unsolved goals\nh : Admissible 0 1\nhG : edgeCount \u22a5 = 0\nH : SimpleGraph (Fin 0)\nleft\u271d : BipartiteSubgraph \u22a5 H\nhbound : \u2191(edgeCount H) \u2265 base 0 +"
+  },
+  {
+   "file": "erdos-135-spec.lean",
+   "verdict": "WITNESSES_REJECTED",
+   "cost": 0.013664,
+   "kernel_errors": 2,
+   "first": "85:8: Invalid field notation: Type of\n  (e 0).elim0\nis not known; cannot resolve field `elim`\n\nHint: Consider replacing the field projection with a ca"
+  },
+  {
+   "file": "erdos-136-spec.lean",
+   "verdict": "WITNESSES_REJECTED",
+   "cost": 0.0077166,
+   "kernel_errors": 2,
+   "first": "77:2: Tactic `native_decide` failed. Error: failed to compile definition, consider marking it as 'noncomputable' because it depends on 'Classical.prop"
+  },
+  {
+   "file": "erdos-140-spec.lean",
+   "verdict": "WITNESSES_REJECTED",
+   "cost": 0.0061786,
+   "kernel_errors": 1,
+   "first": "38:53: unsolved goals\n\u22a2 (\u2200 x \u2264 1, 0 < x \u2192 x = 0 \u2228 x = 1 \u2228 x = 2 \u2192 \u00acx = 0 \u2227 \u00acx = 1) \u2192\n    (\u2200 x \u2264 1, 0 < x \u2192 x = 0 \u2228 1 + x = 2 \u2192 \u00acx = 0 \u2227 \u00ac1 + 2 * x = 2"
+  },
+  {
+   "file": "erdos-146-spec.lean",
+   "verdict": "NO_WITNESSES",
+   "cost": 0.01358664
+  },
+  {
+   "file": "erdos-147-spec.lean",
+   "verdict": "NO_WITNESSES",
+   "cost": 0.0136486
+  },
+  {
+   "file": "erdos-157-spec.lean",
+   "verdict": "CERTIFIED_DISCRIMINATING",
+   "cost": 0.0100694,
+   "sorries": 1,
+   "_meaning": "the kernel accepted BOTH a positive and a negative witness: this predicate is neither always true nor always false"
+  },
+  {
+   "file": "erdos-161-spec.lean",
+   "verdict": "DECLARED_DEGENERATE",
+   "why": "DEGENERATE: UpperBoundNearHalf_NOT_STATED is always true because it is defined as True.",
+   "cost": 0.01155796
+  },
+  {
+   "file": "erdos-163-spec.lean",
+   "verdict": "DECLARED_DEGENERATE",
+   "why": "DEGENERATE: `LinearRamseyBound d C` is always true because `Degenerate H d` is always false, witnessed by taking `S = \u2205`.",
+   "cost": 0.0116642
+  },
+  {
+   "file": "erdos-165-spec.lean",
+   "verdict": "CERTIFIED_DISCRIMINATING",
+   "cost": 0.00688308,
+   "sorries": 15,
+   "_meaning": "the kernel accepted BOTH a positive and a negative witness: this predicate is neither always true nor always false"
+  },
+  {
+   "file": "erdos-166-spec.lean",
+   "verdict": "WITNESSES_REJECTED",
+   "cost": 0.0134498,
+   "kernel_errors": 4,
+   "first": "40:26: unexpected token 'end'; expected ')', '\u2191', '\u21a5', '\u21d1' or term"
+  },
+  {
+   "file": "erdos-171-spec.lean",
+   "verdict": "WITNESSES_REJECTED",
+   "cost": 0.012244,
+   "kernel_errors": 2,
+   "first": "56:2: Tactic `native_decide` failed. Error: failed to compile definition, consider marking it as 'noncomputable' because it depends on 'propDecidable'"
+  },
+  {
+   "file": "erdos-175-spec.lean",
+   "verdict": "WITNESSES_REJECTED",
+   "cost": 0.0103374,
+   "kernel_errors": 1,
+   "first": "52:63: unsolved goals\nh : IsSquarefreeNat (centralBinomial 3)\nhd : \u00ac4 \u2223 Nat.choose 6 3\n\u22a2 False"
+  },
+  {
+   "file": "erdos-182-spec.lean",
+   "verdict": "WITNESSES_REJECTED",
+   "cost": 0.0099126,
+   "kernel_errors": 4,
+   "first": "79:9: `loopless` is not a field of structure `Subgraph`"
+  },
+  {
+   "file": "erdos-191-spec.lean",
+   "verdict": "CERTIFIED_DISCRIMINATING",
+   "cost": 0.0096764,
+   "sorries": 1,
+   "_meaning": "the kernel accepted BOTH a positive and a negative witness: this predicate is neither always true nor always false"
+  },
+  {
+   "file": "erdos-21-spec.lean",
+   "verdict": "CERTIFIED_DISCRIMINATING",
+   "cost": 0.0130504,
+   "sorries": 2,
+   "_meaning": "the kernel accepted BOTH a positive and a negative witness: this predicate is neither always true nor always false"
+  },
+  {
+   "file": "erdos-216-spec.lean",
+   "verdict": "CERTIFIED_DISCRIMINATING",
+   "cost": 0.0073682,
+   "sorries": 5,
+   "_meaning": "the kernel accepted BOTH a positive and a negative witness: this predicate is neither always true nor always false"
+  },
+  {
+   "file": "erdos-223-spec.lean",
+   "verdict": "WITNESSES_REJECTED",
+   "cost": 0.013433,
+   "kernel_errors": 1,
+   "first": "100:24: Type mismatch\n  fun x => if i = 0 then 0 else 1\nhas type\n  Fin 1 \u2192 \u2115\nbut is expected to have type\n  EuclideanSpace \u211d (Fin 1)"
+  },
+  {
+   "file": "erdos-225-spec.lean",
+   "verdict": "CERTIFIED_DISCRIMINATING",
+   "cost": 0.0103706,
+   "sorries": 1,
+   "_meaning": "the kernel accepted BOTH a positive and a negative witness: this predicate is neither always true nor always false"
+  }
+ ]
+}
