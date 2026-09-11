@@ -3,40 +3,53 @@
 **Author:** Jared Wilder  
 **Purpose:** keep the public mathematics estate navigable as the release grows.
 
-A public mathematics release should not force a reader to excavate one giant repository to find unrelated theorems, formalizations, papers, and certificates.
+A public mathematics release should not force a reader to excavate one giant repository to find unrelated theorems, formalizations, papers, certificates, and active frontiers.
 
 The organizing rule is:
 
-> **One coherent mathematical subject gets one coherent public home once it is large enough to stand on its own.**
+> **An actively investigated mathematical problem should default toward its own public home once it has a coherent research surface.**
 
-Large archives remain valuable for provenance, but they are not substitutes for subject organization.
+That threshold is deliberately generous. The failure we are guarding against is not “too many repositories”; it is **real mathematics becoming effectively invisible because it is buried inside a general dump**.
 
-## 1. Three repository roles
+At the same time, one isolated lemma does not need a toy repository. The useful hierarchy is:
 
-### Focused subject repository
+> **focused problem/subject repository > compact theorem bank > provenance/intake archive**
 
-Use a focused repository when a body of mathematics has its own identity: a theorem family, substantial formalization corpus, paper program, certificate program, sustained open-problem investigation, or exact classification project.
+## 1. Focused problem or subject repository
 
-This is the preferred reading and citation surface.
+Use a focused repository when a problem or body of mathematics has an identity a mathematician could reasonably follow as a program.
 
-Examples in the current release include:
+A dedicated repository is normally justified as soon as **any one** of these is present:
+
+- multiple nontrivial results or lemmas forming a chain;
+- a substantial formalization corpus;
+- computation, certificates, witnesses, or exact search code specific to the problem;
+- a live research frontier with explicit unresolved obligations;
+- a meaningful correction/refutation history that belongs with the problem;
+- a paper or multi-paper program;
+- enough material that a citation should land somewhere built specifically for that mathematics.
+
+The repository does **not** have to wait until the parent problem is solved. An honest open-problem research program is itself a coherent public object.
+
+Examples in the current estate include:
 
 - `erdos152` — 160 formalized Erdős problem statements;
 - `erdos902` — tournament theory around Erdős #902;
 - `integral-point-sets` — integral-point-set results and certificates;
-- `erdos595-barrier-tower` — the formal continuum coverability theorem;
+- `erdos595-barrier-tower` — now the problem-level home for the formal continuum barrier **and** the recovered 65-card triangle-cover theorem bank;
+- `erdos835-lean-audit` — despite the historical name, now the problem-level home for both the Johnson-graph Lean audit and the SQS(20) completion/rigidity program;
 - the Graham–Alspach sequenceability repositories;
-- the EG203/Kummer paper and obstruction-calculus repositories.
+- the EG203/Kummer paper, finite-obstruction, and obstruction-calculus repositories.
 
-### Compact theorem bank
+## 2. Compact theorem bank
 
-Use a theorem bank for finished child theorems that are substantial enough to publish but too small to justify a repository by themselves.
+Use a theorem bank for finished child theorems that are substantial enough to publish but still genuinely small and self-contained.
 
 `erdos-proved-lemmas` serves this role for compact Erdős results.
 
-If a theorem later grows into a larger subject program, the focused subject repository becomes the preferred home. The theorem bank may keep a concise statement and link.
+A theorem should graduate from the bank when it accumulates a program around it: more results, formal code, certificates, a substantial computation, a paper, or a live frontier. At that point the focused repository becomes the preferred home and the theorem bank becomes an index/summary layer.
 
-### Provenance / intake archive
+## 3. Provenance / intake archive
 
 Use a large archive to preserve extraction chronology, source packets, historical research notes, mixed theorem material, and objects awaiting classification.
 
@@ -45,36 +58,39 @@ Examples:
 - `msl-ore-estate` — estate-wide research provenance;
 - `unpublished-math-papers` — public pure-math intake/provenance archive after extraction.
 
-An archive can keep a mirror after promotion, but it should not remain the only place to discover mature subject mathematics.
+An archive may keep a mirror after promotion, but it should not remain the only place to discover a mature problem program.
 
-## 2. Promotion triggers
+## 4. The anti-burial rule
 
-A subject should normally receive a focused repository when one or more of these conditions holds:
+When deciding between “leave it in the dump” and “give it a problem home,” bias toward the problem home when there is real substance.
 
-- it contains a substantial formalization corpus;
-- it contains multiple nontrivial theorems forming a coherent program;
-- it has papers, certificates, proofs, and/or independent verification layers of its own;
-- it is independently citable or likely to be read without the rest of the estate;
-- it has a substantial directory tree whose contents are mostly about one mathematical object;
-- it has roughly dozens of formal/theorem records rather than one isolated note;
-- a reader must currently navigate unrelated subject matter to understand it.
+A particularly strong trigger is **research density**: if a folder already contains dozens of theorem cards, multiple proof routes, a verifier, a certificate family, or several internally named subtheories, the organizational question is already settled. It is a research program.
 
-These are information-architecture triggers, not novelty claims.
+Current examples discovered during the release sweep:
 
-## 3. Avoid duplicate canonical homes
+- Erdős #738: 62 proved-in-packet statements/schemas, 12 explicit targets, a 45,301-byte theorem bank, verifier and manifests;
+- Erdős–Gyárfás power-of-two cycles: 202 theorem cards across ten coherent families, including proved results, computational certificates, negative theorems, refuted routes and explicit targets;
+- Caccetta–Häggkvist directed triangles: a 23KB theorem ledger plus a terminal-defect package and a long exact-boundary structural program;
+- Erdős #595: a 65-card triangle-cover theorem bank in addition to the formal barrier package;
+- Erdős #835: a Lean proof-status program plus independent SQS(20) residual-coloring, rigidity and trade mathematics.
 
-Do not let two repositories both present themselves as the definitive version of the same result.
+Those are not archive folders in any meaningful scholarly sense. They are programs that require problem-level homes.
 
-When a richer subject repository exists:
+## 5. Avoid duplicate canonical homes
 
-- the focused repository is the preferred home;
-- theorem banks contain a compact statement and link;
-- archives retain provenance and extraction chronology;
-- release indices point to the focused repository.
+The generous promotion threshold does **not** imply one new repository for every newly discovered folder.
 
-This keeps corrections and future extensions from fragmenting across several competing copies.
+If the same mathematical problem already has a substantial dedicated repository, enrich that repository instead of creating a rival canonical home.
 
-## 4. Formalization corpora deserve their own homes
+This is why:
+
+- the buried #595 theorem bank was promoted into `erdos595-barrier-tower` rather than starting a competing triangle-cover repository;
+- the SQS(20) packet was promoted into the existing #835 repository rather than splitting #835 by evidence modality;
+- recovered EG203 analytic papers are indexed from `eg203-kummer-papers` instead of creating another #203 silo.
+
+Organize primarily by **mathematical problem/program**, secondarily by proof technology or historical session.
+
+## 6. Formalization corpora deserve their own homes
 
 A formalization corpus is itself a coherent research object even when many statements remain unproved.
 
@@ -82,48 +98,40 @@ For example, **160 formalized Erdős statements are a repository-scale object**.
 
 Keep statement corpora, theorem banks, and semantic-audit tools conceptually separate.
 
-## 5. Historical names can remain inside archives
+## 7. Historical names can remain inside archives
 
-Internal filenames such as `gold`, `court`, `attack`, `blade`, `shot`, `campaign`, or `mine` may remain when changing them would damage provenance or links.
+Internal filenames such as `gold`, `court`, `attack`, `blade`, `shot`, `campaign`, `forge`, or `mine` may remain when changing them would damage provenance or links.
 
 They should not determine the public repository identity. Human-facing README files translate historical process vocabulary into ordinary mathematical language.
 
-## 6. Corrections stay local
+## 8. Corrections stay local
 
 A correction belongs beside the theorem, computation, or formalization it corrects.
 
 Do not use one failed route as a reason to make an entire repository lead with failure. Conversely, do not hide a correction when it changes the statement readers would otherwise cite.
 
-## 7. Archives should route, not hoard
+## 9. Archives should route, not hoard
 
 When new mathematics first lands in an intake archive:
 
 1. establish that the object is pure mathematics and safe to release;
-2. identify its mathematical subject;
+2. identify its mathematical problem or subject;
 3. check whether a focused public repository already exists;
-4. if yes, route the result there and leave an archival provenance copy;
-5. if no and the object is small, route it to the appropriate theorem bank;
-6. if no and the object is already a coherent program, mark it for a new dedicated repository rather than allowing the intake archive to become its permanent home.
+4. if yes, route the result there and retain the archival copy as provenance;
+5. if no and the object is genuinely small, route it to the appropriate theorem bank;
+6. if no and the object already has a coherent research surface, put it on the dedicated-repository promotion queue immediately;
+7. once the dedicated repository exists and is initialized, make it the preferred reading/citation surface and leave the archive as provenance.
 
-## 8. Current standalone-repository queue
+## 10. Reader test
 
-The live routing ledger in `jaredwilder/unpublished-math-papers/SUBJECT-ROUTING.md` currently identifies several strong candidates, including:
-
-- Erdős #890 ↔ #1093 large-prime/deficiency program;
-- the 184-entry Erdős #271 Stanley-sequence ledger;
-- the 76-entry Erdős #500 / Turán (3,4) extraction;
-- the 62-result Erdős #738 theorem bank;
-- the 13-speed Lonely Runner program;
-- the fiber-coherence / rank-three-kernel program;
-- the 41-vertex circulant `R(5,5)` structural program;
-- several sharp finite-field and product/GP-free classification projects.
-
-The queue should evolve as the archive is mined.
-
-## 9. Reader test
-
-Before publishing a new repository or major subject folder, ask:
+Before publishing or routing a substantial result, ask:
 
 > **If a mathematician arrived from a citation to this result, would the repository they land in look like it was built for that mathematics?**
 
 If the answer is no because they first encounter dozens of unrelated subjects, the result needs a better home.
+
+A second test is equally useful:
+
+> **Could a researcher follow the history, surviving results, evidence, corrections and next open step of this problem without understanding the rest of Jared Wilder's estate?**
+
+If not, the problem is still too buried.
