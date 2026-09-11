@@ -1,80 +1,59 @@
-# Publication Firewall — Open Mathematics vs. Applied IP
+# Publication Boundary — Open Mathematics vs. Unpublished Applied Work
 
 **Author:** Jared Wilder  
 **Public release date:** 2026-09-10
 
-This repository and the companion mathematics repositories are an **open mathematical release**.
-They do not constitute a blanket release of every mathematical idea, algorithm, implementation,
-product mechanism, biomedical method, control system, patent claim, trade secret, or commercial
-application in the author's broader research estate.
+This repository and its companion mathematics repositories are an **open release of mathematical research**. They are not a blanket publication of every algorithm, implementation, product mechanism, biomedical method, control system, patent claim, trade secret, or commercial application in the broader research estate.
 
-## Public by default in this math drop
+## Material intended to be public
 
-The following classes are intended to be public when they appear in the named repositories:
+When committed to the named public mathematics repositories, the following kinds of material are intended for public release:
 
-- theorem statements and proofs explicitly committed to public math repositories;
-- Lean source and disclosed axiom/verification receipts;
-- finite exact computations and reproducibility scripts committed with a stated claim ceiling;
-- counterexamples, failed routes, retractions, and correction records;
-- problem statements, literature references, open-target metadata, and machine-readable frontiers;
-- general-purpose proof-audit and semantic-certification methodology released here;
-- pure combinatorial, number-theoretic, graph-theoretic, geometric, and formal methods whose public
-  repository expressly contains the method itself.
+- theorem statements and proofs;
+- Lean source together with disclosed axiom and verification information;
+- exact finite computations and reproducibility scripts whose mathematical scope is stated explicitly;
+- counterexamples, failed approaches, retractions, and correction records;
+- problem statements, literature references, open-problem metadata, and structured problem datasets;
+- general methods for checking proofs, computations, and formalizations;
+- pure combinatorial, number-theoretic, graph-theoretic, geometric, and formal mathematics expressly included in a public repository.
 
-## Not released merely because related mathematics is public
+## Related applications are not automatically public
 
-Public disclosure of an abstract mathematical object does **not** by itself disclose or authorize
-publication of any unpublished implementation or application that uses it. In particular, this
-math drop does not intentionally publish unpublished details of:
+Publishing an abstract theorem or algorithm does **not** automatically publish every application or implementation that uses it.
 
-- patient-specific diagnosis, monitoring, prognosis, treatment, triage, or physiological-control
-  systems;
-- organ-network, instability, perturbation, coupling, route/shape/memory, or longitudinal clinical
-  embodiments beyond material already deliberately made public in their own dedicated record;
-- pharmacology / digital-twin product machinery, calibration pipelines, regulator-facing methods,
-  clinical datasets, or patient-level inference systems;
-- energy, grid, battery, industrial, optimization, game-engine, simulation, or other applied
-  product embodiments where the implementation is commercially load-bearing;
-- private source corpora, credentials, infrastructure, deployment details, unpublished source code,
-  or business logic;
-- pending patent claim language, continuation strategy, unpublished embodiments, or material being
-  held for patent-family expansion.
+In particular, this mathematics release does not intentionally disclose unpublished details of:
 
-If a mathematical theorem here has an applied embodiment elsewhere, only the files actually
-committed to the public repository are part of this release.
+- patient-specific diagnosis, monitoring, prognosis, treatment, triage, or physiological-control systems;
+- clinical or physiological applications of network, instability, perturbation, coupling, longitudinal, or related mathematical ideas beyond material already deliberately made public in its own record;
+- pharmacology or digital-twin product implementations, calibration systems, regulator-facing methods, clinical datasets, or patient-level inference machinery;
+- energy, grid, battery, industrial, optimization, game-engine, simulation, or other applied implementations whose technical details may have commercial or intellectual-property significance;
+- private source corpora, credentials, infrastructure, deployment details, unpublished source code, or business logic;
+- pending patent language, continuation strategy, unpublished embodiments, or material reserved for possible future filings.
 
-## Repository boundary rule
+Only material actually committed to a public repository is part of this release.
 
-A public repository is authoritative for what was intentionally released. A mention in a README,
-research log, memory file, issue, or cross-reference is **not** an instruction to dump the contents
-of a private repository or unpublished archive.
+## Practical publication rule
 
-The release process should therefore obey:
+A mention in a README, research log, issue, memory file, or cross-reference is **not** permission to publish the contents of a private repository or unpublished archive.
 
-1. **Pure theorem/proof/code asset?** Presumptively publishable after correctness/claim review.
-2. **General proof infrastructure?** Publishable when it does not expose private data, credentials,
-   or a commercially load-bearing applied pipeline.
-3. **Applied mechanism with plausible patent/product value?** HOLD unless it already has an
-   intentional public disclosure record or is separately cleared.
-4. **Mixed artifact?** Extract and publish the standalone mathematical theorem or method; retain the
-   application-specific embodiment privately.
-5. **Uncertain boundary?** HOLD. A missed math upload can be published later; an accidental enabling
-   disclosure cannot be made private again in the meaningful publication sense.
+Use the following rule when deciding whether to extract material:
 
-## No implied claims
+1. **Pure theorem, proof, or mathematical code?** Publish after checking correctness and the stated scope.
+2. **General proof or verification infrastructure?** Publish when it does not expose private data, credentials, or application-specific implementation details.
+3. **Applied mechanism with possible product or patent significance?** Do not publish without explicit clearance.
+4. **Mixed mathematical/applied source?** Extract the standalone mathematics and keep the application-specific implementation private.
+5. **Uncertain boundary?** Do not publish yet. Mathematical material can be released later; an accidental public disclosure cannot meaningfully be made private again simply by deleting a commit.
 
-Nothing in this firewall asserts that any retained idea is patentable, secret, commercially
-valuable, or legally protectable. It is a publication-scope rule only.
+## What this policy does and does not say
 
-Nothing in this document changes the licenses attached to files already released. Nothing here
-creates a restriction on mathematical material that was intentionally published under an open
-license. The purpose is simply to prevent the phrase "release the math estate" from being mistaken
-for "publish every application in the broader research estate."
+This document does not assert that any unpublished idea is patentable, secret, commercially valuable, or legally protectable. It is only a publication-scope policy.
 
-## Corrections
+It also does not change the license or public status of material already intentionally released under an open license.
 
-If an applied-IP detail is accidentally committed, preserve the correction record and seek
-appropriate legal advice about consequences; deleting a Git commit should not be represented as
-undoing a public disclosure.
+Its purpose is simply to prevent “release the mathematics” from being interpreted as “publish every application and implementation in the broader research archive.”
 
-For the mathematical claim taxonomy and the public release map, see `MATH-DROP-2026-09-10.md`.
+## Accidental disclosure
+
+If application-specific or patent-sensitive material is accidentally committed, preserve an accurate correction record and obtain appropriate legal advice. Removing a Git commit should not be represented as undoing a public disclosure.
+
+For the public mathematics map, see [`MATH-DROP-2026-09-10.md`](MATH-DROP-2026-09-10.md). For the public writing standard, see [`HUMAN-FIRST-EDITORIAL-STANDARD.md`](HUMAN-FIRST-EDITORIAL-STANDARD.md).
