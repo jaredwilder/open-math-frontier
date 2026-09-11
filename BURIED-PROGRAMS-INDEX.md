@@ -3,7 +3,7 @@
 **Author:** Jared Wilder  
 **Started:** 2026-09-11
 
-This index exists for one reason: **substantial mathematical programs must not become invisible merely because they were first released inside a provenance archive.**
+This index exists for one reason: **substantial mathematical programs must not become invisible merely because they were first released inside a provenance archive or a broad theorem bank.**
 
 It is a temporary navigation and promotion surface. Once a program has a dedicated problem repository, that repository becomes the preferred reading/citation home and this page points there.
 
@@ -11,7 +11,11 @@ It is a temporary navigation and promotion surface. Once a program has a dedicat
 
 ### Erdős #738 / triangle-free Gyárfás–Sumner
 
-Current source: `jaredwilder/unpublished-math-papers/erdos738-theorem-bank/`  
+Current sources:
+
+- `jaredwilder/unpublished-math-papers/erdos738-theorem-bank/`
+- `jaredwilder/erdos-theorems/erdos738-frontier/`
+
 Planned home: `jaredwilder/erdos738-triangle-free-induced-trees`
 
 Recovered program:
@@ -22,11 +26,14 @@ Recovered program:
 - independent finite verifier and verification receipt;
 - paper-shaped subtheories in extremal type tensors, mixing/spider structure, chromatic escape, induced-path contact codes and contamination-fan calculus.
 
-The dedicated repository shell already exists, but it currently has no initial commit; the connected GitHub contents API cannot initialize a zero-commit repository. Until that shell is initialized, the archive remains the byte-complete public source.
+The dedicated repository shell already exists, but it currently has no initial commit; the connected GitHub contents API cannot initialize a zero-commit repository. Until that shell is initialized, the broad repositories remain provenance/mirror surfaces rather than preferred final homes.
 
 ### Erdős–Gyárfás power-of-two cycles
 
-Current source: `jaredwilder/unpublished-math-papers/erdos-gyarfas-power-cycle/`
+Current sources:
+
+- `jaredwilder/unpublished-math-papers/erdos-gyarfas-power-cycle/`
+- `jaredwilder/erdos-theorems/erdos-gyarfas-power-cycle/`
 
 The V2 research bank contains **202 exact theorem cards** across ten coherent families:
 
@@ -39,7 +46,7 @@ The V2 research bank contains **202 exact theorem cards** across ten coherent fa
 
 Major layers include minimum-counterexample sparsity, C4-free expansion, cubic/high-degree defect kernels, perfect-matching transition quotients, ear theory, cubic suppression, lens decomposition, dyadic subset-sum criteria, packet hypergraphs, monotone-CNF reduction and exact finite obstruction certificates.
 
-This should receive a dedicated problem repository rather than remain a four-JSONL-card archive folder.
+This should receive a dedicated problem repository. The copies in broad repositories should become provenance/mirrors once that home exists.
 
 ### Caccetta–Häggkvist directed triangles
 
@@ -65,6 +72,8 @@ Current sources:
 
 - `jaredwilder/unpublished-math-papers/fiber-coherence-theorem-bank/`
 - `jaredwilder/unpublished-math-papers/rank-three-kernel/`
+- `jaredwilder/erdos-theorems/erdos595-coherence/`
+- `jaredwilder/erdos-theorems/erdos595-fiber-coherence/`
 
 The main bank contains **216 records across nine mathematical layers**, progressing from relational self-growth and coherence CSPs through unicyclic/cactus structure, theta collision, the rank-three kernel classification and three-way recursive bridges.
 
@@ -75,15 +84,50 @@ This program must **not** be confused with `jaredwilder/ck-gold-and-r3-envelope`
 ### Erdős #890 ↔ #1093
 
 Current compact home: `jaredwilder/erdos-proved-lemmas/erdos890-1093-bridge.md`  
-Additional provenance: `jaredwilder/unpublished-math-papers/`
+Additional mirrors/provenance: `jaredwilder/erdos-theorems/erdos1093-divisor-window/`, `jaredwilder/unpublished-math-papers/`
 
 This has grown past theorem-bank scale: large-prime binomial identity, deficiency/excess accounting, admissible LCM divisor-window reduction, finite deficiency engine through the released range, and a substantial forensic problem history. It should graduate to a dedicated problem/program repository.
+
+### Erdős #77 — diagonal Ramsey exponential-limit program
+
+Current sources:
+
+- `jaredwilder/unpublished-math-papers/erdos77-ramsey-asymptotics/`
+- `jaredwilder/erdos-theorems/erdos77-ramsey-limit/CHECKABLE-THEOREM-LEDGER.md`
+
+The campaign contains **23 theorem / negative-theorem assets**. Its proved spine includes the thin-corridor inequality and equivalence, inverse homogeneous-set formulation, clone saturation, summable composition-error accumulation, exact tensor-flag rank machinery, bilinear/polarity constructions, mixer first-moment formulas, an architecture-specific information barrier, a terminal full-product fiber obstruction, and a matching-restricted polarity digraph.
+
+The flagship limit question remains open because the needed approximate-supermultiplicative composition theorem is not proved.
+
+A zero-commit public shell named `jaredwilder/diagonal-ramsey-corridor` exists and is a **probable** intended destination because the program is explicitly organized around diagonal/off-diagonal corridor reductions. That mapping is not treated as confirmed until a source-side link or initial commit establishes it.
+
+### P6 Erdős–Hajnal / Six-Vertex Wall
+
+Current source: `jaredwilder/erdos-theorems/p6-erdos-hajnal/`
+
+This is a standalone research program with **30 Court theorem assets** and an explicit top-level boundary: the P6 Erdős–Hajnal flagship is **not certified**.
+
+Certified/local structure includes:
+
+- forbidden single-edge rectangle and crossing-domination lemmas;
+- profile-cover and near-twin clustering machinery;
+- disjoint-defect classification;
+- complete-minus-disjoint-rectangles normal form;
+- exact stable-slice pure-pair theorem;
+- crown normal form;
+- recursive-anchor and cotree bridge machinery;
+- exhaustive stable-matrix regression checks through `4×4`.
+
+The combination of theorem bank, negative/candidate companions, bounded verifier and live close programs clearly exceeds broad-theorem-bank scale. It should receive a dedicated P6/Erdős–Hajnal repository.
 
 ## Priority B — large audited theorem programs
 
 ### Erdős #271 — Stanley sequences
 
-Current source: `jaredwilder/unpublished-math-papers/erdos271-stanley/`
+Current mirrors:
+
+- `jaredwilder/unpublished-math-papers/erdos271-stanley/`
+- `jaredwilder/erdos-theorems/erdos271-stanley/`
 
 Audited master ledger: **184 entries**:
 
@@ -107,13 +151,21 @@ and, using superlinearity,
 
 For `A(4)`, the target `a_k=Theta(k^2/log k)` is thereby equivalent within the campaign reduction to `mu_k=Theta(log k)` and `|U_k|=Theta(k^2/log k)`.
 
+This should graduate from duplicated broad-repo mirrors into one canonical #271 home.
+
 ### Erdős #500 / Turán (3,4)
 
-Current source: `jaredwilder/unpublished-math-papers/erdos500-turan34/`
+Current mirrors:
+
+- `jaredwilder/unpublished-math-papers/erdos500-turan34/`
+- `jaredwilder/erdos-theorems/erdos500-theorem-forge/`
+- `jaredwilder/erdos-theorems/erdos500-turan34/`
 
 Canonical reconstructed surface: **76 distinct records**, including 43 proved-in-packet results, 7 finite exhaustive results, 18 explicit targets, exact finite witnesses/classifications, a sharp bound, an equivalence, an analytic result and a negative theorem.
 
 Mathematical layers include complement-covering duality, finite-to-global density transfer, deletion-excess identities, plateau rigidity, pair-codegrees, four/five-set waste/excitation, exact small covering values, cyclic pair rotors, one-point extension, graph-generated cover classification, independent-triple repair, integral-gap reformulation and rooted collision identities.
+
+The current three-way duplication is precisely what the canonical-home rule is meant to eliminate.
 
 ### Lonely Runner — 13 effective speeds
 
@@ -130,13 +182,31 @@ Among the late deductions are:
 - a strict deletion theorem producing a non-tight 12-speed deletion;
 - a robust private deletion interval.
 
-### Erdős #77 — diagonal Ramsey asymptotics
+### Erdős #949 — sum-free complement / finite-sums program
 
-Current source: `jaredwilder/unpublished-math-papers/erdos77-ramsey-asymptotics/`
+Current human source: `jaredwilder/unpublished-math-papers/erdos949-sumfree-ip/`  
+Current formal source: `jaredwilder/erdos-theorems/theorems/erdos949-campaign-001/`
 
-The program develops thin-corridor comparison, equivalence of diagonal exponential growth with sublinear off-diagonal corridors, generalized-inverse formulations, clone saturation, summably sublinear composition-error accumulation, bilinear/polarity constructions, tensor/rank identities, and a sharp fiber obstruction. The unresolved spine is a composition theorem strong enough to yield approximate supermultiplicativity or an equivalent container/rank bound.
+The human program has three exact assets:
 
-A zero-commit public shell named `jaredwilder/diagonal-ramsey-corridor` exists and is a **probable** intended destination because the source program is explicitly organized around diagonal/off-diagonal corridor reductions. That mapping is not being treated as confirmed until a source-side link or initial commit establishes it.
+1. sharp finite avoidance constant `q≤5`, with 5 best possible;
+2. a complete countable analogue via Hindman's theorem;
+3. simultaneous finite-real-dilate finite-sums avoidance.
+
+The formal side is substantial rather than incidental: **33 clean Lean declarations** across `Erdos949Core.lean`, `Erdos949Hindman.lean`, and `Erdos949HindmanFS.lean` (4 + 13 + 16 declarations), with shipped axiom reports and verification records.
+
+The continuum-cardinality parent problem remains open. The combination of multiple exact theorems plus a substantial formal corpus now puts #949 on the dedicated-problem-repo side of the threshold.
+
+### Erdős #1066 — unit-distance independent-set formal/barrier program
+
+Current human source: `jaredwilder/unpublished-math-papers/erdos1066-lattice-barriers/`  
+Current formal source: `jaredwilder/lean-contributions/erdos1066-first-formalization/`
+
+The formal program includes a roughly 20KB FormalConjectures-style problem statement/API and a long measured list of proved declarations: well-posedness/faithfulness of the extremal definitions, a three-colouring lower barrier, triangular-lattice arithmetic and geometric colouring theorems, admissibility, unit-triangle geometry and the exact circumradius calculation.
+
+The open problem, published inputs and genuinely unfinished barrier steps are retained as explicit `sorry` declarations rather than hidden assumptions. The human barrier note separately distinguishes the Lean-certified local theorems from exact computational checks.
+
+That combination of honest formalization, proven local barrier theory and explicit open obligations warrants eventual graduation to a dedicated #1066 problem repository.
 
 ### R(5,5) — 41-vertex circulant structural program
 
@@ -149,23 +219,23 @@ This is much more than a construction witness. It contains the complete classifi
 The following archive subjects remain strong candidates and should be checked for existing homes before a new repository is created:
 
 - `polynomial-dynamics-coordinates/` — recurrence/coordinate mathematics;
-- `erdos1142-order-sieve/` if its program-scale computation/formal artifacts exceed the compact theorem-bank summary;
-- `erdos949-sumfree-ip/`;
-- `erdos1066-lattice-barriers/`;
-- `erdos156-maximal-sidon-barrier/`;
-- `erdos247-sparse-binary-irrationality/`;
-- `erdos243-divisibility-irrationality/`.
+- `erdos289-reciprocal-sums/` plus its formal files;
+- `erdos885-factor-differences/` plus its Lean theorem;
+- `erdos142-ap-free/` and `ck-gold-and-r3-envelope` — determine whether the Roth-number finite envelope has outgrown its present family home;
+- `long-tail/CANONICAL-GOLD-56-STATEMENTS.md` — mine for programs accidentally compressed into the long tail.
 
-## Already placed correctly in family-level repositories
+## Already placed correctly in family-level / compact repositories
 
-These exact finite projects were initially on the standalone queue but are already organized correctly in `jaredwilder/combinatorial-records`, whose role is compact finite/combinatorial classifications:
+These should not be split merely because their theorem is interesting:
 
-- `F_31^*` simultaneous sum/product avoidance — maximum 8, nine extremizers;
-- `F_73^*` simultaneous sum/product/3-AP avoidance — maximum 12, three extremizers;
-- product-free + nontrivial-3-term-GP-free subsets of `[50]` — maximum 35, 240 extremizers;
-- the restricted circulant-family Ramsey exhaustions for `R(3,10)` at 40 and `R(4,6)` at 36.
-
-These should stay together unless a larger coherent family grows around one of them.
+- `F_31^*` simultaneous sum/product avoidance — `jaredwilder/combinatorial-records`;
+- `F_73^*` simultaneous sum/product/3-AP avoidance — `jaredwilder/combinatorial-records`;
+- product-free + nontrivial-3-term-GP-free subsets of `[50]` — `jaredwilder/combinatorial-records`;
+- restricted circulant-family Ramsey exhaustions for `R(3,10)` at 40 and `R(4,6)` at 36 — `jaredwilder/combinatorial-records`;
+- Erdős #243 divisibility-chain irrationality criterion — `jaredwilder/erdos-proved-lemmas`;
+- Erdős #247 all-base sparse-position irrationality + density equivalence — `jaredwilder/erdos-proved-lemmas`;
+- Erdős #1142 multiplicative-order subgroup sieve — already represented in `jaredwilder/erdos-proved-lemmas`; the richer archive note is provenance/infrastructure;
+- Erdős #156 repaired maximal-Sidon `N^(1/3)` barrier — routed into `jaredwilder/additive-combinatorics-campaigns`.
 
 ## Consolidated instead of split
 
@@ -177,6 +247,12 @@ These were found buried but **did not need another competing repository**:
 - Erdős #376 Kummer criterion → integrated into `jaredwilder/erdos376-successor-frontier`;
 - Erdős #503 geometry → integrated into `jaredwilder/erdos-lean-remainder`;
 - additive/Sidon results #52, #153 and #241 → `jaredwilder/additive-combinatorics-campaigns`.
+
+## Broad-repository authority rule
+
+Broad repositories such as `unpublished-math-papers`, `erdos-theorems`, `combinatorial-records`, and ORE are allowed to preserve copies, mirrors and provenance. They should not silently compete with the narrow canonical home once one exists.
+
+In particular, the headline **79 kernel-verified declarations** in `erdos-theorems` applies only to its formal `theorems/` corpus and manifest. Top-level research-program mirrors do not inherit that authority label.
 
 ## Audit-first promotion
 
@@ -191,7 +267,7 @@ A program should leave this page and become a dedicated canonical repository whe
 1. a writable repository exists;
 2. the human README states the mathematics directly;
 3. theorem / target / computation / correction statuses remain distinct;
-4. provenance back to the intake archive is retained;
+4. provenance back to the intake/archive mirrors is retained;
 5. the release index is updated to point to the new home.
 
 The archive is allowed to remember everything. It is not allowed to hide the mathematics.
