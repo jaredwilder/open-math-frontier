@@ -1,0 +1,16 @@
+   polynomials with a CONJUGATE PAIR of non-real zeros, tested against the criterion
+   (1 + p z + q z^2) has non-real zeros iff p^2 < 4q)
+      HIT: p=7/3 q=28/5 (p^2-4q=-763/45<0), degree 9
+           coefficients ['1', '80/3', '52483/180', '237116/135', '888701/135', '4390721/270']
+      HIT: p=5/3 q=1 (p^2-4q=-11/9<0), degree 9
+           coefficients ['1', '197/5', '575357/900', '2515277/450', '26071549/900', '16577857/180']
+      HIT: p=4/3 q=19/4 (p^2-4q=-155/9<0), degree 5
+           coefficients ['1', '113/12', '2549/72', '1265/16', '32629/288', '1615/24']
+
+   polynomials with a non-real conjugate pair tested: 3059
+   satisfying the criterion anyway:                   1686
+
+   >>> THE CRITERION IS STRICTLY WEAKER than real-rootedness.
+   >>> The route is NOT circular -- and the criterion CANNOT imply the target.
+
+DONE
