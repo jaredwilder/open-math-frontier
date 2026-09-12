@@ -1,0 +1,16 @@
+   CALIBRATION (K517): known all-real and known complex
+      all real 1,2,3,4   all positive: True    minors 4.0, 1.25, 0.0195313, 8.58307e-6
+      complex 1,2,i,-i   all positive: False   minors 4.0, 0.75, -2.0625, -0.0976563
+
+      N    real roots   all normalized minors > 0?   min minor        max |minor|
+      10    0/10        no                          -22.32367        22.32367
+      16    2/16        no                          -33.68952        33.68952
+      22    2/22        no                          -43.91052        43.91052
+      26    2/26        no                          -50.31204        50.31204
+      30    2/30        no                          -56.48672        56.48672
+      34    4/34        no                          -62.48664        62.48664
+
+   READING: the normalization keeps the minors in range; the real-root column says
+   whether the truncation has begun to resolve the object's real zeros at all.
+
+DONE
