@@ -1,0 +1,7 @@
+PASS
+seed 20260912
+families 1200
+r_range 1 6
+k_range 1 12
+exact_inequalities 86400
+family_class H(z)=exp(gamma*z)*prod(1+alpha_i*z), gamma>0, alpha_i>=0
