@@ -15,6 +15,7 @@ This directory is a dated public record of the strongest surviving RH-adjacent m
 - **COMPUTATIONALLY CERTIFIED:** an explicit finite inequality/enclosure is certified by the archived or rerun verifier.
 - **CONJECTURE / OPEN REDUCTION:** mathematically precise and evidence-backed, but not proved.
 - **PRIOR-ART COLLISION / REDISCOVERY:** retained for completeness but not claimed novel.
+- **CLASSICAL / REFORMULATIVE INFRASTRUCTURE:** included because it links the program, but not claimed as a new result.
 
 ## Headline findings
 
@@ -46,7 +47,7 @@ Equivalently, for a Schur-positive specialization `rho`, it asks for log-concavi
 \frac{s_{(k^r)}(\rho)}{s_{(k^r)}(\mathrm{Plancherel})}.
 \]
 
-A three-pass literature sweep found nearby Schur-log-concavity results but no exact match for this sharper Poisson/Plancherel-normalized factor. This remains a **novelty candidate, not a novelty certification**.
+After normalizing `p_1(rho)=1`, the same ratio is exactly the likelihood ratio of the corresponding Thoma/Schur coherent system to Plancherel measure at the rectangular Young diagram `(k^r)`. A multi-pass literature sweep found nearby Schur/Lorentzian/coherent-system results but no exact match for this sharper rectangular Plancherel-normalized statement. This remains a **novelty candidate, not a novelty certification**.
 
 See `POISSON-NORMALIZED-HIERARCHY.md`.
 
@@ -69,7 +70,7 @@ After `x=alpha/gamma`, the normalized rectangle is
 =C_r(-k;1/x),
 \]
 
-where `C_r` is a Charlier polynomial. Orthogonality puts all Charlier zeros on the positive real axis in their polynomial variable, hence all zeros in the `k` variable are negative; therefore the normalized minor is log-concave on `k>=0`.
+where `C_r` is a Charlier polynomial. Orthogonality puts all Charlier zeros on the positive real axis in their polynomial variable, hence all zeros in the `k` variable are negative; therefore the normalized minor is strictly log-concave on `k>=0` for `alpha>0`.
 
 See `ONE-LINEAR-FACTOR-CHARLIER-THEOREM.md`.
 
@@ -115,7 +116,25 @@ This is retained as a proved two-parameter phase criterion. Nearby classical sec
 
 See `TOP-K-ANGULAR-BUDGET.md`.
 
-### 7. Exact reciprocal/transposed curvature duality
+### 7. Rectangular Schur sensitivity, distortion, and single-pair detection delay
+
+The semistandard-tableau representation gives the exact normalized sensitivity cap
+
+\[
+0\le p_j\le1/k,\qquad\sum_jp_j=1,
+\]
+
+an explicit tail/free-energy distortion bound for perturbations of zero parameters, and the quantitative single-pair detection law
+
+\[
+r|\theta|<\pi/2\Longrightarrow D_{r,k}>0\quad\text{for every }k.
+\]
+
+Thus a conjugate pair with angular defect `theta` cannot be detected by sign loss below order `pi/(2|theta|)`.
+
+See `SCHUR-SENSITIVITY-DISTORTION-AND-DETECTION.md`.
+
+### 8. Exact reciprocal/transposed curvature duality
 
 Dual Jacobi–Trudi exchanges order and shift. For the normalized curvature/odds variable `Z`,
 
@@ -127,7 +146,7 @@ for the reciprocal dual sequence `b`. The compactified ratio `theta=k/(k+r)` is 
 
 See `RECIPROCAL-CURVATURE-DUALITY.md`.
 
-### 8. Rational orbit, fixed-slope continuum and dynamic ellipticity
+### 9. Rational orbit, fixed-slope continuum and dynamic ellipticity
 
 The determinant-odds recurrence admits the exact two-parameter rational family
 
@@ -144,6 +163,48 @@ R^D\Delta_k^2V+A^D\Delta_r^2V=0
 for `V=partial_t log(D/B)`, with the second time derivative superharmonic. Combined with boundary-homotopy positivity, this gives a no-bounded-first-nucleation principle under the stated positivity hypotheses.
 
 See `RATIONAL-ORBIT-AND-DYNAMIC-ELLIPTICITY.md`.
+
+### 10. Reciprocal nonlinear heat equation and universal `rk` blind mode
+
+The reciprocal Jacobi–Trudi generating coordinate evolves by
+
+\[
+\partial_tE=-4zE''-2E'+8z(E')^2/E,
+\]
+
+not by a second copy of the linear heat equation. Independently, `rk` and every bilinear-affine function lie in the kernel of every adaptive operator `R Delta_k^2 + A Delta_r^2`. This identifies a universal `rk`-scale obstruction to naive polynomial-growth no-escape arguments.
+
+See `RECIPROCAL-HEAT-AND-BILINEAR-BLIND-MODE.md`.
+
+### 11. Xi as a positive PF-infinity mixture and exact determinant lift
+
+The xi coefficient generating function has the exact mixture representation
+
+\[
+G(z)=\int_0^\infty\Phi(u)\cosh(u\sqrt z)\,du,
+\]
+
+where each fixed-`u` atomic coefficient sequence is `PF_infinity`. Multilinearity gives an exact positive-measure determinant lift. The natural symmetrized integrand is nevertheless sign-indefinite already at order two, killing the direct pointwise-positive Andréief-style route. The same packet gives an exact tilted-MGF representation of every normalized Toeplitz block.
+
+See `XI-MIXTURE-AND-DETERMINANT-LIFT.md`.
+
+### 12. Corrected critical-value / gap monotonicity theorem
+
+For adjacent real zeros of the heat-flow entire function, with critical value `V_j` and gap `g_j`, the local ratio
+
+\[
+\mathcal R_j=|V_j|/g_j^2
+\]
+
+satisfies an exact nonnegative derivative decomposition. It is nondecreasing in general and strictly increasing whenever the critical point is asymmetric or an outer real zero is present. The source campaign's blanket strictness statement is corrected accordingly.
+
+See `CRITICAL-VALUE-GAP-MONOTONICITY.md`.
+
+### 13. Transformed-zero moment / Toeplitz-PSD / Stieltjes coordinates
+
+The recovered terminal packet also gives clean RH-equivalent formulations through a unit-circle zero transform, positive-semidefinite Toeplitz moment matrices, and a genus-zero Stieltjes moment sequence after quotienting by the functional equation. These are retained as **classical/reformulative infrastructure, not novelty claims**.
+
+See `TRANSFORMED-ZERO-MOMENT-CRITERIA.md`.
 
 ## Exact hostile computation on the conjectural hierarchy
 
@@ -162,8 +223,8 @@ Exact source and receipts are under `computation/`. This is evidence only. It is
 
 ## Prior-art boundary
 
-The release deliberately does **not** claim novelty for classical Desnanot–Jacobi, Jacobi–Trudi, Schoenberg total-positivity criteria, ordinary order-one Turán/Newton inequalities, or the fixed-shift reciprocal-pole mechanism where close July-2026 prior art was located.
+The release deliberately does **not** claim novelty for classical Desnanot–Jacobi, Jacobi–Trudi, Schoenberg total-positivity criteria, ordinary order-one Turán/Newton inequalities, the transformed-zero moment criteria, or the fixed-shift reciprocal-pole mechanism where close July-2026 prior art was located.
 
-The main unresolved novelty target is the **higher-order Poisson/Plancherel-normalized rectangular log-concavity hierarchy** and consequences/partial theorems specific to it.
+The strongest unresolved novelty target remains the **higher-order Poisson/Plancherel-normalized rectangular log-concavity hierarchy**, together with partial theorems and structural consequences specific to it.
 
 See `NOVELTY-AUDIT.md`.
