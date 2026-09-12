@@ -1,0 +1,16 @@
+   64-piece rigorous envelope, no hypothesis
+      j=20  true 1.3796729e-20       bound 3.8803574e-19       looseness 28.1252
+      j=40  true 6.1533485e-31       bound 2.3754137e-28       looseness 386.036
+      j=60  true 1.07293e-38         bound 4.9109885e-35       looseness 4577.18
+      j=79  true 1.2943764e-44       bound 5.6170049e-40       looseness 43395.5
+
+      z        |H'(z)|         tail bound        zero shift <=    verdict
+      28.27    8.6392409e-5    1.1592991e-92     1.3418993e-88    NEGLIGIBLE
+      40.0     3.6727516e-6    1.5479213e-68     4.2146093e-63    NEGLIGIBLE
+      55.0     1.7102818e-8    2.1524551e-46     1.2585383e-38    NEGLIGIBLE
+      70.0     6.0856702e-11   1.290524e-29      2.1205948e-19    NEGLIGIBLE
+      85.0     2.1273686e-13   4.2504907e-16     0.0019980039     usable
+
+   zeros rigorously validated at these arguments: 5 of 5
+
+DONE
