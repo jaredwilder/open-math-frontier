@@ -1,0 +1,25 @@
+   claim: the row  <=>  J_{k+1} J_{k-1} <= J_k^2  with J_k = I_{2k}/Gamma(k+1/2)
+   verify against the direct form at several k:
+      k=1    direct=1       log-concave form=1       agree=True
+      k=2    direct=1       log-concave form=1       agree=True
+      k=3    direct=1       log-concave form=1       agree=True
+      k=4    direct=1       log-concave form=1       agree=True
+      k=5    direct=1       log-concave form=1       agree=True
+      k=6    direct=1       log-concave form=1       agree=True
+      k=7    direct=1       log-concave form=1       agree=True
+
+   the Gaussian-normalised sequence J_k for the theta kernel, and its log-concavity ratio:
+      k=1    J_{k+1}J_{k-1}/J_k^2 = 0.93036761939031  <=1 ok
+      k=2    J_{k+1}J_{k-1}/J_k^2 = 0.94096067728959  <=1 ok
+      k=3    J_{k+1}J_{k-1}/J_k^2 = 0.94849363600493  <=1 ok
+      k=4    J_{k+1}J_{k-1}/J_k^2 = 0.95415251471492  <=1 ok
+      k=5    J_{k+1}J_{k-1}/J_k^2 = 0.95857746556084  <=1 ok
+      k=6    J_{k+1}J_{k-1}/J_k^2 = 0.96214433182195  <=1 ok
+      k=7    J_{k+1}J_{k-1}/J_k^2 = 0.96508861209911  <=1 ok
+      k=8    J_{k+1}J_{k-1}/J_k^2 = 0.96756566844999  <=1 ok
+      k=9    J_{k+1}J_{k-1}/J_k^2 = 0.96968235174748  <=1 ok
+
+   >>> THE ENTIRE BINDING ROW OF THE CRITERION IS:
+   >>>   the sequence  I_{2k} / Gamma(k+1/2)  is LOG-CONCAVE.
+
+DONE
