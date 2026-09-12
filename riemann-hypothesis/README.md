@@ -3,127 +3,171 @@
 **Author:** Jared Wilder  
 **Current release:** 2026-09-12
 
-This directory is the current public home for the Riemann Hypothesis work recovered from a 647-round research session.
+This directory is the public home for RH/zeta mathematics recovered from the 647-round research export and the earlier August encirclement packets.
 
-## Current status
+> **Forensic correction, 2026-09-12:** the earlier same-day statement that Branch C was refuted is superseded. The finite-polynomial falsifier removed the terminating boundary and therefore did not satisfy the infinite everywhere-positive hypothesis needed by the global strict-minor implication. Branch C is a **valid sufficient-criterion route**, but the criterion has **not** been proved globally for the xi coefficients.
 
 **The Riemann Hypothesis remains open in this work.**
 
-The campaign produced three distinct outcomes:
+## Start here
 
-1. **Branch C is refuted as an RH route.** A proposed coefficient/determinant criterion is strictly weaker than real-rootedness. Exact constructed non-real-rooted positive-coefficient polynomials satisfy the criterion, including at full tested determinant depth and for the original entry form.
-2. **Branch A produced a validated numerical instrument but no surviving sufficient statistic.** Pair energy cannot certify real-rootedness; Hermite minors correctly distinguish exact finite controls but fail when applied to polynomial truncations of the target entire function because those truncations carry spurious complex roots.
-3. **Branch B remains a handoff, not a result claiming RH progress.** It moves to the arithmetic Chebyshev-error representation and contains only a finite direct prime-power computation through `x=200000`.
+The multi-pass audit and current novelty ledger are now published under:
 
-The failed RH routes are published because their counterexamples and obstructions are mathematical results in their own right. The theta-kernel calculations are published separately because they survive the failure of Branch C.
+`findings-2026-09-12/`
 
-## Exact counterexamples and obstructions
+The packet includes separate files for:
 
-### The proposed Branch C criterion is not sufficient for real-rootedness
+- the higher-order Poisson/Plancherel-normalized Toeplitz-minor hierarchy;
+- a new all-order/all-shift theorem for `exp(gamma z)(1+alpha z)` via Charlier polynomials;
+- the Branch-C readjudication and exact RH sufficiency reduction;
+- the theta/Gaussian moment frontier and the precise missing localization/variance theorem;
+- discrete elliptic comparison and boundary-homotopy positivity;
+- the top-`k` angular budget theorem;
+- exact reciprocal/transposed curvature duality;
+- the rational determinant orbit, fixed-slope linearization and dynamic ellipticity;
+- an explicit novelty/prior-art audit;
+- exact hostile-test source and receipts on genuine infinite-support Laguerre–Pólya-I families.
 
-`branch-c/criterion_is_not_sufficient.py` constructs positive-coefficient polynomials with an irreducible quadratic factor `1 + p z + q z^2`, where `p^2 < 4q`, and tests the candidate criterion.
+## Current campaign state
 
-Archived output:
+### Branch C — reopened: valid sufficient criterion, analytic proof incomplete
 
-- `3059` explicitly non-real-rooted polynomials tested;
-- `1686` satisfy the proposed criterion anyway.
+Let
 
-A small exact witness has coefficient vector
+\[
+D_{r,k}=\det[a_{k+j-i}]_{i,j=0}^{r-1}.
+\]
 
-`(1, 113/12, 2549/72, 1265/16, 32629/288, 1615/24)`
+The global criterion is
 
-and contains a quadratic factor with `p=4/3`, `q=19/4`, hence `p^2-4q=-155/9<0`.
+\[
+\boxed{
+(k+r)D_{r,k-1}D_{r,k+1}\le kD_{r,k}^2
+}
+\qquad(r,k\ge1).
+\]
 
-`branch-c/criterion_kill_audit.py` then repeats the test at full available determinant depth, away from boundary artifacts, and against both algebraic forms:
+For an everywhere-positive coefficient sequence, Desnanot–Jacobi gives
 
-- `2284` non-real-rooted objects tested;
-- `1445` pass the square-free criterion;
-- the same `1445` pass the original entry form.
+\[
+D_{r+1,k}D_{r-1,k}
+\ge\frac r{k+r}D_{r,k}^2>0,
+\]
 
-Therefore this criterion cannot imply real-rootedness and cannot close RH.
+so the criterion inductively forces every consecutive minor to be strictly positive. The classical Schoenberg/Katkova strict-consecutive-minor theorem then promotes this to total positivity at every finite order; the standard Pólya-frequency/Laguerre–Pólya bridge gives the RH implication for the transformed xi sequence.
 
-### Consecutive Toeplitz-minor positivity does not imply total positivity
+Thus:
 
-`branch-c/consecutive_is_not_total.py` supplies the exact sequence
+\[
+\boxed{
+\text{global Branch-C criterion for xi}\Longrightarrow RH.
+}
+\]
 
-`a = (1,0,0,0,0,1)`.
+What is **not** proved is that xi satisfies the global criterion.
 
-Its consecutive minors in the tested hierarchy are nonnegative, but the non-consecutive minor on rows `{0,1}` and columns `{1,5}` equals
+The live gaps preserved in the source campaign include the higher-order/order-ascent step and the theta-measure localization/variance estimate. In particular, curvature at one moving mode does not by itself control global variance, and the relevant tilted density is log-convex in a far-left tail, so a naive global Brascamp–Lieb argument does not apply.
 
-`a1*a4 - a5*a0 = -1`.
+See `findings-2026-09-12/BRANCH-C-READJUDICATION.md` and `findings-2026-09-12/THETA-GAUSSIAN-MOMENT-FRONTIER.md`.
 
-Thus a previous bridge from consecutive-minor positivity to total positivity is false. This specifically supersedes the older public description that treated a consecutive-minor criterion as a possible route to `PF_infinity`.
+### Why the epoch-23 falsifier is not a counterexample
 
-## Surviving theta-kernel mathematics
+The historical scripts constructed finite polynomials and explicitly excluded the terminating boundary. A fresh seeded rerun reproduced
 
-The failure of Branch C does **not** invalidate the exact theta-kernel inequalities that were proved along the way.
+```text
+2284 non-real-rooted polynomials tested
+1445 interior hits for the original criterion
+1445/1445 hits violate the everywhere-positive infinite-sequence premise
+```
 
-`theta-kernel/certify_full_kernel.py` gives a rational interval certificate
+Those computations remain published as historical negative controls. They do not refute the global strict criterion.
 
-`3 I_2^2 - I_0 I_4 in [3.144319836807e-04, 5.675693447454e-04]`,
+Likewise `a=(1,0,0,0,0,1)` correctly shows that **nonnegative** consecutive minors do not imply total positivity; it does not refute the classical **strict** consecutive-minor theorem.
 
-so the quantity is rigorously positive for the full kernel under the program's stated enclosure method.
+## Strongest new mathematical target from the audit
 
-`theta-kernel/certify_four_rungs.py` certifies four successive inequalities, with positive lower bounds for `k=1,2,3,4`:
+For the pure exponential/Poisson benchmark
 
-- `[1.56335252e-03, 1.96426203e-03]`
-- `[1.73415563e-03, 2.24619876e-03]`
-- `[2.72502080e-03, 3.63976614e-03]`
-- `[5.87924581e-03, 8.13406217e-03]`
+\[
+D^{(0)}_{r,k}=\prod_{j=0}^{r-1}\frac{j!}{(k+j)!},
+\]
 
-The archived log states that both the theta-series remainder and truncation tail are included in each enclosure.
+one has
 
-`theta-kernel/certify_tail.py` gives the certified relative higher-theta-term tail
+\[
+\frac{D^{(0)}_{r,k-1}D^{(0)}_{r,k+1}}
+{(D^{(0)}_{r,k})^2}
+=\frac{k}{k+r}.
+\]
 
-`2.477138004562849053e-03 < 1/300`.
+Hence Branch C is exactly log-concavity in `k` of
 
-Finally, `theta-kernel/row_is_log_concavity.py` rewrites the weighted row exactly as ordinary log-concavity after Gaussian normalization. With
+\[
+\boxed{
+R_{r,k}=D_{r,k}/D^{(0)}_{r,k}.
+}
+\]
 
-`J_k = I_{2k}/Gamma(k+1/2)`,
+Via Jacobi–Trudi this is the rectangular Schur ratio
 
-the row inequality becomes
+\[
+\boxed{
+\frac{s_{(k^r)}(\rho)}{s_{(k^r)}(\mathrm{Plancherel})}.
+}
+\]
 
-`J_{k+1} J_{k-1} <= J_k^2`.
+The three-pass literature sweep found strong nearby Schur-log-concavity results but no exact match for this sharper Poisson/Plancherel-normalized hierarchy. It is published as a **novelty candidate, not a certified historical-first theorem**.
 
-This is published as standalone theta-kernel mathematics, **not** as an RH criterion.
+The hierarchy has now been proved for the complete one-linear-factor family
 
-## Branch A: useful instrument, failed certificate
+\[
+H(z)=e^{\gamma z}(1+\alpha z),
+\qquad\gamma>0,\alpha\ge0,
+\]
 
-`branch-a/branchA_truncation_envelope.py` records a 64-piece truncation envelope. At the worst listed point `z=85`, the resulting zero-displacement bound is `0.0019980039`; the lower points are much tighter. This supports the reality of the numerical zero window used in that branch.
+because the normalized rectangular minor is a Charlier polynomial in `-k` and therefore has only negative zeros as a polynomial in the shift.
 
-The next test destroys the hoped-for interpretation. Exact controls include an all-complex configuration with pair energy zero, so small pair energy cannot certify real-rootedness.
+## Exact hostile tests in the correct domain
 
-The Hermite-minor test behaves correctly on exact finite controls, but `branch-a/branchA_hermite_on_object.py` reports polynomial truncations with only `0/10`, `2/16`, `2/22`, `2/26`, `2/30`, and `4/34` real roots. The obstruction is the approximant: finite polynomial truncations of an entire function with infinitely many zeros can introduce many spurious complex roots.
+The conjectural hierarchy was tested using exact rational arithmetic on genuine infinite-support Laguerre–Pólya-I families
 
-## Branch B handoff
+\[
+e^{\gamma z}\prod_i(1+\alpha_i z).
+\]
 
-`branch-b/chebyshev_probe.py` directly computes the Chebyshev function from prime powers through `x=200000`. For example,
+Two published campaigns currently record:
 
-`|psi(100000)-100000|/sqrt(100000) = 0.16305977`.
+- 3,000 families, `1<=r<=5`, `1<=k<=9`: **135,000 exact inequalities**, zero failures;
+- 1,200 more hostile/extreme families, `1<=r<=6`, `1<=k<=12`: **86,400 exact inequalities**, zero failures.
 
-These finite values are not presented as asymptotic evidence for RH. The script exists only as a clean arithmetic handoff after the two analytic/coefficient routes failed their own sufficiency tests.
+These computations are evidence, not proof.
 
-## Formal source
+## Other surviving mathematics
 
-`formal/` contains three small recovered Lean statements:
+The current findings packet also publishes at exact scope:
 
-- the explicit negative non-consecutive minor;
-- the generic logical fact that one `Crit(w) and not P(w)` witness refutes `forall x, Crit(x) -> P(x)`;
-- the algebraic normalization of one weighted row into a log-concavity inequality.
+- the nonlinear discrete elliptic equation for normalized determinant arrays and its finite-domain comparison/homotopy theorem;
+- the exact rational determinant-odds orbit `(r+mu)/(k+nu)` and fixed-slope linearization;
+- dynamic discrete harmonicity of `partial_t log(D/B)` along the coefficient heat flow and superharmonicity of the second derivative;
+- the top-`k` angular phase budget for rectangular Schur minors;
+- exact reciprocal/transposed-rectangle curvature duality;
+- rigorous theta-kernel interval certificates and the Gaussian-normalized moment reduction;
+- Branch-A heat-flow instrumentation and its negative controls;
+- Branch-B arithmetic handoff.
 
-They contain no `sorry` in the recovered source. They were not freshly compiled in the environment used for this publication pass, so source recovery and fresh compiler verification are deliberately kept distinct.
+## Prior-art boundary
+
+The novelty ledger deliberately marks classical or collided mechanisms rather than claiming them:
+
+- Desnanot–Jacobi, Jacobi–Trudi, Schoenberg total positivity and order-one Turán/Newton machinery are classical infrastructure;
+- Michalowski's July 2026 work gives the explicit xi cubic wedge `D_{r,k}>0` for `r>=2`, `k>=10^18 r^3`;
+- a July 22, 2026 public fixed-shift construction already uses the reciprocal/Jacobi–Trudi pole mechanism, so the recovered August fixed-shift theorem is not claimed as novel;
+- the recovered `67.301545...%` simple-zero computation is preserved but is not presented as a public numerical record.
+
+See `findings-2026-09-12/NOVELTY-AUDIT.md`.
 
 ## Reproduction and provenance
 
-See `REPRODUCIBILITY.md`, `MANIFEST.sha256`, and `provenance/`.
+The original export hash and core recovered scripts remain under `MANIFEST.sha256`, `REPRODUCIBILITY.md`, `provenance/`, `branch-a/`, `branch-b/`, `branch-c/`, `theta-kernel/`, and `formal/`.
 
-The two epoch ledgers are preserved as historical provenance. They include superseded intermediate beliefs; this README states the later adjudicated status.
-
-## Scope
-
-This release makes no claim that RH has been proved. Its strongest current content is instead:
-
-- exact counterexamples that eliminate two tempting implication routes;
-- exact computational certificates for a theta-kernel inequality family;
-- a validated numerical instrument plus a precise approximant obstruction;
-- a reproducible arithmetic handoff for the remaining branch.
+Historical files are preserved even when their interpretation has been superseded. The current adjudication is the one stated on this page and in `findings-2026-09-12/`.
