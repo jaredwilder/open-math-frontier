@@ -3,13 +3,37 @@
 **Author:** Jared Wilder  
 **Started:** 2026-09-11
 
-A mathematical result can be public while still being poorly reproducible because its original proof source, verifier, certificate, or large data object has not yet reached the public repository that describes it.
+A mathematical result can be public while still be poorly reproducible because its original proof source, verifier, certificate, or large data object has not yet reached the public repository that describes it.
 
 This queue exists to prevent that state from becoming permanent.
 
 It is **not** a list of invalid mathematics. Each entry states exactly what is already public and what supporting artifact still needs recovery.
 
 ## Priority A — source recovery changes reproducibility materially
+
+### AGI-ZETA-BOUNDED-CLOSE-2026-08-14 packet
+
+The 2026-09-11 RH corpus inventory explicitly identifies a separate archive:
+
+`AGI-ZETA-BOUNDED-CLOSE-2026-08-14.zip`
+
+and describes it as a **32-file zeta packet** with its own pre-registration, failed-routes folder, fresh-court A/B replication, and `verify_zeta_packet.py`.
+
+The current session export contains the inventory pointer but **not the archive bytes**. A filesystem/artifact-closure search of the exported session found no copy of the ZIP or its constituent packet files.
+
+**Missing:** the complete `AGI-ZETA-BOUNDED-CLOSE-2026-08-14.zip` packet from the original Downloads/archive location.
+
+Recovery target:
+
+1. recover the exact ZIP bytes from the original archive of record;
+2. preserve the original archive SHA-256;
+3. inventory all 32 files before interpreting claims;
+4. rerun `verify_zeta_packet.py` from the recovered bytes;
+5. compare A/B replication receipts and failed-route records;
+6. extract any surviving mathematics into the canonical RH subject home;
+7. retain the raw packet under provenance rather than making the ZIP itself the reader-facing canonical home.
+
+This packet has **not** been mathematically audited by the current release pass and should not be inferred from its filename or inventory description.
 
 ### Prime-gap admissibility formalization
 
