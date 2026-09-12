@@ -1,0 +1,13 @@
+   exhaustive over 7 integer sequences in the box
+   qualifying (all consecutive minors nonneg): 7
+   of those with a NON-consecutive minor negative: 6
+
+   *** COUNTEREXAMPLES: consecutive positivity does NOT imply total positivity.
+      a = ['1', '0', '0', '0', '0', '1']   rows=(0, 1) cols=(1, 5)  minor = -1
+      a = ['1', '0', '0', '0', '0', '2']   rows=(0, 1) cols=(1, 5)  minor = -2
+      a = ['1', '0', '0', '0', '0', '3']   rows=(0, 1) cols=(1, 5)  minor = -3
+      a = ['1', '0', '0', '0', '0', '4']   rows=(0, 1) cols=(1, 5)  minor = -4
+      a = ['1', '0', '0', '0', '0', '6']   rows=(0, 1) cols=(1, 5)  minor = -6
+      a = ['1', '0', '0', '0', '1', '0']   rows=(0, 1) cols=(1, 4)  minor = -1
+
+DONE
