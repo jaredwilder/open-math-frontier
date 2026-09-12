@@ -1,3 +1,6 @@
+> [!IMPORTANT]
+> **SUPERSEDED / CORRECTED 2026-09-12.** This file is retained as the historical September 10 state of the investigation. A later exact counterexample shows that positivity of the consecutive Toeplitz-minor hierarchy used here does **not** imply total positivity, and a separate adversarial family shows the later Branch C criterion is not sufficient for real-rootedness. **Do not use the “surviving wall” or the closing implication below as the current route status.** See [`../riemann-hypothesis/README.md`](../riemann-hypothesis/README.md) and [`../riemann-hypothesis/CORRECTION-2026-09-12.md`](../riemann-hypothesis/CORRECTION-2026-09-12.md). RH remains open in this work.
+
 # Riemann Hypothesis — Terminal Asset Bank
 
 **Author:** Jared Wilder  
