@@ -1,0 +1,16 @@
+monotone-cell enclosure, X=7/2 N=4200 NMAX=3
+   J_0  in [0.24803475450711, 0.24908602368120] rel width 4.229e-03  srem 1.38e-14
+   J_2  in [0.04584856977645, 0.04603920746904] rel width 4.149e-03  srem 9.12e-14
+   J_4  in [0.02365700878029, 0.02374856619300] rel width 3.863e-03  srem 1.04e-12
+   J_6  in [0.01914119141619, 0.01921374916927] rel width 3.783e-03  srem 1.27e-11
+   J_8  in [0.02056490066140, 0.02064254244590] rel width 3.768e-03  srem 1.55e-10
+   J_10 in [0.02710444413098, 0.02720711741678] rel width 3.781e-03  srem 1.90e-09
+
+   rung k=1 in [1.56335252e-03, 1.96426203e-03]  CERTIFIED
+   rung k=2 in [1.73415563e-03, 2.24619876e-03]  CERTIFIED
+   rung k=3 in [2.72502080e-03, 3.63976614e-03]  CERTIFIED
+   rung k=4 in [5.87924581e-03, 8.13406217e-03]  CERTIFIED
+
+series remainder and truncation tail INCLUDED in every enclosure.
+all four rungs: True
+DONE
