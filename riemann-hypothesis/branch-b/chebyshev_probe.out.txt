@@ -1,0 +1,19 @@
+   the Chebyshev function and its error, on real primes
+      x         psi(x)          psi(x)-x        |err|/sqrt(x)   |err|/(sqrt(x) log^2 x)
+      1000.0    996.6809122     -3.3190878      0.10495877      0.0021996058
+      10000.0   10013.39669     13.396693       0.13396693      0.0015792332
+      50000.0   49985.95774     -14.042261      0.062798898     0.00053643277
+      100000.0  100051.564      51.564026       0.16305977      0.0012301992
+      200000.0  200026.9388     26.938798       0.060236983     0.00040430705
+
+   SCREEN:
+   K443 sufficiency: the criterion IS equivalent to the target (classical), so it passes
+        the sufficiency law by construction, like branch A and unlike branch C.
+   K515 non-tautology: it IS equivalent, but the quantity lives in ARITHMETIC and the
+        target lives in ANALYSIS, so the equivalence is a transport and not a restatement.
+   K526 informativeness: the test must VARY across approximants.  The error above is
+        computed exactly from primes -- no approximation at all -- so K526 does not bite.
+
+   The binding question is instead RANGE: the error's normalized size at x=2e5.
+
+DONE
