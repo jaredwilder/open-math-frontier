@@ -1,13 +1,5 @@
 # SHA-256 of the 1,284-file source export used for this publication pass
 acd1df6c29f4323519165e3968f8edd67aa4f9ddc588ba14e884daa1e137784e  session-export-04e7fd63-20260912-033257(1).zip
 
-# SHA-256 of selected recovered source-session artifacts before editorial copying to GitHub
-9d492f619a4d3db582476c37ae3d24f41b29a10ee17179e9afbf7eb85c45a88d  RH-EPOCH22-LEDGER.md
-99d14405fb6c7038548d9d11908341c20aa4bfc9ead18670fdaed7e0ad691581  RH-EPOCH23-LEDGER.md
-9b95208046d472455bf9f822b67c05fa4a6fd4bedc4d0456e9710bcd4361432a  branchA_hermite_on_object.py
-519bff798ff36eb32754d0382adb363d3cb1f3728acc7602514f4734fdada87d  branchA_truncation_envelope.py
-0562a5f8106fa8d27ead6a9005d5d04744890223e0454d7fff7a21bc4e6fe343  branchA_verified_controls.py
-68e2af213b0f4e0f6d1013d23d753f4623d7ad28432a9d338d35b64d260b0177  branchB.py
-e847c60a46022c44bcd7934b064162ae42bacdc1b11c1785b8f954df74a2cfc5  certify_four_rungs.log
-0b9e04ea48157bacd874a9bf13ae5ca5e1aa2e03c747b5c4d8a3e520a7eab798  certify_four_rungs.py
-52f05e74458a08bd9abf2eb65889e50894cb36fdd9c96289878c6779b8f54656200e2e0a9b7a5a50  INVALID_PLACEHOLDER
+# This hash identifies the exact source archive reviewed on 2026-09-12.
+# Reader-facing GitHub files may include editorial comment/docstring cleanup, so this file does not claim byte identity for individual published copies.
