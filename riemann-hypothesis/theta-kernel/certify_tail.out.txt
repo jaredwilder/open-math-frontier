@@ -1,0 +1,10 @@
+   pi in [3.141592653589793115997963468544, 3.141592653589793115997963468544]
+   tail upper bound at u=0 : 1.101398903229127086e-03
+   n=1 term lower bound    : 0.445726971317994769
+   Phi(0) lower bound      : 0.444625572414765635
+   CERTIFIED relative tail : 2.477138004562849053e-03
+
+   is the certified relative tail below 1/100 ?  True
+   is it below 1/300 ?                          True
+
+DONE
