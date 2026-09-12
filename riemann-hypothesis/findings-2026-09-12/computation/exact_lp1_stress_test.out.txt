@@ -1,0 +1,2 @@
+PASS exact rational families 3000 inequalities 135000
+min absolute gap (Fraction(0, 1), Fraction(1, 1), [], 1, 1)
