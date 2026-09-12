@@ -127,6 +127,24 @@ for the reciprocal dual sequence `b`. The compactified ratio `theta=k/(k+r)` is 
 
 See `RECIPROCAL-CURVATURE-DUALITY.md`.
 
+### 8. Rational orbit, fixed-slope continuum and dynamic ellipticity
+
+The determinant-odds recurrence admits the exact two-parameter rational family
+
+\[
+Y_{r,k}^{\mu,\nu}=\frac{r+\mu}{k+\nu},
+\]
+
+with the factorial Toeplitz orbit `Y=r/k`. The recovered campaign derives the tangent fixed-slope continuum, its exact local Jacobian and dispersion law, and the dynamic heat-flow identities
+
+\[
+R^D\Delta_k^2V+A^D\Delta_r^2V=0
+\]
+
+for `V=partial_t log(D/B)`, with the second time derivative superharmonic. Combined with boundary-homotopy positivity, this gives a no-bounded-first-nucleation principle under the stated positivity hypotheses.
+
+See `RATIONAL-ORBIT-AND-DYNAMIC-ELLIPTICITY.md`.
+
 ## Exact hostile computation on the conjectural hierarchy
 
 Two exact-rational campaigns on genuine infinite-support Laguerre–Pólya-I sequences of the form
@@ -140,7 +158,7 @@ have produced no counterexample:
 - 3,000 seeded families, `1<=r<=5`, `1<=k<=9`: **135,000 exact inequalities**, zero failures;
 - a second campaign including extreme parameter ratios, 1,200 families, `1<=r<=6`, `1<=k<=12`: **86,400 exact inequalities**, zero failures.
 
-This is evidence only. It is not substituted for proof.
+Exact source and receipts are under `computation/`. This is evidence only. It is not substituted for proof.
 
 ## Prior-art boundary
 
