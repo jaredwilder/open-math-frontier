@@ -8,7 +8,7 @@ Author: Jared Wilder. First public timestamp: 2026-09-10.
 
 For the broader public mathematics release, start with:
 
-- [Dump discoverability audit](DUMP-DISCOVERABILITY-AUDIT-2026-09-13.md) — nine new focused homes, the C3 proof-package connection, and remaining buried programs;
+- [Dump discoverability audit](DUMP-DISCOVERABILITY-AUDIT-2026-09-13.md) — ten new focused homes, recovered SQS/finite-field certificates, the C3 proof-package connection, and remaining buried programs;
 - [`START-HERE.md`](START-HERE.md) — strongest mathematics and a short reading path;
 - [`MATH-DROP-2026-09-10.md`](MATH-DROP-2026-09-10.md) — the larger append-only release map;
 - [`HISTORICAL-SCALE-BENCHMARK.md`](HISTORICAL-SCALE-BENCHMARK.md) — the historical release-scale comparison;
