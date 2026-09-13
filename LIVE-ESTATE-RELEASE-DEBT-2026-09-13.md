@@ -79,6 +79,23 @@ New subject records now preserve at least:
 - cyclic extremal `R(4,5)` witness on `Z_24` with deterministic verifier;
 - `R^3`/`R^4` unit-distance density threshold note.
 
+## Strongly-regular-graph transport atlas — RESOLVED AS SUBJECT HOME / EXACT TABLE RECOVERY OPEN
+
+Focused home:
+
+`jaredwilder/strongly-regular-graph-transport-atlas`
+
+The buried program now has a canonical public front door with:
+
+- the recovered `119 / 91 / 28` parameter-atlas accounting;
+- the `141` verified composable transport-edge / `8` transport / `211` endpoint accounting;
+- the proposition-typing integrity rule and rejected `Matrix.IsHadamard <-> hadamard:n` collapse;
+- the explicitly printed nonexistence examples;
+- arithmetic sanity checks for those recovered examples;
+- provenance and exact-source recovery protocol.
+
+The complete original 119-row atlas and 141-edge transport ledger still require exact source recovery.
+
 # B. Exact bytes known to exist but still not branch-visible
 
 ## 1,428-row contradiction history — OPEN BYTE RECOVERY
@@ -218,24 +235,7 @@ The exact construction/proof bytes were not recovered to publication authority. 
 
 `banked-with-gaps` preserves 17 entire-function statements whose historical cards say `PROVED-HERE` but contain no proof bodies. Leave as gap bank until reconstructed.
 
-# F. New focused-home candidate awaiting shell
-
-## Strongly-regular-graph transport atlas — PROMOTE
-
-Currently buried in `mathematics-under-the-wrong-filename`:
-
-- 119 strongly-regular parameter tuples;
-- 91 existence / 28 nonexistence entries;
-- 141 verified composable transport edges;
-- eight transport types;
-- 211 endpoints;
-- explicit proposition-typing guard against invalid cross-object transports.
-
-Proposed canonical slug:
-
-`strongly-regular-graph-transport-atlas`
-
-# G. IP-held / intentionally not automatic release
+# F. IP-held / intentionally not automatic release
 
 Do not bulk-publish mixed biomedical, patent, product-control, research-system or PeakProof architecture merely because mathematical fragments occur inside it. Extract separable pure mathematics only when doing so does not reveal load-bearing embodiment/IP.
 
