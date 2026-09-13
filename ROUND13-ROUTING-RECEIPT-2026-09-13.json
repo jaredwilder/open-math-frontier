@@ -1,0 +1,365 @@
+{
+  "date": "2026-09-13",
+  "source_artifacts": [
+    {
+      "filename": "MATH_ESTATE_CANONICAL_LEDGER_2026-09-13 (3).xlsx",
+      "sha256": "05445d7678616c07470c4b0826ca001df5b47ddf665623d9bc526ff2d0207931",
+      "read_only_input": true
+    },
+    {
+      "filename": "MATH_ESTATE_CANONICAL_FORENSIC_REPORT_2026-09-13 (4).md",
+      "sha256": "b579c42ad80aa8931303895731935d3b2fdc6f611a4eadf3827d6aef8ef8df86",
+      "read_only_input": true
+    }
+  ],
+  "spreadsheet_error_type_cells_found": 0,
+  "canonical_active_P0_publication_gaps": 0,
+  "P0_scope": "The supplied canonical Round 13 reviewed publication queue",
+  "index": {
+    "repo": "jaredwilder/erdos-release-index",
+    "commit": "761b681e552bd135894b4964487c6741253bae3c",
+    "reported_gap_count": 18,
+    "additional_existing_homes": 10,
+    "routes_added": 28,
+    "all_targets_public_and_populated": true,
+    "readback_verified": true,
+    "target_snapshots": [
+      {
+        "repo": "erdos20-sunflower",
+        "branch": "main",
+        "commit": "962c4ff3608e7c3f556d67f84a95b629c267caca",
+        "tracked_files": 22,
+        "readme_blob": "8330796b566e892a4afc5813957e5b47aa912813",
+        "already_linked": false,
+        "reported_round13": true
+      },
+      {
+        "repo": "erdos142-progression-free",
+        "branch": "main",
+        "commit": "660fe9aa0391a7987bcbd860273136e8b83483fc",
+        "tracked_files": 8,
+        "readme_blob": "a09ced255114d11111649ba4c07594481669fb6d",
+        "already_linked": false,
+        "reported_round13": true
+      },
+      {
+        "repo": "erdos146-degenerate-turan",
+        "branch": "main",
+        "commit": "aa53a6fa03ff4f176fb9a4dc03ef4101640db410",
+        "tracked_files": 17,
+        "readme_blob": "c0a18e7caee83df18ea461316f5357292a6195a4",
+        "already_linked": false,
+        "reported_round13": true
+      },
+      {
+        "repo": "erdos500-turan34",
+        "branch": "main",
+        "commit": "06203529d99a08a4c6e8f08e6e4376bdd0bbce0b",
+        "tracked_files": 41,
+        "readme_blob": "c9889dcd44aa909b17a3c1b96009817b2341d7af",
+        "already_linked": false,
+        "reported_round13": true
+      },
+      {
+        "repo": "erdos592-ordinal-ramsey",
+        "branch": "main",
+        "commit": "c49e05e174669d68fde58e6d71149f6157faadea",
+        "tracked_files": 15,
+        "readme_blob": "37819d81a343e6695f9f1f7612b96b1b3bddd56a",
+        "already_linked": false,
+        "reported_round13": true
+      },
+      {
+        "repo": "erdos593-obligatory-hypergraphs",
+        "branch": "main",
+        "commit": "06af115cede436d01dba8d853c4d977dcf945860",
+        "tracked_files": 18,
+        "readme_blob": "e0bb179720fd392b51fbc59a5a92dc3f45fdcd22",
+        "already_linked": false,
+        "reported_round13": true
+      },
+      {
+        "repo": "erdos1066-unit-distance",
+        "branch": "main",
+        "commit": "cb3dfe6000eea3eb7212d03255f26cea188fa1a0",
+        "tracked_files": 5,
+        "readme_blob": "74e385397e66eb858b9c875b2dc91b1a8256e10f",
+        "already_linked": false,
+        "reported_round13": true
+      },
+      {
+        "repo": "erdos1192-representation-energy",
+        "branch": "main",
+        "commit": "d26aca95d3b543dbd01aca5d80ea924f93f29b33",
+        "tracked_files": 15,
+        "readme_blob": "6d2a94ec6c80203e2799ad7c7af65b6e6c70dc3c",
+        "already_linked": false,
+        "reported_round13": true
+      },
+      {
+        "repo": "caccetta-haggkvist-triangles",
+        "branch": "main",
+        "commit": "fd34a7439e2b8f9295cf2739d7600c43fbfe2ab3",
+        "tracked_files": 20,
+        "readme_blob": "952964897f13acdee5d4a4c3bbaac292f952a530",
+        "already_linked": false,
+        "reported_round13": true
+      },
+      {
+        "repo": "p6-erdos-hajnal",
+        "branch": "main",
+        "commit": "5d1216b72d7ddb9a6d134f7f512de8239fc48c00",
+        "tracked_files": 6,
+        "readme_blob": "8c511bc661a9798686440cf4127403736d18a74b",
+        "already_linked": false,
+        "reported_round13": true
+      },
+      {
+        "repo": "ramsey-r55-circulant-41",
+        "branch": "main",
+        "commit": "6b2a18494a1f9b4b6400aa6c4551379ef994a44f",
+        "tracked_files": 9,
+        "readme_blob": "03bf56d3de65408b6c288198339efebb20b969ec",
+        "already_linked": false,
+        "reported_round13": true
+      },
+      {
+        "repo": "lonely-runner-13",
+        "branch": "main",
+        "commit": "d1e7cb9a8e6c550044b7ee3148de4cf878f2a3e5",
+        "tracked_files": 14,
+        "readme_blob": "d26a9b42002394da96083f60d6d7d8df3176b23c",
+        "already_linked": false,
+        "reported_round13": true
+      },
+      {
+        "repo": "erdos738-triangle-free-induced-trees",
+        "branch": "master",
+        "commit": "5e6ec034295e5c6b51911cb9db8166a8a43e7d9e",
+        "tracked_files": 21,
+        "readme_blob": "d78357a933954cb3caa95e38af2d015d194c41a5",
+        "already_linked": false,
+        "reported_round13": true
+      },
+      {
+        "repo": "erdos271-stanley-sequences",
+        "branch": "main",
+        "commit": "55d9d55aca2f28b2781804f2ad16158ee30394a3",
+        "tracked_files": 7,
+        "readme_blob": "24ac8f7750ffdad866cb2b45549f887a08b6f650",
+        "already_linked": false,
+        "reported_round13": true
+      },
+      {
+        "repo": "erdos-gyarfas-power-of-two-cycles",
+        "branch": "main",
+        "commit": "61cb5640f01899445162720ba4398cf00f22d316",
+        "tracked_files": 5,
+        "readme_blob": "f45d3282faf98165ad51806008b0746abe24e080",
+        "already_linked": false,
+        "reported_round13": true
+      },
+      {
+        "repo": "fiber-coherence-cycle-rank",
+        "branch": "main",
+        "commit": "6c1912ba3627fa0f0d0866e7b85bff2cfd0ab33e",
+        "tracked_files": 61,
+        "readme_blob": "849748f7811bc7dda635c61a757f72b199d18a4b",
+        "already_linked": false,
+        "reported_round13": true
+      },
+      {
+        "repo": "erdos949-finite-sums",
+        "branch": "main",
+        "commit": "b46288ff199b17878bb803198f05e4d819f90719",
+        "tracked_files": 12,
+        "readme_blob": "a4bd830ae94b8cf18259103a13c870cb4b51efaa",
+        "already_linked": false,
+        "reported_round13": true
+      },
+      {
+        "repo": "diagonal-ramsey-corridor",
+        "branch": "master",
+        "commit": "2d8c647cb658713bfb5fb684697fb3c3ee38c6a0",
+        "tracked_files": 3,
+        "readme_blob": "25ab6e1438c8bc542fcb70c52393cf26900b7efc",
+        "already_linked": false,
+        "reported_round13": true
+      },
+      {
+        "repo": "finite-field-extremal-sets",
+        "branch": "main",
+        "commit": "59f3495d684ba44cb7083953335e1a4e5f648b17",
+        "tracked_files": 29,
+        "readme_blob": "25036d97ee1e9d65caa5f8c9171c15cefe241e5f",
+        "already_linked": false,
+        "reported_round13": false
+      },
+      {
+        "repo": "erdos850-radical-coincidences",
+        "branch": "main",
+        "commit": "336b26159dc50f46a8c2ad2489b7948b04a302d3",
+        "tracked_files": 31,
+        "readme_blob": "6deefd2e025d8f974eea4978cc37cbb257a620a9",
+        "already_linked": false,
+        "reported_round13": false
+      },
+      {
+        "repo": "erdos273-covering-systems",
+        "branch": "main",
+        "commit": "0090b9ce8f941099203c14b7a5e98d4275007770",
+        "tracked_files": 924,
+        "readme_blob": "11a01c0a58e204e8b0b10d0400e01785acaa5308",
+        "already_linked": false,
+        "reported_round13": false
+      },
+      {
+        "repo": "erdos39-sidon-density",
+        "branch": "main",
+        "commit": "ccce8ee22b415fa3e746225c28bbcf992d9dbbe0",
+        "tracked_files": 13,
+        "readme_blob": "4a66aa44cb2bfb6ba97be1e3294d387c3974ae5a",
+        "already_linked": false,
+        "reported_round13": false
+      },
+      {
+        "repo": "erdos74-bipartite-defect",
+        "branch": "main",
+        "commit": "29d3347da826b82c3717d1318d40aa3bd012f49b",
+        "tracked_files": 11,
+        "readme_blob": "c5063c8273cc3af59b3891c51c22325e52c0b702",
+        "already_linked": false,
+        "reported_round13": false
+      },
+      {
+        "repo": "erdos890-1093-divisor-window",
+        "branch": "main",
+        "commit": "82443ec47b3fe7d42ba98fc289fe52fd5cd3d7ab",
+        "tracked_files": 6,
+        "readme_blob": "effe6c619a4cd6e08495510e0931926dabf73b5d",
+        "already_linked": false,
+        "reported_round13": false
+      },
+      {
+        "repo": "erdos1061-aliquot-square",
+        "branch": "main",
+        "commit": "45c426dfc214269e430ad4ebdc1f7d3b9fb76316",
+        "tracked_files": 13,
+        "readme_blob": "6780d538318046dc63fbe5928e2dded2bbf637d6",
+        "already_linked": false,
+        "reported_round13": false
+      },
+      {
+        "repo": "constant-gc-reverse-complement-codes",
+        "branch": "main",
+        "commit": "6b0135f8b6f58a2529195b36eced37f78a262e3b",
+        "tracked_files": 6,
+        "readme_blob": "073b265cd256ca28ef303e79671e9fde7b1a2f8e",
+        "already_linked": false,
+        "reported_round13": false
+      },
+      {
+        "repo": "strongly-regular-graph-transport-atlas",
+        "branch": "main",
+        "commit": "0fb4ac74441a4c049760922e83c6d3aa0e7c983f",
+        "tracked_files": 36,
+        "readme_blob": "ec8630f1dc49ca0dfdc6a8c67932485e9c5e7a0a",
+        "already_linked": false,
+        "reported_round13": false
+      },
+      {
+        "repo": "rado-equation-avoidance-atlas",
+        "branch": "main",
+        "commit": "011b0d6d00116ff8ac42159cf1c3dc8c993fca00",
+        "tracked_files": 2,
+        "readme_blob": "39d8f894ae49c53d6bc9621739a1653013d95a67",
+        "already_linked": false,
+        "reported_round13": false
+      }
+    ],
+    "final_index_commit": "39a4effcc1d4935920117b7fba9f78111ea091d4",
+    "named_reader_routes_verified": true
+  },
+  "reader_publications": [
+    {
+      "repo": "erdos-proved-lemmas",
+      "before": "5c8d946b31d442789bc75ba2f0e9e5653349509e",
+      "commit": "85751c3ed65504be2acf8c28aec8816bf9a19575",
+      "files": [
+        {
+          "path": "README.md",
+          "bytes": 11691,
+          "git_blob_sha1": "83a00825e0816519d82a9fd8fea10fa35e9b2bb1",
+          "remote_matches": true
+        },
+        {
+          "path": "erdos477-all-quadratics.md",
+          "bytes": 1737,
+          "git_blob_sha1": "a11c8d4cc7dd301b298c6471680348554006f526",
+          "remote_matches": true
+        },
+        {
+          "path": "erdos477-square-tiling-obstruction.md",
+          "bytes": 1583,
+          "git_blob_sha1": "c1c2811ab50ee39e96db0b05d96c537a921ad9f1",
+          "remote_matches": true
+        },
+        {
+          "path": "erdos289-padic-reciprocal-obstructions.md",
+          "bytes": 3547,
+          "git_blob_sha1": "e9472a9237ed935a1da55ce4cca5ef95e1cacb38",
+          "remote_matches": true
+        },
+        {
+          "path": "erdos251-dyadic-denominator.md",
+          "bytes": 1889,
+          "git_blob_sha1": "221361691186e6ccf9c44f334e0d7bdab96543ec",
+          "remote_matches": true
+        },
+        {
+          "path": "erdos1212-infinite-dead-end-family.md",
+          "bytes": 2309,
+          "git_blob_sha1": "d6bb47fd0bde82509ae41204f49f393bb58250ae",
+          "remote_matches": true
+        }
+      ]
+    },
+    {
+      "repo": "erdos949-finite-sums",
+      "before": "b46288ff199b17878bb803198f05e4d819f90719",
+      "commit": "03225b457191ad8f45053e41603ac0595244a3f1",
+      "files": [
+        {
+          "path": "README.md",
+          "bytes": 1546,
+          "git_blob_sha1": "98050a6ec441c6f94e050800084a553e07007bbd",
+          "remote_matches": true
+        },
+        {
+          "path": "human/complement-cardinality.md",
+          "bytes": 1593,
+          "git_blob_sha1": "9c98ee3d06b906d4bef49fbefc05d69ffd1e4ad6",
+          "remote_matches": true
+        }
+      ]
+    },
+    {
+      "repo": "msl-ore-estate",
+      "before": "5965b85f4507da30fec9f39446ba693005904c95",
+      "commit": "9ca5d2d346e52667e81867c6557c3e72b88f4872",
+      "files": [
+        {
+          "path": "MATH-QUARANTINE-AND-CORRECTIONS.md",
+          "bytes": 17385,
+          "git_blob_sha1": "089a6aab057da79ad4fbc82f1133f28179838a03",
+          "remote_matches": true
+        }
+      ]
+    }
+  ],
+  "outstanding_exact_artifacts": [
+    "1061 primitive-seed CSV bytes",
+    "949 complement-cardinality historical Lean declaration and receipt"
+  ],
+  "new_focused_repositories_created_in_this_pass": 0
+}

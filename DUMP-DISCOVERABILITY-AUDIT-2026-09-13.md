@@ -9,6 +9,24 @@ original source commits or exact ZIP members.
 This is a discoverability and routing audit. It does not rank novelty or
 upgrade the mathematical status of a source claim.
 
+## Round 13 routing reconciliation — current status
+
+The supplied canonical ledger/report through Round 13 classify **zero active P0 publication gaps** in their reviewed queue. This is a scoped publication classification, not a percentage of all archived mathematics or a proof/novelty claim.
+
+The [main release index](https://github.com/jaredwilder/erdos-release-index#focused-subject-homes) now links all **18 reported missing focused homes**, including #77's existing `diagonal-ramsey-corridor`. The same live check found and linked **10 additional existing homes**. All 28 destinations were public and populated; these were navigation repairs, not 28 newly discovered publication packages.
+
+The named reader/correction queue was handled as follows:
+
+- **#251 / #1212:** direct routes to the already public [dyadic-prefix denominator statement](https://github.com/jaredwilder/erdos-findings-ledger/blob/main/theorems/ERDOS-251-DYADIC-PREFIX-DENOMINATOR.md) and [fixed-row run identity](https://github.com/jaredwilder/erdos-findings-ledger/blob/main/theorems/ERDOS-1212-ROW-RUN-COORDINATE.md); companion theorem-bank pages now distinguish the indexing conventions and separate local statements.
+- **#477:** a [complete all-quadratic written proof](https://github.com/jaredwilder/erdos-proved-lemmas/blob/master/erdos477-all-quadratics.md), prepared for this release using the reflection identity. This resolves the reader's missing proof exposition. It is not a recovered historical source artifact or a kernel check beyond the existing square case.
+- **#289 / #486:** direct links to the [all-prime written obstruction](https://github.com/jaredwilder/erdos-proved-lemmas/blob/master/erdos289-padic-reciprocal-obstructions.md) and [quantitative density theorem](https://github.com/jaredwilder/erdos-proved-lemmas/blob/master/erdos486-summable-forbidden-mass.md). The #289 parity statement now explicitly requires positive global 2-adic level; the proof-authority map separates its written and narrower formal components.
+- **#949:** the [complement-cardinality child](https://github.com/jaredwilder/erdos949-finite-sums/blob/main/human/complement-cardinality.md) now has a complete written proof. Its exact historical Lean declaration/receipt remains unlocated, so no kernel-check claim is made for this child. The original finite-sums writeup and Lean bytes are preserved.
+- **Archived corrections:** [Q-031 through Q-035](https://github.com/jaredwilder/msl-ore-estate/blob/main/MATH-QUARANTINE-AND-CORRECTIONS.md#round-7-corrections-surfaced-on-2026-09-13) surface #260/#562/#383/#1054/#889 using exact campaign/route identifiers; Q-036 records the #289 hypothesis repair. Missing original scratchpad receipts are not represented as transported.
+
+**Remaining exact transport:** `ERDOS1061_PRIMITIVE_SEEDS_200K.csv`, reported size 17,026,297 bytes and 152,803 data rows, expected SHA-256 `343b12fceb642d15b898f1a4bbbd9018b4a4301c0e72ac46ba30f559358e1a68`. The [existing #1061 home](https://github.com/jaredwilder/erdos1061-aliquot-square) awaits the actual recovered file; its report hash alone is not the payload. The source was described as recovered in Library but has not been located in the accessible files checked here.
+
+Beyond those explicit provenance items, work proceeds by named frontier problem and frozen statement. The historical candidate sections below are leads from earlier passes, not a new undifferentiated publication denominator. See the [routing receipt](ROUND13-ROUTING-RECEIPT-2026-09-13.json) for the exact publication commits and checks.
+
 ## New focused homes
 
 | Problem | Previously buried in | Research files | Preferred home |
@@ -146,8 +164,8 @@ particular pack; the global problem and separate Lean dependencies remain.
   inputs; its existing archival subject directory already states that boundary.
 - The broader #477 all-quadratic assertion was found in summaries and
   incomplete dossiers; the inspected complete Lean proof is square-only.
-  Recovery of a full broader proof remains open, rather than being inferred
-  from the report's wording.
+  The later Round 13 section above supplies a complete new written presentation;
+  recovery of the exact historical broader formal artifact remains separate.
 - A bounded next-source scan identified small formal number-theory leads
   for #479, #456 and #936. These need subject-bank comparison and proof review;
   their labels or source counts do not justify three more repositories.
@@ -166,17 +184,17 @@ pinned source commit. The mixed additive archive links back. The large
 source package remains in the archive; this change supplies subject-level
 discovery without another competing C_k repository or a duplicate payload.
 
-## Remaining coherent candidates identified
+## Historical routing candidates from earlier passes
 
-These source packages still warrant a focused routing pass. They are linked
-here immediately so a reader need not rediscover them in a dump.
+These earlier source leads are retained for reference. They are not active P0
+publication debts in the Round 13 canonical queue above.
 
 | Program | Current source | Size of the identified package | Routing candidate |
 |---|---|---:|---|
 | #564: hypergraph Ramsey reduction work | [proof-chain package](https://github.com/jaredwilder/additive-combinatorics-campaigns/tree/b8d712e9bdc05388ac841fd52791ea61f4ed0289/erdos564-expedition) | 7 files, 87,236 bytes | Focused #564 home after reading the accepted reductions and retractions together |
 | Twin-prime analytic reductions | [source corpus](https://github.com/jaredwilder/combinatorial-records/tree/2dbb2f38399e2c0ae6979cde28e03503f4a6c04c/twin-primes) | 7 files, 1,015,916 bytes | Focused conditional-reduction program after checking its claim and correction records |
 
-Further report-led routes remain visible here:
+Earlier report-led source locations are retained here; use the current reader routes above:
 
 - [#486 summable forbidden mass](https://github.com/jaredwilder/unpublished-math-papers/tree/main/erdos486-summable-forbidden-mass): a compact density theorem with the load-bearing activation rule `n<m`; an explicit corollary/dependency map is a better next step than a new dump.
 - [#477 square-tiling kernel](https://github.com/jaredwilder/erdos-campaign-archive/tree/dad8bf3925ec7584a2e782b06e102e54587c2094/campaigns/erdos477-campaign-001): the report's broader all-quadratics claim still needs its own original proof surfaced; the inspected public Lean file proves the square slice.

@@ -8,7 +8,8 @@ Author: Jared Wilder. First public timestamp: 2026-09-10.
 
 For the broader public mathematics release, start with:
 
-- [Dump discoverability audit](DUMP-DISCOVERABILITY-AUDIT-2026-09-13.md) — ten new focused homes, recovered SQS/finite-field certificates, the C3 proof-package connection, and remaining buried programs;
+- [Current release map](https://github.com/jaredwilder/erdos-release-index#focused-subject-homes) — 28 previously missing focused-home links repaired;
+- [Discoverability audit and Round 13 status](DUMP-DISCOVERABILITY-AUDIT-2026-09-13.md) — completed source recoveries, precise theorem routes, and named remaining provenance items;
 - [`START-HERE.md`](START-HERE.md) — strongest mathematics and a short reading path;
 - [`MATH-DROP-2026-09-10.md`](MATH-DROP-2026-09-10.md) — the larger append-only release map;
 - [`HISTORICAL-SCALE-BENCHMARK.md`](HISTORICAL-SCALE-BENCHMARK.md) — the historical release-scale comparison;
