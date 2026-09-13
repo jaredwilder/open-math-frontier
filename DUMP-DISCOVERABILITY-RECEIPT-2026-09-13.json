@@ -1,0 +1,82 @@
+{
+  "date": "2026-09-13",
+  "promotions": [
+    {
+      "repo": "jaredwilder/erdos850-radical-coincidences",
+      "commit": "336b26159dc50f46a8c2ad2489b7948b04a302d3",
+      "source_repo": "jaredwilder/erdos-computational-searches",
+      "source_commit": "ba3cf88f9cc5e4dbfa3c26eb96dc3271bb1f852c",
+      "source_prefix": "erdos850",
+      "research_files": 23,
+      "research_bytes": 2853870,
+      "all_source_blobs_match": true
+    },
+    {
+      "repo": "jaredwilder/erdos273-covering-systems",
+      "commit": "0090b9ce8f941099203c14b7a5e98d4275007770",
+      "source_repo": "jaredwilder/erdos-computational-searches",
+      "source_commit": "ba3cf88f9cc5e4dbfa3c26eb96dc3271bb1f852c",
+      "source_prefix": "erdos273",
+      "research_files": 916,
+      "research_bytes": 1862389,
+      "all_source_blobs_match": true
+    },
+    {
+      "repo": "jaredwilder/erdos20-sunflower",
+      "commit": "962c4ff3608e7c3f556d67f84a95b629c267caca",
+      "source_repo": "jaredwilder/erdos-campaign-archive",
+      "source_commit": "2f4c8e421137c53fd5d8414cabb3f543a3a12f55",
+      "source_prefix": "campaigns/erdos20-close-2026-09-05",
+      "research_files": 15,
+      "research_bytes": 56152,
+      "all_source_blobs_match": true
+    },
+    {
+      "repo": "jaredwilder/erdos592-ordinal-ramsey",
+      "commit": "c49e05e174669d68fde58e6d71149f6157faadea",
+      "source_repo": "jaredwilder/erdos-campaign-archive",
+      "source_commit": "2f4c8e421137c53fd5d8414cabb3f543a3a12f55",
+      "source_prefix": "campaigns/erdos592-close-2026-09-05",
+      "research_files": 8,
+      "research_bytes": 47277,
+      "all_source_blobs_match": true
+    },
+    {
+      "repo": "jaredwilder/erdos593-obligatory-hypergraphs",
+      "commit": "06af115cede436d01dba8d853c4d977dcf945860",
+      "source_repo": "jaredwilder/erdos-campaign-archive",
+      "source_commit": "2f4c8e421137c53fd5d8414cabb3f543a3a12f55",
+      "source_prefix": "campaigns/erdos593-close-2026-09-05/",
+      "research_files": 11,
+      "research_bytes": 72147,
+      "all_source_blobs_match": true
+    }
+  ],
+  "routing_updates": [
+    {
+      "repo": "jaredwilder/erdos-computational-searches",
+      "commit": "2c5c19b59385fbe8b1fac8ee21836919657af013",
+      "path": "README.md",
+      "readback_verified": true
+    },
+    {
+      "repo": "jaredwilder/erdos-campaign-archive",
+      "commit": "dad8bf3925ec7584a2e782b06e102e54587c2094",
+      "path": "README.md",
+      "readback_verified": true
+    },
+    {
+      "repo": "jaredwilder/ck-sequences",
+      "commit": "d10bbe2ba922e809e39c1e9b5c0c1218d288c4e0",
+      "path": "README.md",
+      "readback_verified": true
+    },
+    {
+      "repo": "jaredwilder/additive-combinatorics-campaigns",
+      "commit": "6e28dc2e4957ab5b2680deabe244baff210cad14",
+      "path": "README.md",
+      "readback_verified": true
+    }
+  ],
+  "research_files_preserved": 973
+}

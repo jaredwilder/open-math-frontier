@@ -68,6 +68,19 @@ Historical archive copies remain public for chronology and provenance. The focus
 
 ## Still mining
 
+The later [dump discoverability audit](DUMP-DISCOVERABILITY-AUDIT-2026-09-13.md)
+created five further populated problem homes:
+
+- [erdos850-radical-coincidences](https://github.com/jaredwilder/erdos850-radical-coincidences)
+- [erdos273-covering-systems](https://github.com/jaredwilder/erdos273-covering-systems)
+- [erdos20-sunflower](https://github.com/jaredwilder/erdos20-sunflower)
+- [erdos592-ordinal-ramsey](https://github.com/jaredwilder/erdos592-ordinal-ramsey)
+- [erdos593-obligatory-hypergraphs](https://github.com/jaredwilder/erdos593-obligatory-hypergraphs)
+
+Their 973 research files were checked against the original public Git blobs.
+The existing `ck-sequences` home also gained direct routes into the 821-file
+C3 proof package retained in `additive-combinatorics-campaigns`.
+
 This ledger is not a claim that the estate is exhausted. The second-wave audit is continuing through mixed repositories such as `relation-family-atlas`, `divergent-mirror-mathematics`, `mathematics-under-the-wrong-filename`, `nested-archive-mathematics`, `session-transcript-mathematics`, `erdos-campaign-archive`, and the broader theorem/ore stores.
 
 The next decision for each recovered cluster is one of:
