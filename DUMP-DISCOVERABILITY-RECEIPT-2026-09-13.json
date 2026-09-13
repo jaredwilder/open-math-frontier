@@ -110,6 +110,55 @@
         }
       ],
       "fresh_lean_build": false
+    },
+    {
+      "repo": "jaredwilder/finite-field-extremal-sets",
+      "commit": "59f3495d684ba44cb7083953335e1a4e5f648b17",
+      "exact_source_files": 19,
+      "source_bytes": 41309,
+      "source_archives": [
+        {
+          "name": "MATHFIRE-7.0.0.zip",
+          "sha256": "a3a653f7d8948a66c3a242c7e8d5d0755cdc742c4d03cc705ef4d402a70ec95f",
+          "bytes": 1645397
+        },
+        {
+          "name": "MATHFIRE-10.0.0.zip",
+          "sha256": "8fd63343bf4f212e71d49edb8eb1d10c352f4272c1a0719835c98d4691b7fc72",
+          "bytes": 2398460
+        },
+        {
+          "name": "MATHFIRE-10.0.0(1).zip",
+          "sha256": "7d922ff3fc51513c14c122a9ddc6a3fa7d4af884cf4856f6ec0588f960945693",
+          "bytes": 4889497
+        }
+      ],
+      "all_source_git_blobs_match": true,
+      "fresh_python_classifications": {
+        "F31_sum_product": {
+          "maximum": 8,
+          "extremizers": 9
+        },
+        "Z31_schur_roth": {
+          "maximum": 6,
+          "extremizers": 330,
+          "dilation_orbits": 12
+        },
+        "F73_mixed": {
+          "maximum": 12,
+          "extremizers": 3
+        }
+      },
+      "direct_subset_controls": 24576,
+      "fresh_C_Cpp_CI": {
+        "result": "success",
+        "tested_commit": "c919fb7a3e1f85333d576b25742bbf04ddba4c0d",
+        "url": "https://github.com/jaredwilder/finite-field-extremal-sets/actions/runs/34780653757",
+        "verifiers": 3
+      },
+      "research_files": 19,
+      "research_bytes": 41309,
+      "all_source_blobs_match": true
     }
   ],
   "routing_updates": [
@@ -166,9 +215,69 @@
       "path": "README.md",
       "commit": "883f9b3f70fbc573aedace42a02d4f3d3417a1aa",
       "readback_verified": true
+    },
+    {
+      "repo": "jaredwilder/combinatorial-records",
+      "path": "README.md",
+      "commit": "7a5fbcca39be2176ff97de29bc1f110eedb7f0fa",
+      "readback_verified": true
+    },
+    {
+      "repo": "jaredwilder/combinatorial-records",
+      "path": "finite-fields/z31-schur-roth-extremal.md",
+      "commit": "18006c7098637bae58ab5c4f3ea9682f071efaa1",
+      "readback_verified": true
+    },
+    {
+      "repo": "jaredwilder/combinatorial-records",
+      "path": "covering-designs/sqs20-p15-rigidity-trade-suite.md",
+      "commit": "1532374e581c815a2beaf5199c7730b3ab506039",
+      "readback_verified": true
+    },
+    {
+      "repo": "jaredwilder/combinatorial-records",
+      "path": "finite-fields/F31-sum-product-free/README.md",
+      "commit": "ad0956f739ac7c5f17170e2facd81c93e7811e27",
+      "readback_verified": true
+    },
+    {
+      "repo": "jaredwilder/combinatorial-records",
+      "path": "finite-fields/F73-mixed-avoidance/THEOREM.md",
+      "commit": "5af61835015dac344df99c8b20fffe7bcf6afb3c",
+      "readback_verified": true
+    },
+    {
+      "repo": "jaredwilder/combinatorial-records",
+      "path": "finite-fields/Z31-sumfree-3AP-free/THEOREM.md",
+      "commit": "810861964e207f9d9d94bb0e38e80dd66ccb77fa",
+      "readback_verified": true
+    },
+    {
+      "repo": "jaredwilder/combinatorial-records",
+      "path": "finite-fields/f73-mixed-sum-product-ap-free.md",
+      "commit": "9422e6662623285c7eff56fc0cbb127fd0ab3b2c",
+      "readback_verified": true
+    },
+    {
+      "repo": "jaredwilder/open-math-frontier",
+      "path": "DUMP-DISCOVERABILITY-AUDIT-2026-09-13.md",
+      "commit": "e82d5fe88ba37f232e88bed01bf99e9a47424b6f",
+      "readback_verified": true
+    },
+    {
+      "repo": "jaredwilder/open-math-frontier",
+      "path": "README.md",
+      "commit": "975c19fe4da24227ab4bd82de5cd6c33d2052414",
+      "readback_verified": true
+    },
+    {
+      "repo": "jaredwilder/open-math-frontier",
+      "path": "REPO-PROMOTIONS-COMPLETED-2026-09-13.md",
+      "commit": "5f509c12ce2a0e07cd5350d5d8c6650d392c1d77",
+      "readback_verified": true
     }
   ],
-  "research_files_preserved": 998,
+  "research_files_preserved": 1017,
   "round2": {
     "research_files": 25,
     "research_bytes": 1050156,
@@ -185,5 +294,66 @@
       }
     ],
     "input_documents_modified": false
+  },
+  "round3": {
+    "new_home": {
+      "repo": "jaredwilder/finite-field-extremal-sets",
+      "commit": "59f3495d684ba44cb7083953335e1a4e5f648b17",
+      "exact_source_files": 19,
+      "source_bytes": 41309,
+      "source_archives": [
+        {
+          "name": "MATHFIRE-7.0.0.zip",
+          "sha256": "a3a653f7d8948a66c3a242c7e8d5d0755cdc742c4d03cc705ef4d402a70ec95f",
+          "bytes": 1645397
+        },
+        {
+          "name": "MATHFIRE-10.0.0.zip",
+          "sha256": "8fd63343bf4f212e71d49edb8eb1d10c352f4272c1a0719835c98d4691b7fc72",
+          "bytes": 2398460
+        },
+        {
+          "name": "MATHFIRE-10.0.0(1).zip",
+          "sha256": "7d922ff3fc51513c14c122a9ddc6a3fa7d4af884cf4856f6ec0588f960945693",
+          "bytes": 4889497
+        }
+      ],
+      "all_source_git_blobs_match": true,
+      "fresh_python_classifications": {
+        "F31_sum_product": {
+          "maximum": 8,
+          "extremizers": 9
+        },
+        "Z31_schur_roth": {
+          "maximum": 6,
+          "extremizers": 330,
+          "dilation_orbits": 12
+        },
+        "F73_mixed": {
+          "maximum": 12,
+          "extremizers": 3
+        }
+      },
+      "direct_subset_controls": 24576,
+      "fresh_C_Cpp_CI": {
+        "result": "success",
+        "tested_commit": "c919fb7a3e1f85333d576b25742bbf04ddba4c0d",
+        "url": "https://github.com/jaredwilder/finite-field-extremal-sets/actions/runs/34780653757",
+        "verifiers": 3
+      }
+    },
+    "existing_home_recovery": {
+      "repo": "jaredwilder/erdos835-lean-audit",
+      "commit": "a646f3f5e8d147259f040cdbfa6c73b35226049b",
+      "source_archive": "JSPACE-v0.7-ERDOS835-40R.zip",
+      "source_archive_sha256": "df8612f0c847fb88683f0bd7f5c22570cd1c2b388161fe72e291778e5e3a3dae",
+      "exact_source_files": 25,
+      "source_bytes": 367596,
+      "all_source_git_blobs_match": true,
+      "fresh_replay": "All 15 GF(5) rigidity systems, 105 pair profiles, incidence identity and independent residual K5 reconstruction",
+      "fresh_lean_build": false
+    },
+    "original_research_files": 44,
+    "original_research_bytes": 408905
   }
 }
