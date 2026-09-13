@@ -76,3 +76,7 @@ Keeping those figures separate makes the dataset easier to interpret.
 ## License
 
 Apache-2.0.
+
+## Exact source publication — 2026-09-13
+
+The [published batch receipt](PUBLICATION-BATCH-01-2026-09-13.md) links five updated mathematical repositories, recovered tables and source packets, finite replay results, and hash-verified public commits. The [live release-debt ledger](LIVE-ESTATE-RELEASE-DEBT-2026-09-13.md) marks the corresponding table and transport debts resolved.

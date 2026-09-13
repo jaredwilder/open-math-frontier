@@ -50,13 +50,13 @@ Focused home:
 
 The 11-sequence / 839-value program has a canonical home. The original full machine-readable table bytes still require recovery.
 
-## Strongly-regular-graph transport atlas — RESOLVED AS SUBJECT HOME / EXACT TABLE RECOVERY OPEN
+## Strongly-regular-graph transport atlas — EXACT SOURCE PUBLISHED / FINITE CHECKS REPLAYED
 
 Focused home:
 
 `jaredwilder/strongly-regular-graph-transport-atlas`
 
-The public home now records the recovered `119 / 91 / 28` atlas accounting, `141` transport edges across `8` transport types and `211` endpoints, proposition-typing integrity rules, provenance and an exact-source recovery protocol. The full original 119-row table and 141-edge ledger remain to be recovered.
+The complete 25-file original source package is now public: 119 parameter rows (91 EXISTS / 28 NONE), 141 typed edges, eight transport definitions and 211 endpoints. All 24 historical manifest entries match. The bundled transport checker, separate checker and synthetic connectivity self-test passed; six transport checks remain one-sided and live-database connectivity remains unresolved. See the [published source and replay](https://github.com/jaredwilder/strongly-regular-graph-transport-atlas/blob/0fb4ac74441a4c049760922e83c6d3aa0e7c983f/README.md).
 
 ## C(13,6,3) focused-home consolidation — RESOLVED
 
@@ -90,11 +90,11 @@ New static subject records now preserve, among other items:
 - the Erdős #681 `k=1` classification and fourth-root witness window;
 - the Erdős #535 dyadic lower bound.
 
-# B. Exact source bytes FOUND locally; public transport/presentation still open
+# B. Exact source bytes found locally — publication status by object
 
 These objects are no longer source-recovery mysteries. Their authoritative bytes were located in the user's Library and independently hash-checked during this pass.
 
-## 1,428-row contradiction history — SOURCE FOUND / GITHUB TRANSPORT OPEN
+## 1,428-row contradiction history — EXACT CSV PUBLISHED
 
 Recovered Library object:
 
@@ -106,9 +106,9 @@ Verified identity:
 - data rows: `1,428`;
 - SHA-256: `11cbb415bd54adc962d69969217ad5ebc94dec1b3ca8a1a64fd12cd8d8eaf8a6`.
 
-This exactly matches the release-report identity formerly tracked as `08-CONTRADICTION-HISTORY-1428.csv`. A public recovery manifest exists under `msl-ore-estate/catalog/contradiction-history-1428/`; only byte transport remains.
+The exact [CSV and source manifest](https://github.com/jaredwilder/msl-ore-estate/blob/45ca206880ee37352dcc73dedb3f604f1baf42f2/catalog/contradiction-history-1428/README.md) are now branch-visible. The published CSV matches the original release-report SHA-256 byte-for-byte. This is historical status provenance, not a theorem list.
 
-## Latest-local `PROVED` 617 — SOURCE FOUND / READABLE PRESENTATION OPEN
+## Latest-local `PROVED` 617 — EXACT CSV AND 13 READABLE CHUNKS PUBLISHED
 
 Recovered Library object:
 
@@ -120,7 +120,7 @@ Verified identity:
 - data rows: `617`;
 - SHA-256: `4999693a7ad661344f8a05ae1c9dc00c9e2be91a6d1f9c842492e5b23047523a`.
 
-The compressed public transport already reconstructs these exact bytes. During this pass the ordinary 13 readable chunk CSVs were regenerated from the exact source and checked against the already-public per-chunk manifest hashes. What remains is branch-visible publication of those readable chunks.
+The [complete CSV and all 13 readable chunks](https://github.com/jaredwilder/msl-ore-estate/blob/45ca206880ee37352dcc73dedb3f604f1baf42f2/catalog/local-proved-617/README.md) are now public. Every chunk matches the previously published manifest exactly. A missing character in public transport part 04 was recovered against the original part, compressed-stream and source hashes, and the transport repair is published with its receipt.
 
 **Authority warning:** these are local campaign statuses/provenance, not 617 certified theorems.
 
@@ -312,3 +312,7 @@ The estate is not saturated until every recoverable source family has one explic
 `CANONICAL SUBJECT HOME / EXISTING HOME / PROVENANCE / RECONSTRUCT FIRST / QUARANTINE / IP HOLD`.
 
 The denominator is source identity, not repo count.
+
+## Exact source publication batch — 2026-09-13
+
+The [batch receipt](PUBLICATION-BATCH-01-2026-09-13.md) records the public commits and verified payload identities for the estate tables, SRG atlas, original CH3 packet, original 78-record #500 variant and round-four fiber packet with recovered seed dependencies.

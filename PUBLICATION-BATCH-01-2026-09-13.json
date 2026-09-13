@@ -1,0 +1,545 @@
+[
+  {
+    "repo": "msl-ore-estate",
+    "branch": "main",
+    "commit": "45ca206880ee37352dcc73dedb3f604f1baf42f2",
+    "public_branch_contains_commit": true,
+    "url": "https://github.com/jaredwilder/msl-ore-estate/commit/45ca206880ee37352dcc73dedb3f604f1baf42f2",
+    "files_verified": [
+      {
+        "path": "catalog/contradiction-history-1428/08-CONTRADICTION-HISTORY-1428.csv",
+        "bytes": 1878201,
+        "sha256": "11cbb415bd54adc962d69969217ad5ebc94dec1b3ca8a1a64fd12cd8d8eaf8a6",
+        "github_blob": "af15bf6c299424c061938abea4de60d646e7e0ce"
+      },
+      {
+        "path": "catalog/local-proved-617/LOCAL-PROVED-617.csv",
+        "bytes": 246477,
+        "sha256": "4999693a7ad661344f8a05ae1c9dc00c9e2be91a6d1f9c842492e5b23047523a",
+        "github_blob": "301d6987f7c8ccde140cbd0e2f666715ca6b8bb4"
+      },
+      {
+        "path": "catalog/local-proved-617/transport/part-04.b64",
+        "bytes": 10000,
+        "sha256": "b422eced9856cc343955039c881b7280d8ba3fa630add99faf3727410c504952",
+        "github_blob": "c2284ba9f6359dd19971c002453d4c4ed50a8502"
+      },
+      {
+        "path": "catalog/local-proved-617/readable/chunk-01.csv",
+        "bytes": 19418,
+        "sha256": "1dc4c91f43f75578b7238cf491353e9b2d2092e159aabbcc58c5542d002ebcc3",
+        "github_blob": "f7b9301370d9679511695a5f66675a58bddcad0e"
+      },
+      {
+        "path": "catalog/local-proved-617/readable/chunk-02.csv",
+        "bytes": 19505,
+        "sha256": "8f06fa07bb2b9a81cb4877f7e61a9f85d3279fc02cba5a4db975bb8fa3e59d6c",
+        "github_blob": "df33d3282f1d7072fd1d3873b96f47428188ff5e"
+      },
+      {
+        "path": "catalog/local-proved-617/readable/chunk-03.csv",
+        "bytes": 20003,
+        "sha256": "bb998eb4c694c87136873e00c3aa36e485be776648e56f174fc63564569c1d93",
+        "github_blob": "f0ab15674ccb425ae0cf68d32d3d07e203c26c09"
+      },
+      {
+        "path": "catalog/local-proved-617/readable/chunk-04.csv",
+        "bytes": 19145,
+        "sha256": "11ec3541c4e7cdc0f80b0448a66aef6fbef0f3053914e94240aa6b1246e0ad80",
+        "github_blob": "863891a6327967404df769d1891da36e6219ed19"
+      },
+      {
+        "path": "catalog/local-proved-617/readable/chunk-05.csv",
+        "bytes": 19804,
+        "sha256": "5c7c5afad3913c82212caf564f0a4a00143be877c63e3b628ffd0edca17b3620",
+        "github_blob": "64d16c76c35e8cdbfea19dd11111d93fde383c16"
+      },
+      {
+        "path": "catalog/local-proved-617/readable/chunk-06.csv",
+        "bytes": 18715,
+        "sha256": "1e525b0d0934f4a6d2dd59f097096922d3858fbb80309d4e28ee10cc499422a0",
+        "github_blob": "6b8c1698ef59b24b278c77367d022408375afa7d"
+      },
+      {
+        "path": "catalog/local-proved-617/readable/chunk-07.csv",
+        "bytes": 19095,
+        "sha256": "8432297b42cd2e398f2895bc5079feca500714802d161680ab70b4455f564852",
+        "github_blob": "0e9924a3a8a1bd2ce2a95137cbed606f92724b33"
+      },
+      {
+        "path": "catalog/local-proved-617/readable/chunk-08.csv",
+        "bytes": 20125,
+        "sha256": "3e59d56db0987451b88509873c66e1178f5d449d412a3f3e10d5151356ed34d7",
+        "github_blob": "3e8fb348c5a15abc681f49ff49a468377b244564"
+      },
+      {
+        "path": "catalog/local-proved-617/readable/chunk-09.csv",
+        "bytes": 18519,
+        "sha256": "bb0aa03dcf9dd75280ad1d20d827a2127ab670d8bae3bc881c5a868f193e6697",
+        "github_blob": "ee86fba84fc4caf74f1d784d6b9242d543d7321a"
+      },
+      {
+        "path": "catalog/local-proved-617/readable/chunk-10.csv",
+        "bytes": 19212,
+        "sha256": "9ee59e99a1a0515d3d911647126318a9f3fbb00df87cc94bfab856e9dacc28b5",
+        "github_blob": "7bf68d94f5c0512b24b07f53924644198ae0a8de"
+      },
+      {
+        "path": "catalog/local-proved-617/readable/chunk-11.csv",
+        "bytes": 18812,
+        "sha256": "5d7141306348c361f0660be8b62170d05866fa223242a0c88b0b5e764c4aebac",
+        "github_blob": "45ebd0318b46d80ca102442e09eb872aafe38f55"
+      },
+      {
+        "path": "catalog/local-proved-617/readable/chunk-12.csv",
+        "bytes": 20221,
+        "sha256": "d15ebd1949bc1f2b047050b37ed7b0ce07e1ca8bc220114c75b5e5f213486204",
+        "github_blob": "e2579de549d5fd4cbbcfc3d0bc5897ff7418db3a"
+      },
+      {
+        "path": "catalog/local-proved-617/readable/chunk-13.csv",
+        "bytes": 15067,
+        "sha256": "348dd290750f9d9b589f6c271df36d699fcc2ec66c571f248a16550f96bc5884",
+        "github_blob": "cf3d5e782304f94e9b3c392344c51e2317c45fcf"
+      }
+    ]
+  },
+  {
+    "repo": "strongly-regular-graph-transport-atlas",
+    "branch": "main",
+    "commit": "0fb4ac74441a4c049760922e83c6d3aa0e7c983f",
+    "public_branch_contains_commit": true,
+    "url": "https://github.com/jaredwilder/strongly-regular-graph-transport-atlas/commit/0fb4ac74441a4c049760922e83c6d3aa0e7c983f",
+    "files_verified": [
+      {
+        "path": "atlas/audit/original-srg_transports.py",
+        "bytes": 7623,
+        "sha256": "28bc86924e128c479afdea7846e145656211126eafef3567a27506a6c1f76f78",
+        "github_blob": "52d3ea560649fe9f7f9e37b9865012efdf6ac2d6"
+      },
+      {
+        "path": "atlas/audit/original-srg-transports-numbered.txt",
+        "bytes": 8757,
+        "sha256": "ae4dab1f060d0e61ff4ec499b7d026247cfa70d02fbca1d9a4d799a590f90c5a",
+        "github_blob": "25bc40a1ba6f286c942b14068f4c6ff210547fa9"
+      },
+      {
+        "path": "atlas/brouwer-ground-truth.json",
+        "bytes": 31571,
+        "sha256": "74d5d7e9af10f56a5cbd079fb2a3bfaef4d876565353d51aab47b4b51ce205ce",
+        "github_blob": "6fc3aff2d7a0167a2dc2b0567d4f935e1b0b6120"
+      },
+      {
+        "path": "atlas/connectivity_impact.py",
+        "bytes": 10052,
+        "sha256": "eee658b394037929bf00d2e768e749915188bb4705eca71ab3da58e1246c5f71",
+        "github_blob": "d3309911e1637692dfbae852a5a2354d5e496838"
+      },
+      {
+        "path": "atlas/CONNECTIVITY-REPORT.md",
+        "bytes": 3268,
+        "sha256": "404351312238950a5d6bceec48d1cebf8a01f5ba9bed6fca0271f9a2016df06d",
+        "github_blob": "3f7a0b1ba22739420294b3868ce3e3194c9a6914"
+      },
+      {
+        "path": "atlas/CONTRACT-CHECKLIST.md",
+        "bytes": 1333,
+        "sha256": "19237d74a3ac9a260a4470c1a3de4f6800545c38c1d7e714632fed206bb3e690",
+        "github_blob": "1045eb33f51aff1567e39acb24cdd066e2fde718"
+      },
+      {
+        "path": "atlas/COVER-NOTE.md",
+        "bytes": 1826,
+        "sha256": "8171c241f19e7386981e8f7c8db70935197f182df1c2627ff3b272d752f18446",
+        "github_blob": "bc330eeb4ac45183b86eab08f652bae54751656d"
+      },
+      {
+        "path": "atlas/CURRENT-SRG-TRANSPORTS-AUDIT.md",
+        "bytes": 2872,
+        "sha256": "67f656d40d83d0885ff5ddd6b83855433860014c4d7d82391ca93d96702f0ea7",
+        "github_blob": "90ae40df7ff95008fa0666cfbcc8e0220437ee2a"
+      },
+      {
+        "path": "atlas/DELIVERY-VALIDATION.json",
+        "bytes": 348,
+        "sha256": "a198827ebf4c0d1d08f5297812f139cbb4f566f3139fa1d6ac001e2fac1143a1",
+        "github_blob": "04a330afdeca94620d3eeff62eda168f286145db"
+      },
+      {
+        "path": "atlas/independent_check.py",
+        "bytes": 4798,
+        "sha256": "420b21683b13d182729ebabad5586ed019421e200247565dbe80e0a13610edb7",
+        "github_blob": "1f7e3ac36930662a4c1b71d86577c2e146a90d5a"
+      },
+      {
+        "path": "atlas/logs/connectivity-selftest.log",
+        "bytes": 208,
+        "sha256": "60564ee9074086fe79c801170c9fa06a4758a32395c2bd840f72be57713d66f2",
+        "github_blob": "988c3a1aa42d3e488149a8e039cc939ebd7558fc"
+      },
+      {
+        "path": "atlas/logs/delivery-selftests.log",
+        "bytes": 249,
+        "sha256": "deda9c3bc59e6ec5375c7ed18193767e4f4b46e51b21f8e58aa5329d8f843b72",
+        "github_blob": "0855c67b4dec6a9fdfa769fa2ea1554cbb14f613"
+      },
+      {
+        "path": "atlas/logs/independent-check.log",
+        "bytes": 1074,
+        "sha256": "7a3dbc538fdbcf39e513a1436b5f7f77fa08d10ea8410677e3a0f02fe2f93784",
+        "github_blob": "ce1556b88bfdc1688486cfac9e7fa7455159c004"
+      },
+      {
+        "path": "atlas/logs/original-run.exit-code.txt",
+        "bytes": 2,
+        "sha256": "4355a46b19d348dc2f57c046f8ef63d4538ebb936000f3c9ee954a27460dd865",
+        "github_blob": "d00491fd7e5bb6fa28c517a0bb32b8b506539d4d"
+      },
+      {
+        "path": "atlas/logs/original-run.stderr.txt",
+        "bytes": 533,
+        "sha256": "accd2de9c2b153d0d28b7178c66f33eec55b1c302f16efe2c6719256c75634ea",
+        "github_blob": "4c58b877f46bc4580dd5ef3df62e9ca2c9709397"
+      },
+      {
+        "path": "atlas/logs/original-run.stdout.txt",
+        "bytes": 0,
+        "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "github_blob": "e69de29bb2d1d6434b8b29ae775ad8c2e48c5391"
+      },
+      {
+        "path": "atlas/logs/srg-transports-run.log",
+        "bytes": 1557,
+        "sha256": "3ccb4ce81a764669dee1eaef588f52059927e4a635a1485217d9a6df41e62fbb",
+        "github_blob": "fcb100e24ab2d87c8571cc97252c8449db624bd8"
+      },
+      {
+        "path": "atlas/MANIFEST.sha256",
+        "bytes": 2186,
+        "sha256": "84c81ea1edefbb4d2ae203f9cce14a2d2749de248f3e554cb5d2cf21afa003b9",
+        "github_blob": "5e5cf3f3d043da9a52ac54e01b0f8cd8edd87454"
+      },
+      {
+        "path": "atlas/README.md",
+        "bytes": 2901,
+        "sha256": "9852d02a4d611e0c2f2d04155dc6102f2eed1cc6d749c0081b02ff03f3812430",
+        "github_blob": "e0b436324e73cdcf692aa5928f338325dad9de74"
+      },
+      {
+        "path": "atlas/run_delivery_selftests.py",
+        "bytes": 1751,
+        "sha256": "615e6c59a0db2829e8bde1c786416f0720b5518b88cac38a0a4590a8d20516bb",
+        "github_blob": "a49fd5ba957710d860723f1b6c757d893756a562"
+      },
+      {
+        "path": "atlas/SELFTEST-RECEIPT.json",
+        "bytes": 3169,
+        "sha256": "b0ad039389a560d2f48bd8e7fe592e052b9552113b3f8baa26da0d97f36caaa0",
+        "github_blob": "03bbe39c08640e592b8f527052a9533ba9f8790f"
+      },
+      {
+        "path": "atlas/SOURCE-MAP.md",
+        "bytes": 2088,
+        "sha256": "249397105f5a411c2b0659e8b8d355ac84512a04e8c24fd33d2e127c63314086",
+        "github_blob": "3994cdc1b6b5ff375eb09757a7f6e4862a815549"
+      },
+      {
+        "path": "atlas/srg_transports.py",
+        "bytes": 33381,
+        "sha256": "6b97d9d8702a196d445165f6cd640a234eb32ce067408e65c0b36c7dc9a8f83d",
+        "github_blob": "bdb84f3e865daad964d8112029f2e88e62033897"
+      },
+      {
+        "path": "atlas/verification-output.json",
+        "bytes": 84163,
+        "sha256": "175884e65c16e43accce7373e611aac268524c9e9bda27a9b49ea1dc063b293b",
+        "github_blob": "7fdeb23b191c68d73f9c5c3158c074286ea3a0ea"
+      },
+      {
+        "path": "atlas/verified-edges.jsonl",
+        "bytes": 46770,
+        "sha256": "d0819912fa3881caa4e99cde8e8acc1aec16d6cc1fe8d620ca76e8dd354ff0cf",
+        "github_blob": "b9ba045e0a96f70e2de31fefb6b215c56aab5129"
+      },
+      {
+        "path": "data/endpoints.json",
+        "bytes": 4718,
+        "sha256": "550d775277767d227f426a5c7035ecdc5beefbbab8b2ba5e14c813a1eb12ea30",
+        "github_blob": "4ba84cef3231bef5a388d4fac149a71efcf3cbf4"
+      },
+      {
+        "path": "verification/replay-2026-09-13.json",
+        "bytes": 4037,
+        "sha256": "cff66b8e3e68034daeca3d6e6dae26d75638a09dc1792a73723947d2a5d17e24",
+        "github_blob": "466ff54d2ea51f6f2343cc88de4e5e24077ed6ae"
+      }
+    ]
+  },
+  {
+    "repo": "caccetta-haggkvist-triangles",
+    "branch": "main",
+    "commit": "fd34a7439e2b8f9295cf2739d7600c43fbfe2ab3",
+    "public_branch_contains_commit": true,
+    "url": "https://github.com/jaredwilder/caccetta-haggkvist-triangles/commit/fd34a7439e2b8f9295cf2739d7600c43fbfe2ab3",
+    "files_verified": [
+      {
+        "path": "source/big-guns-2026-08-06/CH3-BIG-GUNS-MASTER-DOSSIER.md",
+        "bytes": 104312,
+        "sha256": "082350d530a80df925d48c9bd2f26f9875b44a22878048ee8e7a7d7f2258954c",
+        "github_blob": "da8f7b5a3ff0e9418ec8468a7476e9aedaf11646"
+      },
+      {
+        "path": "source/big-guns-2026-08-06/CH3-PREVIOUS-COMPRESSED-EXTRACTION.md",
+        "bytes": 36670,
+        "sha256": "b7602a640f259b5e2e69f27c4ed2461668469c23844abc587ca4b6e0509ac9ef",
+        "github_blob": "6a85c02a20c392702748c3c57130865708c878c8"
+      },
+      {
+        "path": "source/big-guns-2026-08-06/CH3-TERMINAL-AUDIT-CUBIC-C4-THEOREM.md",
+        "bytes": 6901,
+        "sha256": "b386dcb415994a87a9f8642446f3679255dac1ce60ab72a86c46a043bb7d92e7",
+        "github_blob": "8a5ed26307dfb3455f728a3d1cc1e4de347d9375"
+      },
+      {
+        "path": "source/big-guns-2026-08-06/COMPUTATIONAL-ATTACK-PLAN.md",
+        "bytes": 1612,
+        "sha256": "1e6eb65eaf2de6880d1b78ad0cbb93d8bc624934b3205e261a73fe9083a05ce8",
+        "github_blob": "4199891fe9041c7eefe52258037e74d0e4afe585"
+      },
+      {
+        "path": "source/big-guns-2026-08-06/FAILED-KILL-SHOTS.md",
+        "bytes": 2013,
+        "sha256": "880d47f75e281d4a518b5eff1f9d21aeadd19d63f5b5c4f393a8628f837c62be",
+        "github_blob": "021a02ef58e01c701ad86c0ddad1a575dfee0832"
+      },
+      {
+        "path": "source/big-guns-2026-08-06/LEAN-FORMALIZATION-PLAN.md",
+        "bytes": 1546,
+        "sha256": "4a0037b262a888ed6f9e10cd139ba3845b45bcec2c4c2ba12c10a5aebdbe5907",
+        "github_blob": "139e15dfda637c459242950b3c17604b28325afe"
+      },
+      {
+        "path": "source/big-guns-2026-08-06/MACHINE-ATTACK-SPEC.json",
+        "bytes": 1419,
+        "sha256": "4e4dfaa2fa5460492feac5142c0d461e310d9e54df850ae8e90322e403a74169",
+        "github_blob": "dda68f7b3eeace59f40fce9c3b1623a043dd5e1b"
+      },
+      {
+        "path": "source/big-guns-2026-08-06/PUBLICATION-OUTLINE.md",
+        "bytes": 1034,
+        "sha256": "1a4c645c7c0e505ba6efa323557efcf47f57a76aa3eb73936b485456125acb37",
+        "github_blob": "5c0091ed009d065b528aa32fbaf0bf45c8f99a08"
+      },
+      {
+        "path": "source/big-guns-2026-08-06/README.md",
+        "bytes": 1263,
+        "sha256": "c33213a32bddcfe00006c262e756862c521b108c621ca098bc4215b1d81019c9",
+        "github_blob": "79a86890137d231c4693b75ffcfa494708220b5f"
+      },
+      {
+        "path": "source/big-guns-2026-08-06/RETRACTION-REGISTER.md",
+        "bytes": 1497,
+        "sha256": "4ee123572e8a924bc927d7180d7b1a215096425ccad69ed719bd9caeb4fc5acb",
+        "github_blob": "3282a1107c0d00dc32fb7f855ebe9dce18b5eddd"
+      },
+      {
+        "path": "source/big-guns-2026-08-06/THEOREM-DEPENDENCY-GRAPH.json",
+        "bytes": 28164,
+        "sha256": "44d9a0c734f6da67a3bc3418bf8c9d96bb8e8d9ae1be172a8b6490d0e45fbf55",
+        "github_blob": "172cd5d4f0689992bd1e561a89359d67b30a3897"
+      },
+      {
+        "path": "source/big-guns-2026-08-06/THEOREM-LEDGER.json",
+        "bytes": 61530,
+        "sha256": "025ffe64293611f25ec84c0202a66a9df966d07d4c70e59b0e7a1f71bf876034",
+        "github_blob": "5ab8c40524e7acca59d886ea0b1d10578edd4c8b"
+      }
+    ]
+  },
+  {
+    "repo": "erdos500-turan34",
+    "branch": "main",
+    "commit": "197f933fa461b4ca5f03795150a3130a74f28e5c",
+    "public_branch_contains_commit": true,
+    "url": "https://github.com/jaredwilder/erdos500-turan34/commit/197f933fa461b4ca5f03795150a3130a74f28e5c",
+    "files_verified": [
+      {
+        "path": "program/original-forge-2026-08-04/ERDOS-500-THEOREM-RECORDS.jsonl",
+        "bytes": 80215,
+        "sha256": "7086530326a826419767e12f8a0e5832b00d95d39dad1d709c49f170117b7eb3",
+        "github_blob": "b44f512370a26b951df64e78b7c411db543808de"
+      },
+      {
+        "path": "program/original-forge-2026-08-04/ERDOS-500-NOVELTY-QUEUE.tsv",
+        "bytes": 18033,
+        "sha256": "acdd8859e02e6173003748115c79dee5eef3ca3b8effb7c9f18f8742c77e500e",
+        "github_blob": "c1f8df539eaee98532f56025f12a012b8c3a79ff"
+      },
+      {
+        "path": "program/original-forge-2026-08-04/verify_erdos500_packet.py",
+        "bytes": 10472,
+        "sha256": "0b41c32f3b0866a65c5a086d785a0534b035d0b3d341a01eaad621d2009f2c44",
+        "github_blob": "561bb59b851000ccd4ff36aaaf0ad053adea84cf"
+      },
+      {
+        "path": "program/original-forge-2026-08-04/ERDOS-500-ENCIRCLEMENT-THEOREM-FORGE.md",
+        "bytes": 84340,
+        "sha256": "e0f09347c2561aba89eb7de5c79328b8a44f2e8b6d0a976b01047d2cf9673644",
+        "github_blob": "a17357d24b832ce8a4c93a29acc37ccdfddf2648"
+      },
+      {
+        "path": "program/original-forge-2026-08-04/ERDOS-500-LEAN-MISSION-QUEUE.md",
+        "bytes": 2456,
+        "sha256": "3e69642dc95459034881ec652bad11489b12ccde02c24b0fe5798e86c9cba604",
+        "github_blob": "7b4d0d2f0a37977df11bce733cbb315fccd4c23b"
+      },
+      {
+        "path": "program/original-forge-2026-08-04/MANIFEST.json",
+        "bytes": 1162,
+        "sha256": "5b79c3915d4922c280cc829ecc9ecbb0620a1328053b444bfd7140cb3acb9768",
+        "github_blob": "6be2a8e9fb9409d60e8cfbe6163e14848eec5c7b"
+      },
+      {
+        "path": "program/original-forge-2026-08-04/README.md",
+        "bytes": 870,
+        "sha256": "2faca0aefa6ae405699fe6ac56acd09454065088c7161150537d79925225aebe",
+        "github_blob": "fafb8dab668295c9cc1390a536985b2472abf092"
+      },
+      {
+        "path": "program/original-forge-2026-08-04/ERDOS-500-VERIFICATION-RECEIPT.json",
+        "bytes": 1845,
+        "sha256": "a9411388180190093d985e3614acb5b97b04b2f0ef645b98feda687cb7f24e3c",
+        "github_blob": "c12f96e0ecca4714d5d446deaca2c99a7e1ccb8a"
+      }
+    ]
+  },
+  {
+    "repo": "fiber-coherence-cycle-rank",
+    "branch": "main",
+    "commit": "99520e2f4e933eeb1aef54eb3cef3b6e2897b490",
+    "public_branch_contains_commit": true,
+    "url": "https://github.com/jaredwilder/fiber-coherence-cycle-rank/commit/99520e2f4e933eeb1aef54eb3cef3b6e2897b490",
+    "files_verified": [
+      {
+        "path": "theorem-bank/round4-original-2026-08-04/ATTACK-QUEUE.json",
+        "bytes": 1066,
+        "sha256": "3c3be783db0ec10de125241b42088855c741e9cd34d0eb64c59bb7e6738f30ec",
+        "github_blob": "f202e00a27c4b496fee601108db7a95c6d979bb7"
+      },
+      {
+        "path": "theorem-bank/round4-original-2026-08-04/CAUSAL-ABLATION.json",
+        "bytes": 717,
+        "sha256": "20a0a7a7eb43543d4c5c89ad197011875e8d30ea94a54e4502b11859f08ff7a6",
+        "github_blob": "b34d2edbbff3e284c8f211edefb8ab45b0703fba"
+      },
+      {
+        "path": "theorem-bank/round4-original-2026-08-04/FIBER-COHERENCE-SELF-GROWTH-REPORT.md",
+        "bytes": 4007,
+        "sha256": "8adf10ccbcc43a639bb3d2fedba3be8063391dc215afb2f0535f90663b2648f7",
+        "github_blob": "9a236c3037f9c4ae6aaf4b7f56ccd472f62b9d60"
+      },
+      {
+        "path": "theorem-bank/round4-original-2026-08-04/FIBER-COHERENCE-THEOREM-CARDS.jsonl",
+        "bytes": 27945,
+        "sha256": "5133c4b00a3be612ec9f8a24118465221a10b4108561a7d074136aeb5477966d",
+        "github_blob": "1ad9f54f6253ba5a4d319ba3518b394b5c451f79"
+      },
+      {
+        "path": "theorem-bank/round4-original-2026-08-04/FIBER-COHERENCE-THEOREM-PACKET.md",
+        "bytes": 29015,
+        "sha256": "11f81b824766ee5a3753f88b3fa7efcab6da8c69e2d4a16cb5a592fe20147674",
+        "github_blob": "6bcea5b7059e727872b070f1464f6fed28005bcb"
+      },
+      {
+        "path": "theorem-bank/round4-original-2026-08-04/FINAL-VERIFICATION.json",
+        "bytes": 1952,
+        "sha256": "30371d81cf42cf79ff6410e0f904e01b5b4bfb8e08e3899c6398cc864d3094e6",
+        "github_blob": "22bee391980f0e170290ffd6f56d0a6a84e1685e"
+      },
+      {
+        "path": "theorem-bank/round4-original-2026-08-04/FINITE-VERIFICATION.json",
+        "bytes": 588,
+        "sha256": "98a5102a29fb4de86efa623e607d09a448eddb5c5efebc4608f5358d7f3f39be",
+        "github_blob": "db54f173e821f3b2324169f762c179c9fcc32c38"
+      },
+      {
+        "path": "theorem-bank/round4-original-2026-08-04/HOSTILE-VERIFICATION.json",
+        "bytes": 382,
+        "sha256": "57bdc78c9efd76a1c3913f1c2eae201280baac4c149a0c2f8b85294b202e598c",
+        "github_blob": "1779697293b3d5990819b7f873361cc917d399f4"
+      },
+      {
+        "path": "theorem-bank/round4-original-2026-08-04/LEAN-MISSIONS.jsonl",
+        "bytes": 11522,
+        "sha256": "0286f6c303ac6cd1890cb7de61f9688935b6576a1ec61dd3370ee0797a16ec75",
+        "github_blob": "bd049eee6c5b4db0d4bee6cc1d9c6fbb1ca2f4a6"
+      },
+      {
+        "path": "theorem-bank/round4-original-2026-08-04/MANIFEST.json",
+        "bytes": 1715,
+        "sha256": "2fcb6604c6a271f3c9b1ad07661d85ed46aac81d9764e85f021cf200bb44f95d",
+        "github_blob": "52ceeed1647608fffb9621e2f3945c0cc6415364"
+      },
+      {
+        "path": "theorem-bank/round4-original-2026-08-04/NOVELTY-MISSIONS.jsonl",
+        "bytes": 12605,
+        "sha256": "47fa47bee0c9064689981cb5e03dbc2050e31fcafd922d7dfcb02201c94a436a",
+        "github_blob": "a6ae373e80d5b98850e1ac0a9f2c2920e1d3211f"
+      },
+      {
+        "path": "theorem-bank/round4-original-2026-08-04/PROVE-SYSTEM-RECEIPT.txt",
+        "bytes": 1985,
+        "sha256": "0a85229559b1a029a85e212809dc432f7a107161205831c501cfee447353d884",
+        "github_blob": "6dfb8bec62424b1c070fd031cb731607f22d6a58"
+      },
+      {
+        "path": "theorem-bank/round4-original-2026-08-04/RUNBOOK.md",
+        "bytes": 626,
+        "sha256": "841593239474bb5d2afba5f7f65d05b60c913b07c08060b900df56e9970ba4d2",
+        "github_blob": "14a63c17f33aa82f7994fdcca778647ca727cad1"
+      },
+      {
+        "path": "theorem-bank/round4-original-2026-08-04/THEOREM-SPECS.json",
+        "bytes": 28924,
+        "sha256": "1f9b326e58e4aa57106a23dfd6fc6557bca8c04369bf2aff2d5e93eabdd08060",
+        "github_blob": "2697d12629b50255c4b9bfe2437a1ef22b602454"
+      },
+      {
+        "path": "theorem-bank/round4-original-2026-08-04/build_round4.py",
+        "bytes": 34596,
+        "sha256": "f227fd574a59a8b601d38d3b85dc79d0858760e6dafc2cdcf72acffc90560269",
+        "github_blob": "d90b4572c4848e063c15b3c9e1d09faa675c4b6a"
+      },
+      {
+        "path": "theorem-bank/round4-original-2026-08-04/prove_system.sh",
+        "bytes": 497,
+        "sha256": "24b99800405a96d59a4602ed510343ea6024e6345caa24084842a7eea199e379",
+        "github_blob": "a22483ee73ced025bedd0f9d95212f73a4322c2a"
+      },
+      {
+        "path": "theorem-bank/round4-original-2026-08-04/verify_round4.py",
+        "bytes": 13604,
+        "sha256": "920b63fc459742d47695e152ff8f617e0ebeacc8fa7419e62383927289526452",
+        "github_blob": "11a987bae6598da8b69d614dffc018336abded50"
+      },
+      {
+        "path": "verification/seed-dependencies/ERDOS-595-SELF-GROWTH-THEOREM-CARDS-2026-08-04.jsonl",
+        "bytes": 17136,
+        "sha256": "c362b5bfb03eac31411e66053e1ac15392de387d134a4946535a26ea61724ba9",
+        "github_blob": "399a0d792199d05777cf52686f02591575b959c9"
+      },
+      {
+        "path": "verification/seed-dependencies/HIGH-GEAR-THEOREM-CARDS.jsonl",
+        "bytes": 26813,
+        "sha256": "f260f31ca259acd532fddc4005beea86de1a524801f143832a6e217e85272cc2",
+        "github_blob": "d1b9b37db639347e0d7e7afcfd732c6e8d01a435"
+      },
+      {
+        "path": "verification/seed-dependencies/RELATIONAL-THEOREM-CARDS.jsonl",
+        "bytes": 27081,
+        "sha256": "4a0899a8220e5ca4539d8ebeae42943c9e775b78833455e5afcde785e65b5b38",
+        "github_blob": "d87eb5ea131cb0f7c2b2b22deef881bb0c32f2c0"
+      }
+    ]
+  }
+]
