@@ -100,3 +100,16 @@ These add 25 exact research files, bringing the dump-discoverability pass to
 nine focused homes and 998 research files. Public Git blobs were verified;
 historical Lean checks are not presented as fresh compilation. See the
 [updated audit](DUMP-DISCOVERABILITY-AUDIT-2026-09-13.md) and its publication receipt.
+
+## Original verifier recovery: finite fields and SQS(20)
+
+- [finite-field-extremal-sets](https://github.com/jaredwilder/finite-field-extremal-sets):
+  one focused home for the three exact F31/Z31/F73 classifications; 19 original
+  research files, full Python replay, and all three recovered C/C++ verifiers
+  compiled and run successfully in CI.
+- [erdos835-lean-audit](https://github.com/jaredwilder/erdos835-lean-audit):
+  the missing 25-file explicit P15 package is recovered; all rigidity and
+  pair-trade checks, incidence identity and residual K5 reconstruction pass.
+
+These are 44 preserved original research files across one new home and one
+existing-home recovery. See the updated dump-discoverability audit and receipt.
