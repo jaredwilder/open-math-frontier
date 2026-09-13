@@ -88,3 +88,15 @@ The next decision for each recovered cluster is one of:
 - promote to a dedicated canonical repository;
 - route into an existing canonical subject repository;
 - mark as source-recovery blocked until original bytes are surfaced.
+
+## Four further homes from the canonical-ledger pass
+
+- [erdos146-degenerate-turan](https://github.com/jaredwilder/erdos146-degenerate-turan): 51 named historical checks; extraction, sparsity and reductions.
+- [erdos1192-representation-energy](https://github.com/jaredwilder/erdos1192-representation-energy): corrected energy inequalities linked to their original campaign.
+- [erdos39-sidon-density](https://github.com/jaredwilder/erdos39-sidon-density): infinite Sidon construction, formal bounds and finite controls.
+- [erdos74-bipartite-defect](https://github.com/jaredwilder/erdos74-bipartite-defect): bounded-defect coloring and the finite-vertex guard.
+
+These add 25 exact research files, bringing the dump-discoverability pass to
+nine focused homes and 998 research files. Public Git blobs were verified;
+historical Lean checks are not presented as fresh compilation. See the
+[updated audit](DUMP-DISCOVERABILITY-AUDIT-2026-09-13.md) and its publication receipt.
