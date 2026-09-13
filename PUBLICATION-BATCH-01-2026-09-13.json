@@ -359,9 +359,9 @@
   {
     "repo": "erdos500-turan34",
     "branch": "main",
-    "commit": "197f933fa461b4ca5f03795150a3130a74f28e5c",
+    "commit": "b0c666b82e7f8705adb55ac51bd4c121146ae37d",
     "public_branch_contains_commit": true,
-    "url": "https://github.com/jaredwilder/erdos500-turan34/commit/197f933fa461b4ca5f03795150a3130a74f28e5c",
+    "url": "https://github.com/jaredwilder/erdos500-turan34/commit/b0c666b82e7f8705adb55ac51bd4c121146ae37d",
     "files_verified": [
       {
         "path": "program/original-forge-2026-08-04/ERDOS-500-THEOREM-RECORDS.jsonl",
@@ -416,9 +416,9 @@
   {
     "repo": "fiber-coherence-cycle-rank",
     "branch": "main",
-    "commit": "99520e2f4e933eeb1aef54eb3cef3b6e2897b490",
+    "commit": "0b855376b134a51f82bb1a72d12e40177f91d119",
     "public_branch_contains_commit": true,
-    "url": "https://github.com/jaredwilder/fiber-coherence-cycle-rank/commit/99520e2f4e933eeb1aef54eb3cef3b6e2897b490",
+    "url": "https://github.com/jaredwilder/fiber-coherence-cycle-rank/commit/0b855376b134a51f82bb1a72d12e40177f91d119",
     "files_verified": [
       {
         "path": "theorem-bank/round4-original-2026-08-04/ATTACK-QUEUE.json",
