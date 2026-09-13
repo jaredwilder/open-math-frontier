@@ -50,6 +50,66 @@
       "research_files": 11,
       "research_bytes": 72147,
       "all_source_blobs_match": true
+    },
+    {
+      "repo": "jaredwilder/erdos146-degenerate-turan",
+      "commit": "aa53a6fa03ff4f176fb9a4dc03ef4101640db410",
+      "research_files": 10,
+      "research_bytes": 84883,
+      "all_source_blobs_match": true,
+      "sources": [
+        {
+          "repo": "jaredwilder/erdos-campaign-archive",
+          "commit": "dad8bf3925ec7584a2e782b06e102e54587c2094"
+        }
+      ],
+      "fresh_lean_build": false
+    },
+    {
+      "repo": "jaredwilder/erdos1192-representation-energy",
+      "commit": "d26aca95d3b543dbd01aca5d80ea924f93f29b33",
+      "research_files": 7,
+      "research_bytes": 888504,
+      "all_source_blobs_match": true,
+      "sources": [
+        {
+          "repo": "jaredwilder/erdos-campaign-archive",
+          "commit": "dad8bf3925ec7584a2e782b06e102e54587c2094"
+        },
+        {
+          "repo": "jaredwilder/erdos-findings-ledger",
+          "commit": "8d452e5049be4e25aec191ea6c496f72c7c56d11"
+        }
+      ],
+      "fresh_lean_build": false
+    },
+    {
+      "repo": "jaredwilder/erdos39-sidon-density",
+      "commit": "ccce8ee22b415fa3e746225c28bbcf992d9dbbe0",
+      "research_files": 4,
+      "research_bytes": 46947,
+      "all_source_blobs_match": true,
+      "sources": [
+        {
+          "repo": "jaredwilder/erdos-campaign-archive",
+          "commit": "dad8bf3925ec7584a2e782b06e102e54587c2094"
+        }
+      ],
+      "fresh_lean_build": false
+    },
+    {
+      "repo": "jaredwilder/erdos74-bipartite-defect",
+      "commit": "29d3347da826b82c3717d1318d40aa3bd012f49b",
+      "research_files": 4,
+      "research_bytes": 29822,
+      "all_source_blobs_match": true,
+      "sources": [
+        {
+          "repo": "jaredwilder/erdos-campaign-archive",
+          "commit": "dad8bf3925ec7584a2e782b06e102e54587c2094"
+        }
+      ],
+      "fresh_lean_build": false
     }
   ],
   "routing_updates": [
@@ -76,7 +136,54 @@
       "commit": "6e28dc2e4957ab5b2680deabe244baff210cad14",
       "path": "README.md",
       "readback_verified": true
+    },
+    {
+      "repo": "jaredwilder/erdos-campaign-archive",
+      "path": "README.md",
+      "commit": "f79703c19dda122339784575e10c21177ba6a147",
+      "readback_verified": true
+    },
+    {
+      "repo": "jaredwilder/erdos-findings-ledger",
+      "path": "README.md",
+      "commit": "22cc7f372279549d4d97250f4fc179de56dbae0b",
+      "readback_verified": true
+    },
+    {
+      "repo": "jaredwilder/open-math-frontier",
+      "path": "DUMP-DISCOVERABILITY-AUDIT-2026-09-13.md",
+      "commit": "3719dca3ba0ca9d0e26215e4aae3f5854b1ac40d",
+      "readback_verified": true
+    },
+    {
+      "repo": "jaredwilder/open-math-frontier",
+      "path": "REPO-PROMOTIONS-COMPLETED-2026-09-13.md",
+      "commit": "283329defe30bcec9ac630f6cf634b549c469adf",
+      "readback_verified": true
+    },
+    {
+      "repo": "jaredwilder/open-math-frontier",
+      "path": "README.md",
+      "commit": "883f9b3f70fbc573aedace42a02d4f3d3417a1aa",
+      "readback_verified": true
     }
   ],
-  "research_files_preserved": 973
+  "research_files_preserved": 998,
+  "round2": {
+    "research_files": 25,
+    "research_bytes": 1050156,
+    "ledger_leads": [
+      {
+        "sheet": "Buried Headlines",
+        "row": 14,
+        "problem": "146"
+      },
+      {
+        "sheet": "Buried Headlines",
+        "row": 19,
+        "problem": "1192"
+      }
+    ],
+    "input_documents_modified": false
+  }
 }
