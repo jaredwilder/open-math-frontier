@@ -50,6 +50,27 @@ Let C_k(N) be the largest subset of `{1,...,N}` with no k+1 distinct elements ad
 
 **Evidence:** the [extension tables and receipts](https://github.com/jaredwilder/ck-sequences/blob/master/evidence/extension-2026-09-11.md) report OPTIMAL solver status and successful prior-table replay. This review directly checked all 11,880 ordered distinct quadruples of the printed 12-element C3(51) witness; the matching upper bound remains supported by the published optimization receipt, not a new optimization run here. The ordering convention is essential.
 
+## 6. The optimal exponent for signed sparse integer encoding
+
+For each fixed `s>=1`, encode every vector in `{-1,0,1}^m` with at most
+`s` nonzero coordinates by a single integer `sum_i x_i w_i`, with positive
+integer weights. The smallest possible largest weight satisfies
+
+`W(m,s)=Theta_s(m^s)`.
+
+**Why it stands out:** this gives matching lower and upper bounds for every
+fixed sparsity, including signed cancellation. It closes the growth exponent;
+it does not specify the optimal leading constant.
+
+**Evidence:** the [complete proof, source cards and independent checker](https://github.com/jaredwilder/positional-encoding-thresholds/tree/master/signed-sparse)
+are public. Counting gives the lower bound. A charge shift turns a classical
+cyclic Bose–Chowla B_s set into a signed encoding and attains the exponent.
+Fresh finite checks covered 2,328 cyclic input sets and 20,252 signed states,
+plus a larger support-three example and an unshifted negative control. The
+all-parameter conclusion follows from the proof, not the finite replay.
+These expand existing SGN-04/05/06 cards; they are not additional results to
+add to the estate's card count. The classical construction is cited explicitly.
+
 ## Review handoff
 
 For external assessment, begin with the precise statement and hypotheses above, then inspect the linked proof, witness or verifier. Novelty conclusions should be recorded separately from mathematical validity, finite completeness and formal verification. Archive size and generated-card counts are not used as headline evidence.
