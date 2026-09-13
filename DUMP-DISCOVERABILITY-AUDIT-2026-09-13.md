@@ -1,10 +1,10 @@
 # Mathematics recovered from broad repositories
 
-Nine coherent research programs now have populated, problem-specific public
-homes. They previously lived inside the campaign archive or the combined
-computational-search repository. Across the nine promotions, **998 research
+Ten coherent research programs now have populated, problem-specific public
+homes. Their sources previously lived inside mixed public archives
+and mathematical release ZIPs. Across the ten promotions, **1,017 research
 files** were preserved and their public Git blob IDs checked against the
-original source commits.
+original source commits or exact ZIP members.
 
 This is a discoverability and routing audit. It does not rank novelty or
 upgrade the mathematical status of a source claim.
@@ -22,6 +22,7 @@ upgrade the mathematical status of a source claim.
 | #1192: additive-basis representation energy | Campaign archive plus corrected findings-ledger note | 7 | [erdos1192-representation-energy](https://github.com/jaredwilder/erdos1192-representation-energy) |
 | #39: Sidon density | `erdos-campaign-archive/campaigns/erdos39-close-2026-09-05` | 4 | [erdos39-sidon-density](https://github.com/jaredwilder/erdos39-sidon-density) |
 | #74: bounded bipartite defect | `erdos-campaign-archive/campaigns/erdos74-close-2026-09-05` | 4 | [erdos74-bipartite-defect](https://github.com/jaredwilder/erdos74-bipartite-defect) |
+| Finite-field extremal sets: F31, Z31, F73 | `combinatorial-records/finite-fields` and three MathFire ZIPs | 19 | [finite-field-extremal-sets](https://github.com/jaredwilder/finite-field-extremal-sets) |
 
 Each home has a mathematical introduction, a file-by-file reading map,
 explicit evidence boundaries, source license, an immutable source manifest,
@@ -37,7 +38,7 @@ not the number or importance of their mathematical results.
 
 ## What was checked for this promotion
 
-- All 998 research-file Git blobs in the new public repositories match the
+- All 1,017 research-file Git blobs in the new public repositories match the
   pinned source snapshots. Each repository also supplies SHA-256 checks.
 - The #850 small control was rerun through 30,000: seven two-term pairs,
   independently rechecked by trial division, and no three-term pair. Its
@@ -92,6 +93,64 @@ readable 617-row catalogue had also been repaired earlier. Those stale debts
 did not generate duplicate repositories. The #1061 subject home exists, but
 its named 152,803-row primitive-seed CSV remains an exact-source recovery gap;
 its absence is not repaired by another README.
+
+## Third pass: original certificates recovered from engine and design ZIPs
+
+This pass recovered complete mathematical authority behind summaries that
+were already public. It added **one focused home and one substantial source
+recovery inside an existing home**, preserving 44 original research files.
+
+### Three finite-field classifications in one home
+
+[finite-field-extremal-sets](https://github.com/jaredwilder/finite-field-extremal-sets)
+organizes three separate finite problems:
+
+| Domain and constraints | Exact maximum | Number of maximizing sets |
+|---|---:|---:|
+| F31 nonzero residues, sum/product-free | 8 | 9 |
+| Z31, sum-free and nontrivial-3-AP-free | 6 | 330, in 12 dilation orbits |
+| F73 nonzero residues, sum/product/nontrivial-3-AP-free | 12 | 3 |
+
+The 19 preserved research files combine eight original public records with
+eleven exact mathematical members from three MathFire ZIPs. They include all
+three original C/C++ verifiers and their historical outputs. The F31 final
+packet and F73 development packet have different ZIP hashes and remain
+separate theorem identities.
+
+A fresh Python computation reproduces the complete maximizing layers and
+checks historical witness/orbit lists. Six twelve-vertex control domains are
+also exhaustively checked by direct equation evaluation (24,576 subsets).
+[Successful CI](https://github.com/jaredwilder/finite-field-extremal-sets/actions/runs/34780653757)
+compiled and ran all three original C/C++ verifiers. Recovered engine-release
+provenance does not create a new historical novelty claim.
+
+### SQS(20): the actual P15 and its checks are now public
+
+The existing [#835 home](https://github.com/jaredwilder/erdos835-lean-audit#exact-source-package-and-fresh-replay)
+now contains the 25-file `JSPACE-v0.7-ERDOS835-40R` source package, including
+the exact fifteen systems and original verifier programs.
+
+Fresh replay confirms all 15 GF(5) rank-849/nullity-6 rigidity systems, all
+105 pair-trade profiles and the representative spectral-incidence identity.
+An independent graph reconstruction exhibits all four residual K5s and
+checks component sizes `250, 12×25, 4×5`, establishing that at least three
+old constituents must change in any full large-set extension. Original
+result JSON objects match the replay. This is a finite theorem about this
+particular pack; the global problem and separate Lean dependencies remain.
+
+### Leads that did not justify new repositories
+
+- #564's seven JSON proof-chain records still need usable mathematical
+  semantics and authority beyond route-status logs.
+- The twin-prime package remains conditional on unproved Type I and Type II
+  inputs; its existing archival subject directory already states that boundary.
+- The broader #477 all-quadratic assertion was found in summaries and
+  incomplete dossiers; the inspected complete Lean proof is square-only.
+  Recovery of a full broader proof remains open, rather than being inferred
+  from the report's wording.
+- A bounded next-source scan identified small formal number-theory leads
+  for #479, #456 and #936. These need subject-bank comparison and proof review;
+  their labels or source counts do not justify three more repositories.
 
 ## A large package connected to its existing subject home
 
