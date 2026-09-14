@@ -8,7 +8,7 @@
   "canonical_home": "jaredwilder/open-math-frontier/novelty-hunt",
   "canonical_ledger": "CANONICAL_LEDGER.md",
   "canonical_ledger_git_blob_sha": "a0aae59856bcd77e2014b7f158d48a63045272f7",
-  "board_git_blob_sha": "b5668e1744741074d55481e991ee35b27eb101c8",
+  "board_git_blob_sha": "8d9846c0f3460c246735c67fd0b21f4f372c3809",
   "cross_session_merge": "CROSS_SESSION_MERGE_2026-09-14.md",
   "source_estate": "https://github.com/jaredwilder",
   "top_closure_target": {
@@ -25,24 +25,31 @@
   "sweep6_deltas": [
     "Promoted Erdos #271 reflection-multiplicity growth dictionary to PAPER after source-authority audit",
     "Upgraded fiber coherence to PAPER / specialist-prior-art pending around the universal exact K4-free binary-relation and binary-CSP realization theorem",
-    "Demoted the Erdos-Gyarfas 2/3 and +2 cubic-density headline after July/August 2026 literature collision; retained source-specific bounded-defect-core machinery as MINE",
+    "Promoted the order-41 circulant R(5,5) structural package to COMPUTATIONAL PAPER CANDIDATE after fresh independent replay reproduced exactly 20 half-density survivors in one multiplier orbit and independently proved the arbitrary one-vertex extension CNF UNSAT",
+    "Isolated an Erdos-Gyarfas near-dyadic local theorem: every cubic vertex of a minimum-order counterexample lies on a cycle of length 2^k+1, equivalently two neighbors are joined after deletion by a path of length 2^k-1; targeted literature searches did not surface this exact certificate",
+    "Demoted the Erdos-Gyarfas 2/3 and additive cubic-density headline after July/August 2026 literature collision; retained source-specific near-dyadic, bounded-defect-core and quotient-cycle machinery",
     "Classified the exact Bernoulli lemniscate disc-cover cost sqrt(2) as SHORT NOTE / MINE after targeted search found only the broader classical connected-case bound",
     "Preserved general-Q finite-moment rigidity, finite heat-flow critical-value monotonicity and Epoch-44 Stieltjes transport as standalone auxiliary mathematics under a hard no-RH firewall",
     "Recorded the Z31 Schur-Roth theorem page and triple replay as an authority/discoverability upgrade rather than a new result family",
+    "Cleared P6 crown-normal-form novelty pressure after locating essentially the same structural form in recent P6-free coloring literature",
+    "Kept the Erdos #142 progression-free program at research-program scale; no new front-board theorem emerged",
     "Rechecked live commits repeatedly because theorem promotions landed while Sweep 6 was running"
   ],
   "authority_upgrades": [
+    "R(5,5) order-41 circulant classification independently replayed from the connection set: all 184756 half-density candidates enumerated, exactly 20 survivors, one multiplier orbit, stabilizer +/-1, complement-swappers +/-9; 1025 K4 and 1025 independent-4 clauses regenerated and the one-vertex extension CNF independently solved UNSAT",
     "Erdos #271 source ledger binds corrected reservoir identity, half-utilization, multiplicity-growth equivalence and exact A(4) criterion",
     "Fiber coherence canonical home now states universal K4-free relation-strip/CSP realization explicitly",
     "Z31 Schur-Roth classification has a reader-facing theorem page and three independent exhaustive implementations",
-    "Erdos #595 27-file fresh CI replay",
+    "Erdos #595 theorem compilation and historical byte-provenance enforcement are now tracked as distinct authority layers",
     "CH exact-boundary C4 human proof chain",
     "fresh finite theorem-kernel replays in #738/#500 subject homes"
   ],
   "demotions": [
-    "Erdos-Gyarfas 2/3 cubic-vertex density and +2 surplus are outflanked by 2026 literature; do not headline them as novel",
+    "Erdos-Gyarfas 2/3 cubic-vertex density and small additive surplus are outflanked by 2026 literature; do not headline them as novel",
+    "P6 stable-slice crown normal form collides with essentially the same recent P6-free coloring structure; preserve as independent recovery/supporting mathematics",
     "Generic K4-free CSP/3-coloring NP-hardness receives no novelty credit; only the exact universal fiber realization remains under court",
-    "EG203 density-zero remains theorem schema / SEAL until missing source obligations are discharged"
+    "EG203 density-zero remains theorem schema / SEAL until missing source obligations are discharged",
+    "Lonely Runner 14-runner parent headline is no longer frontier after a September 2 2026 preprint claiming the full case"
   ],
   "drained_surfaces": [
     "617 latest-local PROVED states headline/scope review",
@@ -51,12 +58,18 @@
     "556-object Pass-4 formalizer residue",
     "broad A_proved atlas headline/scope surface",
     "Erdos #738 theorem bank through forensic Round 40",
-    "reviewed canonical-gold 56-row tranche"
+    "reviewed canonical-gold 56-row tranche",
+    "first-pass R(5,5) order-41 circulant structural program with independent replay",
+    "first-pass Erdos-Gyarfas 202-card program front with near-dyadic theorem isolation",
+    "first-pass P6 Erdos-Hajnal program front",
+    "first-pass Erdos #142 progression-free program front"
   ],
   "next_pass_lenses": [
-    "mandatory live commit differential after the Sweep 6 checkpoint",
+    "mandatory live commit differential after the merged Sweep 6 checkpoint",
     "remaining unread COUNTEREXAMPLES and BOUNDARY_AUDIT prose from the 351-field transcript seam",
     "exact finite classifications and standalone theorem homes absent from the board",
+    "specialist circulant-Ramsey priority court for the R(5,5) one-class/nonextension structural package",
+    "specialist Erdos-Gyarfas court for the 2^k+1 cycle / 2^k-1 Mersenne neighbor-path theorem",
     "specialist priority court for Erdos #271 reflection-multiplicity dictionary",
     "specialist graph-gadget/CSP/homomorphism court for universal K4-free relation-strip realization",
     "theorem-map entries whose names undersell scope, especially standalone algebra/analysis inside famous-parent repositories",
