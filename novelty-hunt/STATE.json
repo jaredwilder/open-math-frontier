@@ -1,0 +1,24 @@
+{
+  "schema": "novelty-hunter-state-v1",
+  "author": "Jared Wilder",
+  "checkpoint_date": "2026-09-14",
+  "sweep": 4,
+  "saturation": false,
+  "canonical_ledger": "CANONICAL_LEDGER.md",
+  "canonical_ledger_sha256": "6f8e52f43fe349a5d7e0085084ec36019bd8ed303cfe14b0fa63cd19ca4a8ef9",
+  "source_estate": "https://github.com/jaredwilder",
+  "current_home": "jaredwilder/open-math-frontier/novelty-hunt",
+  "intended_standalone_repo": "jaredwilder/novelty-hunt",
+  "top_closure_target": {
+    "problem": "Erdos #902",
+    "claim": "f(4) >= 49",
+    "status": "SEAL",
+    "remaining": "independent catalogue-completeness certification"
+  },
+  "instructions": [
+    "Read CANONICAL_LEDGER.md in full before the next substantive sweep",
+    "Append/update the canonical ledger rather than fragmenting into per-pass files",
+    "Update BOARD.md and this state hash whenever the ledger changes",
+    "Use prior art to locate the contribution delta, not to erase it"
+  ]
+}
