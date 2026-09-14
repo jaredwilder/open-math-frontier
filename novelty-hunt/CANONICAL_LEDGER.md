@@ -2,94 +2,119 @@
 
 **Author:** Jared Wilder  
 **Canonical home:** `jaredwilder/open-math-frontier/novelty-hunt/`  
-**Checkpoint:** 2026-09-14  
-**State:** UNSATURATED  
-**Supersedes for ongoing work:** the chat-local `NOVELTY_HUNTER_CANONICAL_ESTATE_HEADLINE_LEDGER_v2_2026-09-14.md` as the durable working ledger. That artifact remains provenance.
+**Checkpoint:** 2026-09-14 — Sweep 5 live differential  
+**State:** **UNSATURATED**
 
-This is a **promotion ledger**, not a rejection ledger.
+This file is the durable promotion ledger. It supersedes chat-local novelty ledgers for ongoing work while preserving them as provenance. The separate September forensic history is merged through `CROSS_SESSION_MERGE_2026-09-14.md`.
 
-For each object:
+## Operating doctrine
 
-1. reconstruct the strongest statement actually established;
-2. identify Jared Wilder's exact contribution delta;
-3. grade the mathematical headline at its true scope;
-4. identify proof / formal / computational authority;
-5. only then use prior art to position the contribution.
+For every object, ask in this order:
+
+1. What is the strongest statement actually established?
+2. What part is Jared Wilder's contribution?
+3. What is the headline at the theorem's true scope?
+4. What proof / formal / computational authority supports it?
+5. Only then: what prior literature defines the delta?
 
 > **Prior art locates the delta. It does not erase the contribution.**
 
 > **A result loses novelty, not mathematical existence.**
 
-Status vocabulary:
-
-- **READY** — theorem/result can be written and submitted at current scope;
-- **SEAL** — major candidate with a named remaining authority dependency;
-- **PAPER** — coherent standalone theorem package;
-- **COMPUTATIONAL PAPER** — exact finite/classification result with reproducible evidence;
-- **MINE** — strong buried candidate needing a dedicated proof/novelty pass;
-- **KNOWN/REDISCOVERY** — mathematically real, novelty collided/subsumed;
-- **QUARANTINE** — broken edge / statement mismatch preserved as regression data.
+A public file is not automatically theorem authority. A formal-looking source is not automatically kernel authority. A finite result is never promoted to an infinite statement. Parent-problem openness is a scope fact, not a reason to bury valid child mathematics.
 
 ---
 
-# 1. Front-rank board
+# I. MAXIMUM-RETURN HEADLINE BOARD
 
-## 1.1 Integral octagons in general position — READY / S
+## 1. Erdős #902 / Schütte tournament function — SEAL / S
 
-**Claim:** `ḋ(2,8) > 30000`.
+**Candidate:**
 
-The `integral-point-sets` program proves whole-plane maximality of the Kreisel–Kurz minimizing heptagon H1. Combined with published uniqueness through diameter 30,000, every 8-point integral configuration in general position has diameter strictly above 30,000.
+`f(4) >= 49`, against the published lower bound 48.
 
-**Home:** `jaredwilder/integral-point-sets`.
+The DRT(23)/QR23 repair-capacity program, finite catalogues and Lean kernels are substantial. The load-bearing remaining obligation is independent certification that the relevant McKay–Spence tournament catalogue layer is complete and is used correctly.
 
-**Headline:** new lower bound for integral octagons in general position.
+**Home:** `jaredwilder/erdos902-tournament-f4`
 
----
-
-## 1.2 Erdős #902 / Schütte tournament function — SEAL / S
-
-**Candidate:** `f(4) >= 49`, against the published lower bound 48.
-
-The repair-capacity computation reproduces exactly and the surrounding DRT(23)/QR23/Lean program is substantial. The remaining named dependency is independent certification that the relevant McKay–Spence tournament catalogue layer is complete and used correctly.
-
-**Home:** `jaredwilder/erdos902-tournament-f4`.
-
-**Action:** treat the catalogue bridge as a finite certification job, not a reason to demote the theorem.
+**Publication headline after seal:** lower bound improves from 48 to 49.
 
 ---
 
-## 1.3 Graham–Alspach sequenceability — COMPUTATIONAL PAPER / S
+## 2. Integral octagons in general position — READY / S
 
-Complete verification for every subset of `Z_37` and `Z_41`, plus larger cyclic ranges.
+**Theorem:**
 
-Current public accounting:
+`ḋ(2,8) > 30000`.
+
+The public `integral-point-sets` package proves whole-plane maximality of the Kreisel–Kurz minimizing heptagon H1. Combined with the published uniqueness range through diameter 30,000, this raises the inherited lower bound for eight-point integral sets in general position from 22,270 to strictly above 30,000.
+
+**Home:** `jaredwilder/integral-point-sets`
+
+A compile-ready preprint is already present.
+
+---
+
+## 3. Erdős #681 — kernel-certified bad integer near 10^12 — READY / HIGH PRIORITY
+
+The estate proves formally that
+
+`n = 999,997,304,512`
+
+has no admissible positive shift `k` for the #681 condition. Equivalently, for every `k>0`, either `n+k` is prime or its least prime factor is at most `k^2`.
+
+Certification architecture:
+
+- `k>=1001` excluded by the fourth-root necessity;
+- all `1<=k<=1000` certified individually;
+- 40 prime shifts have explicit primality proof objects;
+- every composite shift has an explicit divisor at most `k^2`;
+- source has no `sorry`, `admit`, `native_decide` or `ofReduceBool` escape route in the claimed kernel theorem.
+
+Hence any eventual positive threshold satisfies
+
+`N0 > 999,997,304,512`.
+
+**Home:** `jaredwilder/erdos-proved-lemmas/erdos681`
+
+**Status:** exact theorem; specialist priority/adjudication now deserves immediate attention.
+
+The separate exceptional-set estimate remains **SEAL / analytic source-binding debt**, not a finished theorem.
+
+---
+
+## 4. Graham–Alspach sequenceability — COMPUTATIONAL PAPER / S
+
+Complete verification for every subset of `Z_37` and `Z_41`, plus substantial ranges in larger cyclic groups.
+
+Current accounting includes:
 
 - 20,001,879,972 orbit representatives;
 - 838,583,192,826 subsets covered;
 - zero non-sequenceable and zero undecided in the reported rows;
-- additional verified ranges in `Z_43, Z_47, Z_53, Z_71`.
+- additional ranges in `Z_43, Z_47, Z_53, Z_71`.
 
 **Homes:** `graham-alspach-sequenceability`, `graham-alspach-extended`, `graham-alspach-z53-z71`, `graham-alspach-certificates`.
 
 ---
 
-## 1.4 Erdős–Straus AP/GP denominator classifications — PAPER / S
+## 5. Erdős–Straus AP/GP denominator classifications — PAPER / S
 
-Every positive solution of
+All positive solutions of
 
 `4/n = 1/x + 1/y + 1/z`
 
-whose ordered denominators are in arithmetic progression or geometric progression is completely and uniquely parameterized. Neither family contains primitive denominator triples.
+whose ordered denominators form either an arithmetic progression or a geometric progression are completely and uniquely parameterized. Neither family contains a primitive denominator triple.
 
 **Home:** `jaredwilder/erdos-straus-progressions`.
 
-Targeted searches found adjacent parameterizations/congruence work but not these exact two iff classifications.
+Targeted searches found adjacent parameterizations and congruence work but not these exact two iff classifications.
 
 ---
 
-## 1.5 Caccetta–Häggkvist extremal boundary — PAPER + FORMALIZE / S
+## 6. Caccetta–Häggkvist exact-boundary cubic C4 theorem — PAPER / S
 
-If an oriented graph has `3d` vertices, every outdegree equals `d`, and it contains no directed triangle, then
+For a directed-triangle-free oriented graph on `n=3d` vertices with every outdegree equal to `d`,
 
 `C4(D) >= ceil(3 d^3 / 2)`
 
@@ -97,27 +122,38 @@ and equivalently
 
 `tr(A^4) >= 6 d^3`.
 
+The human-readable exact-boundary chain is now public:
+
+- rootwise two-path escape mass;
+- exact nonedge count;
+- opposite-path product inequality;
+- exact double-count of directed 4-cycles;
+- skew-energy identity
+  `C4(D)=1/4||A^2||_F^2 - 1/8||A^2-(A^T)^2||_F^2`.
+
 **Home:** `jaredwilder/caccetta-haggkvist-triangles`.
 
-**Action:** independent Lean formalization and specialist literature seal.
+**Authority:** source-supported proof chain is reader-auditable; the September 14 extraction explicitly does not claim a fresh independent checker/Lean replay. Independent replay + specialist priority court remain the correct next seal.
+
+The CH parent problem remains open.
 
 ---
 
-## 1.6 Signed sparse integer encoding — PAPER / S
+## 7. Signed sparse integer encoding — PAPER / S
 
-For fixed sparsity `s`, the least possible largest positive integer weight needed to injectively encode every signed `s`-sparse vector in `{-1,0,1}^m` into one integer satisfies
+For fixed sparsity `s`, the minimum largest positive integer weight needed to encode every signed `s`-sparse vector in `{-1,0,1}^m` injectively into one integer satisfies
 
 `W(m,s) = Theta_s(m^s)`.
 
-Counting gives the lower bound; a charge-shifted Bose–Chowla `B_s` construction gives the upper bound.
+Counting gives the lower bound; a charge-shifted Bose–Chowla `B_s` construction gives the upper bound; independent finite replay is public.
 
 **Home:** `jaredwilder/positional-encoding-thresholds`.
 
 ---
 
-## 1.7 Erdős #949 — PAPER / A-S
+## 8. Erdős #949 — arbitrary-sum-free full finite-sums theorem — PAPER / A-S
 
-For arbitrary sum-free `S subset R`, the estate has a public sorry-free Lean theorem producing infinite `A subset N` such that
+For every sum-free `S subset R`, there is an infinite `A subset N_{>0}` such that
 
 `FS(A) ∩ S = empty`
 
@@ -125,104 +161,58 @@ and
 
 `2 FS(A) ∩ S = empty`.
 
-Further envelopes cover finitely many dilations / additive homomorphisms. The finite forcing constant `q<=5` is sharp.
+A sorry-free public Lean theorem seals the full finite-sums statement. Further envelopes handle finitely many real dilations / additive homomorphisms. The finite forcing constant `q<=5` is sharp.
 
-**Home:** `jaredwilder/erdos949-finite-sums` plus formal theorem bank.
+**Home:** `jaredwilder/erdos949-finite-sums`.
 
-**Boundary:** do not misstate the remaining continuum parent formulation.
+Do not compress this into the still-open parent formulation.
 
 ---
 
-## 1.8 Erdős #595 continuum barrier / triangle-cover theory — PAPER / S formal
+## 9. Erdős #595 continuum barrier — PAPER / S FORMAL
 
-A 27-file sorry-free Lean package proves, among other things:
+The barrier tower proves, among other things:
 
-- every graph on at most continuum many vertices is a countable union of triangle-free subgraphs;
-- without the `K4`-free restriction, non-coverability starts exactly at the successor of the continuum;
+- every graph on at most continuum many vertices is coverable by countably many triangle-free subgraphs;
+- without the K4-free restriction, non-coverability begins exactly at the successor of the continuum;
 - least witnesses have uncountable cofinality;
 - a witness occurs inside one connected component.
 
-The larger `triangle-cover-number` program contains coherence/CSP/cycle-rank theory.
+**Fresh authority upgrade:** a pinned CI workflow now checks the sealed 27-file manifest and hashes, rejects simple `sorry` / top-level `axiom` / `unsafe` escape surfaces, and compiles all 27 Lean theorem files under pinned Lean/Mathlib.
 
-**Homes:** `erdos595-barrier-tower`, `triangle-cover-number`.
+**Home:** `jaredwilder/erdos595-barrier-tower`.
+
+This materially increases publication readiness.
 
 ---
 
-## 1.9 SQS(20) residual completion / rigidity / trade suite — PAPER / A
+## 10. SQS(20) residual completion / rigidity / trade suite — PAPER / A
 
-For a partial large set `P` of pairwise block-disjoint SQS(v), with `q=v-3-|P|`, completion is equivalent to `chi(R(P))=q` for the residual graph on uncovered 4-sets.
+General residual completion theorem:
+
+`P completes to a large set of SQS(v) iff chi(R(P)) = v-3-|P|`.
 
 For the recovered 15-pack on 20 points:
 
 - 570 uncovered 4-sets;
-- residual component sizes `250, 25x12, 5x4`;
-- four `K5` components obstruct naive completion by two more systems;
+- residual components `250, 25x12, 5x4`;
+- four K5 components obstruct naive two-system completion;
 - every 14-subpack uniquely forces the fifteenth;
-- GF(5) rank `849/855`, nullity 6, all `5^6=15625` combinations checked with no nonzero binary trade;
-- all 105 pair unions fall into exactly two trade profiles: 30 same-row and 75 cross-row;
-- any full large-set escape retaining systems from this pack must replace at least three old constituents.
+- GF(5) rank 849/855, nullity 6, all `5^6=15625` nullspace combinations checked with no nonzero binary trade;
+- all 105 pair unions fall into exactly two trade profiles;
+- any full large-set escape retaining members of this pack must replace at least three old constituents.
 
 **Home:** `jaredwilder/erdos835-lean-audit`.
 
 ---
 
-## 1.10 General covering-design plateau rigidity — PAPER / A-S candidate
+## 11. Erdős #890 ↔ #1093 bridge — PAPER / A
 
-Let `c_n^{r,k}` be the minimum number of `r`-sets meeting every `k`-set. For an optimal `(r,k)` cover on `n+1` vertices,
+For admissible windows, `k`-smooth terms become finite divisor geometry inside
 
-`sum_v (|M-v|-c_n^{r,k}) = (n+1-r)c_{n+1}^{r,k} - (n+1)c_n^{r,k}`.
+`L_k = lcm(1,...,k)`:
 
-Consequences:
-
-- normalized density is nondecreasing;
-- a density plateau occurs **iff every vertex deletion of every optimum is itself optimal**;
-- on a plateau, **every optimum is regular** with point degree `c_{n+1}^{r,k}-c_n^{r,k}`.
-
-This is wider than the Turán (3,4) problem in which it was discovered.
-
-**Home:** `jaredwilder/erdos500-turan34`.
-
-Targeted search found standard Schönheim/deletion theory but not this exact equality/full-heredity/regularity characterization.
-
----
-
-## 1.11 Turán (3,4) five-set excitation / frustration coordinates — PAPER / A
-
-For a four-set cover `M`, every five-set `X` contains at least three selected triples. Define
-
-`epsilon_5(X)=|M[X]|-3`.
-
-Then
-
-`C(n-3,2)|M| = 3 C(n,5) + sum_X epsilon_5(X)`
-
-and
-
-`|M|/C(n,3) = 3/10 + (1/10) E epsilon_5`.
-
-Define `Lambda_s` as the minimum total five-set excitation on `s` vertices. Then
-
-`Lambda_s = C(s-3,2)c_s - 3C(s,5)`
-
-and
-
-`sup_s Lambda_s/C(s,5) = lim_n (10 q_n - 3)`.
-
-Thus Turán (3,4) is equivalent to the exact frustration-supremum value `13/9`.
-
-The minimum five-vertex local state is unique up to isomorphism (`P3 disjoint K2` after complementing triples to pairs).
-
-The same program has an exact one-point extension operator via pair-cover number `tau_2(H)` and extension defect/slack calculus.
-
-**Home:** `jaredwilder/erdos500-turan34`.
-
----
-
-## 1.12 Erdős #890 ↔ #1093 bridge — PAPER / A
-
-For the #1093 window, smooth terms become divisors of `L_k=lcm(1,...,k)`:
-
-`delta(n,k)=#{d|L_k : n-k<d<=n}`.
+`delta(n,k) = #{d | L_k : n-k < d <= n}`.
 
 The large-prime identity
 
@@ -234,7 +224,7 @@ combines with deficiency `d` and excess large-prime multiplicity `E` to give
 
 hence
 
-`S_k <= k  iff  E <= d`.
+`S_k <= k iff E <= d`.
 
 This is a genuine cross-problem fusion.
 
@@ -242,373 +232,338 @@ This is a genuine cross-problem fusion.
 
 ---
 
-## 1.13 Diagonal Ramsey sublinear-corridor invariance — SHORT PAPER / A
+## 12. Erdős #738 sharp type-support theorem — PAPER CANDIDATE / A
 
-For `n>a>=0`,
+Inside a path-induced, level-stable, type-uniform complete ordered rooted `d`-ary tree in a triangle-free host, each join-depth slice obeys
 
-`r(n-a,n) <= R(n) <= 4^a r(n-a,n)`.
+`|supp(A_c)| <= floor(n^2/2)`.
 
-Therefore if `a_n=o(n)`,
+The parity-defect host—connect incomparable vertices iff their depths have opposite parity—remains triangle-free and attains equality in every slice.
 
-`(log R(n)-log r(n-a_n,n))/n -> 0`.
+In that extremizer, a selected rooted subtree is induced iff every incomparable selected pair has equal depth parity.
 
-So diagonal Ramsey numbers and **every** sublinear off-diagonal corridor have identical exponential limsup and liminf. Convergence on any one such corridor is equivalent to convergence on the diagonal.
+The broader type-uniform framework belongs to Nguyen–Scott–Seymour machinery; targeted search did not surface this exact sharp support/equality package.
 
-The program also proves that approximate supermultiplicativity
+**Home:** `jaredwilder/erdos738-triangle-free-induced-trees`.
 
-`A(m+n+E(m,n)) >= A(m)A(n)`, `A(k)=R(k)-1`,
-
-with `E(m,n)=O((m+n)/log^2(m+n))`, is enough to force existence of `lim R(k)^(1/k)`.
-
-**Home:** `jaredwilder/diagonal-ramsey-corridor`.
+Specialist Gyárfás–Sumner priority court remains appropriate.
 
 ---
 
-## 1.14 Erdős #486 summable forbidden-mass theorem — PAPER candidate
+## 13. Covering-design plateau rigidity / Turán (3,4) structural calculus — PAPER / A
+
+For general `(r,k)` covering designs, the estate has an exact deletion-debt identity. Equality of normalized covering density from `n` to `n+1` holds iff every deletion of every optimum remains optimal; on a plateau every optimum is regular.
+
+For Turán (3,4), the five-set excitation
+
+`epsilon_5(X)=|M[X]|-3`
+
+gives
+
+`|M|/C(n,3) = 3/10 + (1/10) E epsilon_5`.
+
+The finite frustration hierarchy is exactly equivalent to the asymptotic target. The fractional cover layer gives
+
+`rho*(K_n)=1/4 C(n,3)`
+
+and the Turán target `q_n -> 4/9` is equivalent to integrality gap
+
+`rho(K_n)/rho*(K_n) -> 16/9`.
+
+**Home:** `jaredwilder/erdos500-turan34`.
+
+The elementary fractional `1/4` fact is not the novelty claim; the combined equality/deletion/excitation/integrality calculus is the paper object.
+
+---
+
+## 14. Fiber coherence — exact K4-free realization of binary relations/CSPs — HIGH-PRIORITY NOVELTY COURT
+
+Pure rank-three reduced-graph topology (`Q4,T221,D22,K4`) is classical infrastructure.
+
+The distinctive theorem chain is:
+
+- **R3K03:** every finite binary relation `R subset A x B` is realized as the exact boundary projection of a finite K4-free stable-partition graph strip;
+- **R3K05:** every finite binary CSP has a polynomial-size exact K4-free fiber-coherence realization;
+- **R3K06:** finite K4-free fiber coherence is NP-complete, already with branch-domain size 3;
+- **R3K21:** for fixed incidence cyclomatic rank `r` and fiber-domain bound `d`, coherence is decidable in `O(d^r poly(N))`.
+
+A targeted search surfaced generic binary-CSP / graph-homomorphism encodings but did not surface this exact K4-free stable-partition/fiber realization theorem.
+
+**Homes:** `jaredwilder/triangle-cover-number`, `jaredwilder/fiber-coherence-cycle-rank`.
+
+This deserves a hostile specialist prior-art court.
+
+---
+
+## 15. Erdős #486 summable forbidden-mass theorem — PAPER CANDIDATE
 
 If forbidden residue sets `X_n mod n` satisfy
 
 `sum |X_n|/n < infinity`,
 
-then the survivor set has ordinary natural density. If `delta_N` is the finite periodic truncation density and `T_N=sum_{n>N}|X_n|/n`, then
+then the survivor set has ordinary natural density, with deterministic truncation error
 
-`0 <= delta_N - d(B) <= T_N`.
+`0 <= delta_N - d(B) <= sum_{n>N}|X_n|/n`.
 
 Also
 
-`d(B) >= max(0, 1-sum |X_n|/n)`.
+`d(B) >= max(0, 1 - sum |X_n|/n)`.
 
-**Home:** `erdos-proved-lemmas/erdos486-summable-forbidden-mass.md`.
-
----
-
-## 1.15 Erdős #738 sharp type-uniform tensor obstruction — MINE -> serious novelty target
-
-The focused public bank contains 62 `PROVED_IN_PACKET` and 12 `UNPROVED_CHECKABLE_TARGET` entries, inside a 174-claim research surface.
-
-The strongest distinctive family is T06–T09.
-
-For a complete ordered `d`-ary rooted tree embedded path-induced, level-stable and type-uniform in a triangle-free host, each join-depth support slice obeys
-
-`|supp(A_c)| <= floor(n^2/2)`, `n=k-c`.
-
-A parity-defect host (connect incomparable vertices iff their depths have opposite parity) remains triangle-free and attains equality in every slice.
-
-In that extremizer, a selected rooted subtree is induced iff every incomparable selected pair has equal depth parity.
-
-**Home:** `jaredwilder/erdos738-triangle-free-induced-trees`.
-
-**Novelty state:** general type-uniform framework found in modern Gyárfás–Sumner machinery; targeted search did not find this exact sharp `floor(n^2/2)` + parity-extremizer/equality package. Specialist court required.
+**Home:** `jaredwilder/erdos-proved-lemmas`.
 
 ---
 
-## 1.16 Fiber coherence / exact K4-free CSP realization — MINE / high priority
+# II. EXACT / COMPUTATIONAL PUBLICATION ASSETS
 
-Pure rank-three reduced-graph topology (`Q4,T221,D22,K4`) is classical infrastructure, not novelty credit.
+## Binary Sidon dimension 7
 
-The source-specific mathematics begins at relation semantics. The strongest surviving target is the theorem chain
-
-`arbitrary binary relation -> K4-free exact strip -> arbitrary binary CSP exact K4-free realization`.
-
-The finite-fiber program also identifies cycle rank four as the first fixed-rank minimal incoherence core not exhaustively classified.
-
-**Home:** `jaredwilder/fiber-coherence-cycle-rank`.
-
----
-
-# 2. Strong exact / computational assets
-
-## 2.1 Binary Sidon dimension 7 — READY
-
-Coordinate splitting gives `f(d)<=2f(d-1)`, hence
-
-`24 <= f(7) <= 30`.
-
-The lower witness 24 is known; the contribution to emphasize is the upper bound 30 and narrowed first unknown dimension.
+`24 <= f(7) <= 30`; contribution to emphasize is the upper bound 30 and narrowed first unknown dimension.
 
 **Home:** `jaredwilder/binary-sidon-f7`.
 
-## 2.2 Finite-field exact classifications — COMPUTATIONAL PAPER
+## Finite-field classifications
 
-- `F_31^*`, simultaneous sum/product avoidance: maximum 8, exactly 9 maximizers;
-- `Z/31Z`, sum-free + nontrivial-3AP-free: maximum 6, exactly 330 maximizers, 12 unit-dilation orbits;
-- `F_73^*`, simultaneous sum/product/nontrivial-3AP avoidance: maximum 12, exactly 3 maximizers.
+- `F_31^*`, sum/product avoidance: maximum 8, exactly 9 maximizers;
+- `Z/31Z`, sum + nontrivial-3AP avoidance: maximum 6, exactly 330 maximizers, 12 dilation orbits;
+- `F_73^*`, sum/product/nontrivial-3AP avoidance: maximum 12, exactly 3 maximizers.
 
-**Home:** `jaredwilder/finite-field-extremal-sets`.
+**Home:** `jaredwilder/finite-field-extremal-sets` / `combinatorial-records`.
 
-## 2.3 Erdős #1061 primitive aliquot-square rays — PAPER
+## Product-free + nontrivial-GP-free subsets of [50] — NEW EXACT CLASSIFICATION SHELF
 
-With `q=sigma(a)-a`, `b=q^2-a`, the stated primality/copimality conditions give primitive solutions of
+For `A subset {1,...,50}`, forbid both `xy=z` (repeated factors allowed) and distinct `a<b<c` with `b^2=ac`.
 
-`sigma(a)+sigma(b)=sigma(a+b)`.
+Then
 
-Primitive seeds generate disjoint coprime multiplier rays. A 152,803-seed certificate yields
+`|A| <= 35`,
+
+and exactly **240** sets attain size 35.
+
+Equivalent forbidden-hypergraph data: 149 hyperedges, transversal number 15, independence number 35, 240 maxima.
+
+Authority: two independent Python implementations + independently written C verifier.
+
+Targeted search found product-free and progression-free literatures separately, but not this exact mixed `[50]` classification.
+
+**Home:** `jaredwilder/combinatorial-records/finite-extremal/product-gp-free-50.md`.
+
+Best publication posture: bundle with the estate's exact additive/multiplicative finite classifications unless specialist comparison justifies a standalone note.
+
+## Erdős #1061 primitive aliquot-square rays
+
+Explicit primitive generator + disjoint coprime multiplier rays; 152,803 certified primitive seeds give
 
 `liminf S(x)/x >= 2.295492576177`,
 
-with archived extension above `2.295497372037`.
+with an archived upgrade above `2.295497372037`.
 
-The later parent asymptotic frontier moved beyond linear growth; the generator/ray calculus remains the contribution.
+The parent asymptotic frontier later moved past linear growth; the generator/ray calculus remains the contribution.
 
 **Home:** `jaredwilder/erdos1061-aliquot-square`.
 
-## 2.4 Pascal / finite-difference extremal atlas — COMPUTATIONAL PAPER
+## Pascal / C_k / Rado exact-extremal program
 
-For sorted `a<b<c<d` with gaps `p,q,r`, a `C3` violation is equivalent to one of five exact linear gap relations:
+Includes exact C3 gap law, exact C_k tables, finite-to-infinite density bounds, LRAT-backed finite theorem, and Rado-equation atlas. Current corrected C_k release contains **84 exact OPTIMAL values**: 26 C3, 34 C4, 24 C5.
 
-`p+r=2q`, `p=3r`, `r=3p`, `p=2q+3r`, `r=2q+3p`.
+**Homes:** `pascal-relation-extremal-atlas`, `ck-sequences`, `additive-combinatorics-campaigns`, `rado-equation-avoidance-atlas`.
 
-Exact C3 tables include `C3(51)=12`, with a kernel-checked span-50 statement backed by a 447,254-addition LRAT proof. The finite table gives an infinite-density consequence.
+## Conference-switching construction-class theorem
 
-**Homes:** `pascal-relation-extremal-atlas`, `ck-sequences`, `additive-combinatorics-campaigns`.
-
-## 2.5 Rado-equation avoidance atlas — COMPUTATIONAL PAPER
-
-Eleven complete solver-optimal sequences, 839 exact values for equations `ax+by=cz`, with reported OEIS absences for ten sequences.
-
-**Home:** `jaredwilder/rado-equation-avoidance-atlas`.
-
-## 2.6 Conference-switching impossibility theorem — READY note
-
-For symmetric conference-matrix switching, the book-avoidance inequalities force
-
-`C_ij(s_i+s_j)<=0`
-
-for all distinct pairs, while `C^2=(N-1)I` implies a strictly positive row sum expression, contradiction.
-
-This eliminates the entire switched symmetric-conference construction class for the stated Ramsey-book target.
-
-**Homes:** `ramsey-construction-class-eliminations`, `combinatorial-records`.
-
-## 2.7 Erdős #598 exact finite polychromatic values — MINE
-
-Recovered exact values:
-
-- `L(4,3,2)=2`, maximum colors 3;
-- `L(5,3,2)=4`, maximum colors 2;
-- `L(6,4,2)=3`, maximum colors 5.
-
-Extremizers are tied to `K4` matchings, `C5`/complement, and a `K6` one-factorization.
-
-Specialist novelty status unresolved.
-
-## 2.8 Ramsey R(5,5) cyclic witness structure — EXACT STRUCTURAL NOTE
-
-For the 41-vertex circulant witness with connection set `±{1,2,3,5,7,10,13,15,16,17}`:
-
-- multiplication by 9 maps the graph to its complement;
-- `9^2=-1 mod 41`;
-- `alpha=omega=4`;
-- 410 edges, 1230 triangles, 1025 `K4`s and 1025 independent 4-sets;
-- `chi=11`, and `chi(G-v)=10` for every vertex;
-- automorphism group `D_41` of order 82;
-- clique polynomial `1+41x+410x^2+1230x^3+1025x^4`.
-
-Known Ramsey bound, potential novelty only in the complete structural analysis.
+Symmetric conference switching cannot realize the simultaneous Ramsey-book avoidance pattern. This is a complete construction-class elimination, not an unrestricted Ramsey bound.
 
 ---
 
-# 3. Clean structural assets below the front board
+# III. NEW ALL-PARAMETER / SCOPE UPGRADES
 
-## Erdős #973
+## Shifted Schur parity law — finite pattern upgraded to theorem
 
-Exact `n=2` minimax value `(sqrt(5)-1)/2`. Parent later solved negatively elsewhere; finite golden-ratio extremum remains clean.
+For `1<=c<=n`, let `M(n,c)` be the maximum size of `A subset [1,n]` with no solution, repetitions allowed, to
+
+`x+y=z+c`.
+
+Translate by `c`. The problem becomes ordinary sum-freeness on `[1-c,n-c]`. Splitting positive and negative halves gives the classical half-size upper bounds, while taking all translated odd integers attains both simultaneously.
+
+Therefore
+
+`M(n,c) = ceil(n/2)` if `c` is even,
+
+and
+
+`M(n,c) = floor(n/2)` if `c` is odd.
+
+The archive's empirical parity pattern is therefore an exact all-parameter theorem for `1<=c<=n`.
+
+**Status:** READY ELEMENTARY THEOREM / conservative priority check.
+
+## Rado-family collapse — narrowed to all-n target
+
+The archive observed the same formula `n-floor(n/(k+1))` for avoiding `x1+kx2=x3` and for avoiding `x1+...+x_{k+1}=x_{k+2}`.
+
+External comparison shows broad solution-free-set literature already supplies the eventual/sufficiently-large-`n` regime for these coefficient families. The remaining possible delta is the exact **all-n** formula and a unified proof.
+
+**Status:** MINE / not yet theorem-promoted.
+
+---
+
+# IV. LIVE-COMMIT CHILD THEOREMS — PRESERVE, DO NOT OVER-RANK
+
+## Erdős #1212
+
+For every `k>=2`, `(2,3^k)` is isolated in the admissible subgraph. Genuine infinite obstruction family, but isolated-vertex phenomena already occur in the #1212 ecosystem. Parent remains open.
+
+## Erdős #251
+
+For `N>=2`, the reduced denominator of `sum_{n=1}^N p_n/2^n` is exactly `2^N`. Clean arithmetic child theorem; does not prove irrationality.
+
+## Erdős #727
+
+For every prime `p>=7`, with `n=2p-2`,
+
+`(n+2)!^2` does **not** divide `(2n)!`.
+
+Exact p-adic obstruction family. Parent asks for infinitely many positive witnesses and remains open even in the `k=2` direction; this result is useful negative structure rather than a parent advance.
 
 ## Erdős #289
 
-All-prime p-adic reciprocal-sum obstruction generalizing the familiar `p=2` parity slice. Needs formalization and priority court.
-
-## Erdős #885
-
-Factor-difference / square duality:
-
-`d in D(N) iff exists s : s^2=d^2+4N`.
-
-Sorry-free Lean theorem exists. Structural coordinate change, not parent close.
-
-## Erdős #477
-
-Scope correction: no unique direct-sum complement exists for **every quadratic integer polynomial** `ak^2+bk+c`, `a!=0`. Do not shrink this to the square case.
-
-## Erdős #400
-
-Recovered universal package includes logarithmic upper control and factorial-subsequence lower witness `g_k(m!) >= m+k-3`. Child-theorem program, not front board yet.
-
-## Erdős #479
-
-For every `j>=0` and odd prime `p`, with `e=2^j`, `n=ep`, one has `n | (2^n-2^e)`. Clean infinite family.
-
-## Erdős #700
-
-For primes `p<q`, the estate proves `f(pq)=p` for the binomial-gcd extremal function. Clean child theorem; stronger 2026 parent progress exists.
-
-## C(13,6,3) point-degree theorem
-
-Any family of 6-subsets of a 13-point set covering every triple has every point in at least 8 blocks. The nominal 20-block hypothesis in the Lean theorem is unused.
-
-## Greedy singleton-seed sum avoidance
-
-Recovered candidate formula:
-
-`A_k={n>=k : n mod (3k-1) in [k,2k-1]}`.
-
-Checked for `k=1..10`, 300 terms each. Needs clean proof + literature/name search.
+If a finite reciprocal sum is integral, then for every prime `p`, after extracting one factor `p` from all denominators divisible by `p`, the resulting reciprocal sub-sum has p-adic valuation at least 1. Clean all-prime necessary condition; priority unadjudicated and classical-adjacent.
 
 ---
 
-# 4. Proof-reconstruction queue
+# V. SOURCE-AUTHORITY CORRECTIONS / CLEARED PRESSURE
 
-## Shifted Schur-type equation
+## EG#203 density-zero exceptional-set claim — THEOREM SCHEMA, NOT FINISHED THEOREM
 
-Archive seam reports exact parity law for maximum subsets of `[1,n]` avoiding `x+y=z+c` with repeats allowed: `ceil(n/2)` for even `c`, `floor(n/2)` for odd `c`, beyond the small-`c` boundary.
+A findings-ledger row described an unconditional density-zero theorem. Its stated source paper says something weaker and controls authority:
 
-**Status:** finite-pattern report only. Reconstruct universal proof or find first counterexample before promotion.
+- it calls itself a theorem **schema**;
+- the Pappalardi-type subgroup-order input remains a hypothesis;
+- sieve weights/support/normalization remain unspecified;
+- the paper says these must be inserted before submission.
 
-## Rado-family collapse
+Therefore:
 
-Archive seam reports that avoiding
+**EG#203 density-zero claim = SEAL / SCHEMA / SOURCE-BINDING DEBT.**
 
-`x1+k x2=x3`
+Finding metadata never outranks its cited theorem source.
 
-and avoiding
+## Odd Giuga k<=11
 
-`x1+...+x_{k+1}=x_{k+2}`
+Valid exhaustive finite evidence, but external literature already has stronger lower-factor-count bounds (and a 2026 result claims at least 18). Preserve method-transfer value, not numerical novelty.
 
-appear to have identical extremal function
+## Hadamard order 668
 
-`n-floor(n/(k+1))`
+Recovered CP-SAT / modular-lift route explicitly reports bounded `UNKNOWN`, not existence or nonexistence. Research state only.
 
-for tested `k=1..4`, `n=6..30`.
+## Erdős #477 all-quadratic obstruction
 
-**Status:** finite-pattern discovery. Prove or kill universally before literature court.
+The theorem is real, but current public problem notes already contain an all-quadratic impossibility proof and broader related work. Treat as independent recovery / infrastructure, not novelty headline.
 
-## Erdős #238
+## 56-row canonical-gold bank
 
-Statement reconciliation required. A restricted small-`c1` theorem is classical; one finite window-cover lemma survives with a `k-1` sharpening. Do not promote the disputed stronger slice without re-freezing definitions.
-
----
-
-# 5. RH / Weil auxiliary novelty court — separate from RH claims
-
-**Hard boundary:** RH remains open. No off-critical zeta zero was found.
-
-Surviving auxiliary objects include:
-
-- exact isolated-quartet eigenpair for `K_a(u,v)=2(cosh(a(u-v))-1)` on `[-L,L]`;
-- repaired compact-jet invisibility theorem using an entire even polynomial deformation inserting a symmetric quartet while converging to 1 on every fixed compact finite jet;
-- no-uniform-cluster-floor theorem: in the unrestricted finite partner-quartet family, the ratio of the most negative cluster eigenvalue to the isolated eigenvalue has infimum zero, even with distinct unit-multiplicity parameters if arbitrarily close parameters are allowed;
-- live Epoch 40 adaptive theorem and generic score-shell masking no-go;
-- live Epoch 41 center-independent Blaschke separation product.
-
-These are method-obstruction/local-spectral candidates only. They must never be advertised as an RH proof or disproof.
-
-See `CROSS_SESSION_MERGE_2026-09-14.md` for exact cross-session state and commit identifiers.
+Scope audit did not reveal another front-board theorem. Important correction: the older `C(13,6,3)` point-degree-at-least-8 row is subsumed by stronger focused work in the hypothetical 20-cover regime; do not freeze the weaker statement as the live frontier.
 
 ---
 
-# 6. Known / independent rediscovery controls
+# VI. HIGH-VALUE NEAR CLOSES / ACTIVE PROGRAMS
 
-Correct mathematics with collided/subsumed novelty remains in the estate. Important controls include:
+## C(13,6,3)
 
-- Erdős #655 literal negative close via regular polygons — exact prior match to Zach Hunter;
-- #25 summable congruence sieve;
-- #376 Kummer carry criterion;
-- #456 endpoint family;
-- #700 semiprime/valuation slices;
-- #849 exact endpoints through `t=4` (`120`, `3003`);
-- #887 short-interval divisor construction;
-- #1049 Lambert identity;
-- #197 finite 3-AP-free permutation ordering;
-- maximal Sidon `Omega(N^{1/3})` blocker bound;
-- pure four-topology cyclomatic-rank-three classification.
+Still
 
-These are **positive controls for theorem recovery**, not failures.
+`20 <= C(13,6,3) <= 21`.
 
----
+Pattern A for a hypothetical 20-cover has been exhaustively eliminated:
 
-# 7. Permanent quarantine / regression set
+- 3,268,358 search nodes;
+- 6,084 labelled residuals;
+- 22 isomorphism classes;
+- all 22 killed by direct gluing contradiction.
 
-Do not resurrect as closes without repairing the broken edge:
+Patterns B/C now have exact coordinate skeletons but are not yet eliminated.
 
-- #539 false identity;
-- #101 witness violates no-five-collinear hypothesis;
-- #193 target-version/infinite-range mismatch;
-- #410 divisor-sum semantic mismatch;
-- #510 zero entered weakened domain;
-- #829 invalid Mahler-style branch;
-- #1203 universal claim refuted by later explicit value;
-- #1210 false shifted-coprimality step;
-- #683 finite contract versus global extrapolation;
-- #891 `Omega` multiplicity variant confused with live `omega` problem;
-- #943 multiplicative factorization substituted for additive convolution;
-- #701 finite certificates survive, universal one-star claim false.
+## Weird-Round all-exponent theorem family
 
-Quarantine is preserved as regression data, never silently deleted.
+Historical target files were stale: later source completes finite carry automata for fixed coefficient/base systems, all-word-length decisions, optimized digit alphabets, and the sharp antisymmetric coefficient chamber. In particular, for distinct ordered coordinates on `[N]` satisfying
+
+`x1 - b x2 + b x3 - x4 = 0`,
+
+forbidden support is empty iff `b>=N`, sharp at `b=N-1`.
+
+**Home:** `jaredwilder/additive-combinatorics-campaigns`.
+
+## RH finite-prefix / finite-spectrum reconstruction boundary
+
+Preserve as auxiliary method mathematics only. Public Round-23 package includes finite-spectrum reconstruction, redundancy of the 2D `H_{n,q}` lattice beyond its boundary row, and finite-sign-battery no-go theorems. It proves nothing new about actual zeta zeros and is not RH progress.
 
 ---
 
-# 8. Search surfaces already drained
+# VII. SEARCH SURFACES ALREADY DRAINED
 
-Do not spend a new pass merely repeating these without an orthogonal lens:
+Do not blindly rerun:
 
-- 617/617 latest-local `PROVED` states headline/scope-reviewed;
-- 282/282 omitted-family states across 97 families;
-- 335/335 represented-family upgrade states;
-- Pass-4 556-object formalizer residue classified;
-- A-proved atlas broad headline/scope surface drained;
-- nested/archive seam partially mined;
-- #738 exact theorem bank publicly reconstructed through Round 40.
+- 617/617 latest-local `PROVED` states;
+- 282 omitted-family states across 97 families;
+- 335 represented-family upgrade states;
+- 556-object formalizer residue;
+- broad `A_proved` atlas headline/scope surface;
+- #738 theorem bank through forensic Round 40;
+- reviewed 56-row canonical-gold tranche.
 
-The estate is still unsaturated because deeper passes continue to change the board, but future work must be **set-difference / scope / equality-case / bridge / proof-upgrade mining**, not raw repetition.
+Revisit these only with an orthogonal lens: scope expansion, equality cases, cross-problem fusion, unused hypotheses, exact-equivalence extraction, source-authority repair, finite-to-infinite proof upgrade, or literature court.
 
 ---
 
-# 9. Publication queue
+# VIII. CURRENT MAXIMUM-RETURN PUBLICATION QUEUE
 
 1. Seal Erdős #902 `f(4)>=49`.
-2. Submit integral-octagon `ḋ(2,8)>30000` paper.
-3. Graham `Z_37/Z_41` complete sequenceability paper.
-4. Erdős–Straus AP/GP classification paper.
-5. CH cubic-`C4` theorem + formal seal.
-6. Signed-sparse encoding `Theta_s(m^s)` paper.
-7. Erdős #949 full finite-sums package.
-8. Erdős #595 continuum-barrier formal paper.
-9. SQS(20) completion/rigidity/trade paper.
-10. General covering-design plateau-rigidity paper.
-11. Turán (3,4) excitation/frustration + extension/deletion calculus paper.
-12. #890 ↔ #1093 bridge.
-13. Diagonal Ramsey corridor + approximate-supermultiplicativity note.
-14. #738 sharp type-uniform tensor obstruction specialist court / paper if priority survives.
-15. Fiber-coherence exact K4-free relation/CSP realization hostile prior-art court.
-16. #486 summable forbidden-mass theorem.
-17. Finite-field exact classifications.
-18. Pascal/Rado exact-extremal package.
-19. #1061 primitive-ray construction.
-20. Conference-switching impossibility note.
+2. Submit integral-octagon `ḋ(2,8)>30000`.
+3. Package + externally adjudicate the #681 `999,997,304,512` kernel theorem.
+4. Graham `Z_37/Z_41` sequenceability paper.
+5. Erdős–Straus AP/GP classification paper.
+6. CH cubic-C4 theorem — independent replay + specialist literature court.
+7. Signed-sparse encoding `Theta_s(m^s)` paper.
+8. #949 arbitrary-sum-free full finite-sums theorem.
+9. #595 continuum barrier — now with fresh 27-file CI replay.
+10. SQS(20) completion / rigidity / trade paper.
+11. #890↔#1093 bridge.
+12. #738 sharp type-support theorem.
+13. #500 covering-design / Turán structural calculus.
+14. Fiber-coherence exact K4-free binary-relation/CSP realization — hostile prior-art court.
+15. #486 summable forbidden-mass theorem.
+16. Exact finite additive/multiplicative classification bundle, now including product/GP-free `[50]`.
+17. Pascal / Rado exact-extremal package.
+18. #1061 primitive-ray construction.
+19. Conference-switching construction-class theorem.
+20. Weird-Round all-exponent automaton / chamber theory.
+21. `C(13,6,3)` B/C elimination campaign.
 
-Proof-reconstruction queue:
+### Proof / novelty queue
 
-- shifted `x+y=z+c` parity law;
-- Rado-family extremal collapse;
-- greedy singleton-seed periodicity formula;
-- `R(5,5)` cyclic witness structural note if literature comparison leaves a delta.
+- shifted-Schur historical-priority check;
+- exact all-n Rado-family formula;
+- fiber K4-free realization specialist comparison;
+- CH independent replay / formal seal;
+- EG#203 source-binding obligations before any theorem promotion;
+- exact structural note for the cyclic 41-vertex `R(5,5)` witness if specialist comparison leaves a delta.
 
 ---
 
-# 10. Next-pass contract
+# IX. NEXT-PASS CONTRACT
 
-A new novelty pass should search specifically for:
+Future passes must include a **live commit differential** as well as deep ore. The public estate is changing during the audit itself.
 
-- theorem scope wider than the repo/problem title;
-- equality cases of standard inequalities;
-- exact equivalences hiding under “reduction”;
-- conditional implications that are clean standalone theorems;
-- finite empirical laws one proof away from all-parameter form;
-- formal theorems with unused hypotheses or stronger scope than their names;
-- cross-repository fusions;
-- archive results not routed to subject homes;
-- independent rediscoveries where proof/formalization/range/structure is still new.
+Search specifically for:
 
-A pass ends by updating this ledger, `BOARD.md`, `STATE.json`, and the continuation protocol when necessary.
+- commits newer than this checkpoint;
+- exact finite classifications in `combinatorial-records` not represented on this board;
+- theorem-map entries whose names conceal stronger scope;
+- equality cases and exact equivalences hidden under routine lemmas;
+- proof-bodied K4-free fiber/CSP results and specialist prior art;
+- paper-scale CH / covering-design / SQS objects whose authority can be independently upgraded;
+- transcript/archive patterns that can be converted from finite observation to all-parameter theorem.
 
 **Saturation verdict: NO.**
+
+The latest passes still change the board through different mechanisms: new theorems, source-authority corrections, authority upgrades, all-parameter proof upgrades, and hidden finite classifications.
+
+> **There is more.**
