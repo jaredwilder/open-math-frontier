@@ -1,27 +1,42 @@
 {
-  "schema": "novelty-hunter-state-v2",
+  "schema": "novelty-hunter-state-v3",
   "author": "Jared Wilder",
   "checkpoint_date": "2026-09-14",
-  "novelty_sweep": 4,
+  "novelty_sweep": 5,
   "forensic_round_merged": 40,
   "saturation": false,
   "canonical_home": "jaredwilder/open-math-frontier/novelty-hunt",
   "canonical_ledger": "CANONICAL_LEDGER.md",
-  "canonical_ledger_git_blob_sha": "909c9a475e6cfbbcf8abe4c92df445632585e6f8",
-  "provenance_chat_ledger_sha256": "6f8e52f43fe349a5d7e0085084ec36019bd8ed303cfe14b0fa63cd19ca4a8ef9",
+  "canonical_ledger_git_blob_sha": "a0aae59856bcd77e2014b7f158d48a63045272f7",
+  "board_git_blob_sha": "c6ad35d1544f7e6adabc428490c41ff698999662",
   "cross_session_merge": "CROSS_SESSION_MERGE_2026-09-14.md",
   "source_estate": "https://github.com/jaredwilder",
-  "intended_standalone_repo": "jaredwilder/novelty-hunt",
   "top_closure_target": {
     "problem": "Erdos #902",
     "claim": "f(4) >= 49",
     "status": "SEAL",
     "remaining": "independent catalogue-completeness certification"
   },
-  "new_cross_session_priority_targets": [
-    "Erdos #738 T06-T09 sharp floor(n^2/2) type-support theorem plus parity-defect extremizer",
-    "fiber coherence exact K4-free realization of arbitrary binary relations and binary CSPs",
-    "RH/Weil auxiliary method-obstruction novelty court with explicit no-RH-claim boundary"
+  "top_new_exact_result": {
+    "problem": "Erdos #681",
+    "claim": "n=999997304512 is kernel-certified bad; any eventual threshold is larger",
+    "status": "READY_PRIORITY_COURT"
+  },
+  "sweep5_deltas": [
+    "Merged the newer v3 live-commit ledger into the durable GitHub state",
+    "Promoted Erdos #681 kernel theorem to publication queue position 3",
+    "Caccetta-Haggkvist cubic-C4 proof chain is now human-readable; independent replay still outstanding",
+    "Erdos #595 has a fresh pinned CI replay of all 27 sealed Lean theorem files",
+    "Fiber coherence arbitrary-binary-relation -> K4-free strip -> universal binary-CSP realization chain is explicit and prioritized for specialist prior-art court",
+    "Added exact product-free plus nontrivial-GP-free [50] classification: maximum 35, exactly 240 maximizers",
+    "Upgraded shifted x+y=z+c parity pattern to an exact all-parameter theorem for 1<=c<=n",
+    "Downgraded EG203 density-zero findings-ledger claim to theorem schema after source-paper audit",
+    "Cleared odd-Giuga k<=11 and bounded Hadamard-668 runs from headline pressure"
+  ],
+  "authority_upgrades": [
+    "Erdos #595 27-file fresh CI replay",
+    "CH exact-boundary C4 human proof chain",
+    "fresh finite theorem-kernel replays in #738/#500 subject homes"
   ],
   "drained_surfaces": [
     "617 latest-local PROVED states headline/scope review",
@@ -29,15 +44,24 @@
     "335 represented-family upgrade states",
     "556-object Pass-4 formalizer residue",
     "broad A_proved atlas headline/scope surface",
-    "Erdos #738 exact theorem bank through forensic Round 40"
+    "Erdos #738 theorem bank through forensic Round 40",
+    "reviewed canonical-gold 56-row tranche"
+  ],
+  "next_pass_lenses": [
+    "commits newer than this checkpoint",
+    "exact finite classifications in combinatorial-records absent from the board",
+    "theorem-map entries whose names undersell scope",
+    "specialist prior-art court for K4-free fiber/CSP realization",
+    "independent proof/formal authority upgrades for CH, covering-design and SQS paper objects"
   ],
   "instructions": [
     "Read README.md, STATE.json, BOARD.md, CANONICAL_LEDGER.md and CROSS_SESSION_MERGE_2026-09-14.md before the next substantive sweep",
-    "Do not reconstruct the September forensic and novelty-hunter histories as separate projects",
-    "Update CANONICAL_LEDGER.md rather than fragmenting into per-pass ledgers",
-    "Update BOARD.md and STATE.json whenever the ranked board materially changes",
+    "Always include a live commit differential; the estate can change while the sweep is running",
+    "Do not reconstruct the September forensic and Novelty Hunter histories as separate projects",
+    "Update CANONICAL_LEDGER.md rather than spawning pass ledgers",
     "Use prior art to locate the contribution delta, not to erase it",
-    "Treat parent-problem openness as a scope fact, not as a reason to bury valid child theorems",
+    "Source theorem/paper authority outranks findings-ledger metadata",
+    "Treat parent-problem openness as a scope fact, not a reason to bury valid child theorems",
     "Preserve quarantine/regression items so dead claims are not resurrected",
     "Future sweeps must use an orthogonal lens rather than blindly rerun already-drained registry surfaces"
   ]
