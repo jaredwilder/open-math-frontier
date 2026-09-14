@@ -35,41 +35,6 @@ Recovery target:
 
 This packet has **not** been mathematically audited by the current release pass and should not be inferred from its filename or inventory description.
 
-### Prime-gap admissibility formalization
-
-Current public summary:
-
-`jaredwilder/unpublished-math-papers/prime-gap-admissibility/README.md`
-
-The summary records a multi-module Lean/mathlib chain containing finite Hardy–Littlewood admissibility counting, inclusion–exclusion, exact mod-2/mod-3 formulas, first-cover boundary results, and a finite admissibility bridge.
-
-**Missing:** the original `.lean` source files / project tree.
-
-The historical dossier is internally inconsistent about corpus size: it says “74 Lean theorems across 8 modules,” while its listed inventory appears to contain 9 modules and a different theorem total. Do not repeat either total as audited fact until the source tree is recovered and recounted.
-
-Recovery target:
-
-1. locate the original Lean modules;
-2. preserve exact historical bytes/hashes when available;
-3. run a current clean build;
-4. count declarations directly from source;
-5. record `#print axioms` / `sorry` status;
-6. only then decide whether this formal program graduates to a dedicated repository.
-
-### Sums of three cubes, k=114 Lean module
-
-Current public summary:
-
-`jaredwilder/unpublished-math-papers/sums-three-cubes-114/README.md`
-
-The released mathematics includes the exact mod-7 theorem that every solution has exactly one variable divisible by 7, the mod-9 residue structure, the mod-21 search reduction, and a recorded inventory of **15 proved Lean theorems with 0 sorry**.
-
-**Missing:** the referenced original Lean source
-
-`UNIVERSAL_LAW/oracle/math/EG411Formal/EG411Formal/S3C_Oracle_114.lean`.
-
-Recovery target: publish the historical source, build it, recount declarations and record its current axiom footprint.
-
 ### Erdős #1005 Farey program
 
 Current public summary:
@@ -125,6 +90,22 @@ The estate records independent CP-SAT and PySAT certification of the exact finit
 Recovery target: publish both independent formulations and a small deterministic replay summary.
 
 ## Resolved during the release
+
+### Prime-gap admissibility formalization — RESOLVED 2026-09-14
+
+The original Lean source was recovered from `EG203-KILLSHOT-ROUND-044-SOURCE-PREDICATE-AUDIT.zip` and published in:
+
+`jaredwilder/prime-gap-admissibility`
+
+The recovered project contains **eleven source modules**. A pinned Lean/mathlib GitHub Actions replay completed `lake build` successfully on 2026-09-14. The repository deliberately does **not** inherit the old inconsistent “74 theorems / 8 modules” headline, and it does not claim an asymptotic prime-gap theorem. The universal permutation/bijection boundary remains open.
+
+### Sums of three cubes, k=114 Lean module — RESOLVED 2026-09-14
+
+The historical source `S3C_Oracle_114.lean` was recovered from the local estate and published in:
+
+`jaredwilder/sums-three-cubes-114/lean/S3C_Oracle_114.lean`
+
+The public repository preserves the exact mod-9/mod-7 formal core, including the exact mod-7 one-zero-coordinate result. The full mod-21 residue table remains a written/search-layer derivation unless separately kernelized, and the historical PARI scripts/raw search outputs have **not** been recovered. No fresh Lean build is claimed there unless and until one is recorded by that repository.
 
 ### Kirkman / Steiner triple-system Lean development — RESOLVED
 
