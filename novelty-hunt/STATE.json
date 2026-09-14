@@ -1,13 +1,16 @@
 {
-  "schema": "novelty-hunter-state-v1",
+  "schema": "novelty-hunter-state-v2",
   "author": "Jared Wilder",
   "checkpoint_date": "2026-09-14",
-  "sweep": 4,
+  "novelty_sweep": 4,
+  "forensic_round_merged": 40,
   "saturation": false,
+  "canonical_home": "jaredwilder/open-math-frontier/novelty-hunt",
   "canonical_ledger": "CANONICAL_LEDGER.md",
-  "canonical_ledger_sha256": "6f8e52f43fe349a5d7e0085084ec36019bd8ed303cfe14b0fa63cd19ca4a8ef9",
+  "canonical_ledger_git_blob_sha": "909c9a475e6cfbbcf8abe4c92df445632585e6f8",
+  "provenance_chat_ledger_sha256": "6f8e52f43fe349a5d7e0085084ec36019bd8ed303cfe14b0fa63cd19ca4a8ef9",
+  "cross_session_merge": "CROSS_SESSION_MERGE_2026-09-14.md",
   "source_estate": "https://github.com/jaredwilder",
-  "current_home": "jaredwilder/open-math-frontier/novelty-hunt",
   "intended_standalone_repo": "jaredwilder/novelty-hunt",
   "top_closure_target": {
     "problem": "Erdos #902",
@@ -15,10 +18,27 @@
     "status": "SEAL",
     "remaining": "independent catalogue-completeness certification"
   },
+  "new_cross_session_priority_targets": [
+    "Erdos #738 T06-T09 sharp floor(n^2/2) type-support theorem plus parity-defect extremizer",
+    "fiber coherence exact K4-free realization of arbitrary binary relations and binary CSPs",
+    "RH/Weil auxiliary method-obstruction novelty court with explicit no-RH-claim boundary"
+  ],
+  "drained_surfaces": [
+    "617 latest-local PROVED states headline/scope review",
+    "282 omitted-family states across 97 families",
+    "335 represented-family upgrade states",
+    "556-object Pass-4 formalizer residue",
+    "broad A_proved atlas headline/scope surface",
+    "Erdos #738 exact theorem bank through forensic Round 40"
+  ],
   "instructions": [
-    "Read CANONICAL_LEDGER.md in full before the next substantive sweep",
-    "Append/update the canonical ledger rather than fragmenting into per-pass files",
-    "Update BOARD.md and this state hash whenever the ledger changes",
-    "Use prior art to locate the contribution delta, not to erase it"
+    "Read README.md, STATE.json, BOARD.md, CANONICAL_LEDGER.md and CROSS_SESSION_MERGE_2026-09-14.md before the next substantive sweep",
+    "Do not reconstruct the September forensic and novelty-hunter histories as separate projects",
+    "Update CANONICAL_LEDGER.md rather than fragmenting into per-pass ledgers",
+    "Update BOARD.md and STATE.json whenever the ranked board materially changes",
+    "Use prior art to locate the contribution delta, not to erase it",
+    "Treat parent-problem openness as a scope fact, not as a reason to bury valid child theorems",
+    "Preserve quarantine/regression items so dead claims are not resurrected",
+    "Future sweeps must use an orthogonal lens rather than blindly rerun already-drained registry surfaces"
   ]
 }
