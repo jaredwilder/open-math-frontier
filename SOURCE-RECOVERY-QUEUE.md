@@ -11,30 +11,6 @@ It is **not** a list of invalid mathematics. Each entry states exactly what is a
 
 ## Priority A — source recovery changes reproducibility materially
 
-### AGI-ZETA-BOUNDED-CLOSE-2026-08-14 packet
-
-The 2026-09-11 RH corpus inventory explicitly identifies a separate archive:
-
-`AGI-ZETA-BOUNDED-CLOSE-2026-08-14.zip`
-
-and describes it as a **32-file zeta packet** with its own pre-registration, failed-routes folder, fresh-court A/B replication, and `verify_zeta_packet.py`.
-
-The current session export contains the inventory pointer but **not the archive bytes**. A filesystem/artifact-closure search of the exported session found no copy of the ZIP or its constituent packet files.
-
-**Missing:** the complete `AGI-ZETA-BOUNDED-CLOSE-2026-08-14.zip` packet from the original Downloads/archive location.
-
-Recovery target:
-
-1. recover the exact ZIP bytes from the original archive of record;
-2. preserve the original archive SHA-256;
-3. inventory all 32 files before interpreting claims;
-4. rerun `verify_zeta_packet.py` from the recovered bytes;
-5. compare A/B replication receipts and failed-route records;
-6. extract any surviving mathematics into the canonical RH subject home;
-7. retain the raw packet under provenance rather than making the ZIP itself the reader-facing canonical home.
-
-This packet has **not** been mathematically audited by the current release pass and should not be inferred from its filename or inventory description.
-
 ### Erdős #1005 Farey program
 
 Current public summary:
@@ -89,7 +65,19 @@ The estate records independent CP-SAT and PySAT certification of the exact finit
 
 Recovery target: publish both independent formulations and a small deterministic replay summary.
 
-## Resolved during the release
+## Resolved / removed during the release
+
+### AGI-ZETA-BOUNDED-CLOSE-2026-08-14 — REMOVED AS FALSE RH DEBT, 2026-09-14
+
+An earlier recovery pass treated the archive name
+
+`AGI-ZETA-BOUNDED-CLOSE-2026-08-14.zip`
+
+as a pointer to missing Riemann-zeta mathematics.
+
+The later raw-ore industrial ingest explicitly corrected that interpretation after Library inspection: `AGI-ζ` was an **unrelated bounded cross-domain learning packet using a Greek-letter project naming sequence**, not a missing RH packet.
+
+Therefore this item is removed from the RH/source-recovery debt rather than kept as an unresolved mathematical artifact. The correction is semantic: no theorem or source packet is being declared recovered; the old classification itself was wrong.
 
 ### Prime-gap admissibility formalization — RESOLVED 2026-09-14
 
