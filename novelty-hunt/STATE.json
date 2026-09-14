@@ -8,7 +8,7 @@
   "canonical_home": "jaredwilder/open-math-frontier/novelty-hunt",
   "canonical_ledger": "CANONICAL_LEDGER.md",
   "canonical_ledger_git_blob_sha": "a0aae59856bcd77e2014b7f158d48a63045272f7",
-  "board_git_blob_sha": "8d9846c0f3460c246735c67fd0b21f4f372c3809",
+  "board_git_blob_sha": "27a435feceb75423c8cd5302895228b27917de76",
   "cross_session_merge": "CROSS_SESSION_MERGE_2026-09-14.md",
   "source_estate": "https://github.com/jaredwilder",
   "top_closure_target": {
@@ -27,6 +27,7 @@
     "Upgraded fiber coherence to PAPER / specialist-prior-art pending around the universal exact K4-free binary-relation and binary-CSP realization theorem",
     "Promoted the order-41 circulant R(5,5) structural package to COMPUTATIONAL PAPER CANDIDATE after fresh independent replay reproduced exactly 20 half-density survivors in one multiplier orbit and independently proved the arbitrary one-vertex extension CNF UNSAT",
     "Isolated an Erdos-Gyarfas near-dyadic local theorem: every cubic vertex of a minimum-order counterexample lies on a cycle of length 2^k+1, equivalently two neighbors are joined after deletion by a path of length 2^k-1; targeted literature searches did not surface this exact certificate",
+    "Corrected Erdos #727 from a stale k=2-only summary to the stronger all-k theorem: for every fixed k>=2 and every prime p>2k, n=p-k is a non-witness, so every fixed k has infinitely many explicit failures",
     "Demoted the Erdos-Gyarfas 2/3 and additive cubic-density headline after July/August 2026 literature collision; retained source-specific near-dyadic, bounded-defect-core and quotient-cycle machinery",
     "Classified the exact Bernoulli lemniscate disc-cover cost sqrt(2) as SHORT NOTE / MINE after targeted search found only the broader classical connected-case bound",
     "Preserved general-Q finite-moment rigidity, finite heat-flow critical-value monotonicity and Epoch-44 Stieltjes transport as standalone auxiliary mathematics under a hard no-RH firewall",
@@ -37,6 +38,7 @@
   ],
   "authority_upgrades": [
     "R(5,5) order-41 circulant classification independently replayed from the connection set: all 184756 half-density candidates enumerated, exactly 20 survivors, one multiplier orbit, stabilizer +/-1, complement-swappers +/-9; 1025 K4 and 1025 independent-4 clauses regenerated and the one-vertex extension CNF independently solved UNSAT",
+    "Erdos #727 strongest sibling scope restored: all fixed k>=2 have infinitely many explicit non-witnesses n=p-k for primes p>2k; this supersedes the reader-facing k=2-only summary but does not answer the parent infinite-witness question",
     "Erdos #271 source ledger binds corrected reservoir identity, half-utilization, multiplicity-growth equivalence and exact A(4) criterion",
     "Fiber coherence canonical home now states universal K4-free relation-strip/CSP realization explicitly",
     "Z31 Schur-Roth classification has a reader-facing theorem page and three independent exhaustive implementations",
@@ -62,7 +64,8 @@
     "first-pass R(5,5) order-41 circulant structural program with independent replay",
     "first-pass Erdos-Gyarfas 202-card program front with near-dyadic theorem isolation",
     "first-pass P6 Erdos-Hajnal program front",
-    "first-pass Erdos #142 progression-free program front"
+    "first-pass Erdos #142 progression-free program front",
+    "Pass-3 sibling-dominance audit for routed child-theorem statements"
   ],
   "next_pass_lenses": [
     "mandatory live commit differential after the merged Sweep 6 checkpoint",
