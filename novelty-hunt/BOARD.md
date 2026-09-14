@@ -1,88 +1,77 @@
 # Novelty Hunter — Live Board
 
-**Checkpoint:** 2026-09-14 after Sweep 4 + cross-session Round-40 merge.  
+**Checkpoint:** 2026-09-14 — Sweep 5 live differential.  
 **Saturation:** **NO**.
 
-## Publication / closure queue
+## Maximum-return publication / closure queue
 
-1. **Seal Erdős #902 `f(4) >= 49`** — reconstruct/certify completeness of the relevant tournament catalogue.
+1. **Seal Erdős #902 `f(4) >= 49`** — independently certify the relevant tournament catalogue bridge.
 2. **Integral octagons** — submit `ḋ(2,8) > 30000`.
-3. **Graham–Alspach** — package complete `Z_37` / `Z_41` sequenceability and expanded cyclic frontier.
-4. **Erdős–Straus AP/GP** — write complete classification paper.
-5. **Caccetta–Häggkvist cubic `C4` theorem** — independent formalization / literature seal.
-6. **Signed-sparse integer encoding** — extract `Theta_s(m^s)` into standalone paper.
-7. **Erdős #949** — package arbitrary-sum-free full finite-sums theorem and precise parent gap.
-8. **Erdős #595** — continuum barrier / triangle-cover formal paper.
-9. **SQS(20)** — residual completion / rigidity / trade structure.
-10. **General covering-design plateau rigidity** — equality in normalized covering density iff every deletion of every optimum remains optimal; plateau forces regularity.
-11. **Turán (3,4) excitation/frustration coordinates** — exact five-set energy formulation plus deletion/extension calculus.
-12. **#890 ↔ #1093 bridge** — cross-problem deficiency/excess theorem package.
-13. **Diagonal Ramsey corridor** — `r(n-o(n),n)` has the same exponential limsup/liminf as `R(n)`; package with approximate-supermultiplicativity criterion.
-14. **Erdős #738 T06–T09** — sharp `floor(n^2/2)` active-type bound + parity-defect extremizer; specialist Gyárfás–Sumner prior-art court.
-15. **Fiber coherence / K4-free CSP realization** — hostile prior-art court for exact realization of arbitrary binary relations and arbitrary binary CSPs inside the K4-free fiber framework.
-16. **#486 summable forbidden-mass density theorem**.
-17. **Finite-field exact classifications**.
-18. **Pascal / Rado exact-extremal atlas**.
-19. **#1061 primitive-ray construction**.
-20. **Conference-switching impossibility theorem**.
+3. **Erdős #681** — package and externally adjudicate the kernel-certified bad integer `999,997,304,512`, forcing any eventual threshold above it.
+4. **Graham–Alspach** — complete `Z_37` / `Z_41` sequenceability paper plus expanded cyclic frontier.
+5. **Erdős–Straus AP/GP** — complete denominator-classification paper.
+6. **Caccetta–Häggkvist cubic `C4` theorem** — proof chain is now public; obtain independent replay/formal seal and specialist priority court.
+7. **Signed-sparse integer encoding** — `W(m,s)=Theta_s(m^s)` standalone paper.
+8. **Erdős #949** — arbitrary-sum-free full finite-sums theorem package.
+9. **Erdős #595 continuum barrier** — now backed by a fresh pinned CI replay of all 27 sealed Lean theorem files.
+10. **SQS(20)** — residual completion / rigidity / trade paper.
+11. **#890 ↔ #1093** — deficiency/excess cross-problem bridge.
+12. **Erdős #738 T06–T09** — sharp `floor(n^2/2)` type-support bound + parity-defect extremizer; specialist court.
+13. **Turán / covering design #500** — plateau-rigidity, five-set excitation and integrality-gap calculus.
+14. **Fiber coherence / K4-free CSP realization** — hostile prior-art court for exact realization of arbitrary binary relations and finite binary CSPs inside the K4-free fiber framework.
+15. **#486 summable forbidden-mass theorem**.
+16. **Exact finite additive/multiplicative classifications** — finite-field suite plus the `[50]` product-free / nontrivial-GP-free classification (`max=35`, exactly 240 maximizers).
+17. **Pascal / Rado exact-extremal atlas**.
+18. **#1061 primitive-ray construction**.
+19. **Conference-switching impossibility theorem**.
+20. **Weird-Round all-exponent automaton / coefficient-chamber theory**.
+21. **`C(13,6,3)` B/C elimination campaign** — Pattern A is gone; B/C remain.
 
-## Proof-reconstruction queue
+## Proof / novelty queue
 
-- Shifted additive equation `x+y=z+c` parity law.
-- Apparent Rado-family extremal collapse `n-floor(n/(k+1))`.
-- Greedy singleton-seed sum-avoidance periodicity formula.
-- Complete structural paper on the self-complementary 41-vertex cyclic `R(5,5)` witness if literature comparison confirms novelty of the full package.
+- Shifted equation `x+y=z+c`: exact parity law is now proved for `1<=c<=n`; perform conservative historical-priority check.
+- Rado-family collapse: broad eventual formula is prior-known; investigate only the exact all-`n` strengthening / unified proof.
+- Fiber K4-free binary-relation/CSP realization: dedicated specialist literature comparison.
+- CH cubic-`C4`: independent replay / formal seal.
+- EG#203 density-zero program: source paper is a theorem schema with explicit missing inputs; do not promote until those obligations are actually discharged.
+- Cyclic 41-vertex `R(5,5)` witness: structural note only if literature comparison leaves a real delta.
 
-## Separate novelty courts
+## Authority changes this sweep
 
-### RH / Weil auxiliary mathematics
+- **#595 upgraded:** current CI verifies the 27-file manifest/hashes, blocks simple escape surfaces and compiles every sealed theorem file under pinned Lean/Mathlib.
+- **CH upgraded in readability:** full exact-boundary theorem chain is public; independent replay remains outstanding.
+- **Fiber program clarified:** arbitrary relation -> K4-free strip -> arbitrary binary CSP -> NP-completeness is now explicit in the public subject home.
+- **EG#203 corrected:** a findings-ledger “density-zero theorem” outran its own source paper; source authority controls, so status is schema/SEAL.
 
-Preserve and adjudicate separately from any RH claim:
+## Live child theorems preserved below the headline board
 
-- isolated-quartet exact eigenpair;
-- compact-jet invisibility no-go;
-- no-uniform-cluster-floor theorem;
-- Epoch 40 adaptive theorem / score-shell masking no-go;
-- Epoch 41 center-independent Blaschke separation.
+- #1212 infinite isolated admissible family `(2,3^k)`.
+- #251 exact denominator `2^N` for dyadic prime partial sums.
+- #727 infinite `k=2` non-witness family `n=2p-2`.
+- #289 all-prime p-adic necessary condition for integral reciprocal sums.
 
-Hard boundary: **RH remains open; these are auxiliary/method-obstruction results only.**
-
-### Other-session structural assets
-
-Keep visible even below the top publication queue:
-
-- Erdős #973 exact `n=2` golden-ratio minimax value;
-- #289 all-prime p-adic reciprocal-sum obstruction;
-- #885 factor-difference / square duality;
-- #477 all-quadratic direct-sum-complement obstruction;
-- #598 exact finite polychromatic values;
-- `C(13,6,3)` point-degree theorem with unused 20-block hypothesis.
+These are real mathematics, but none presently displaces the front queue.
 
 ## Search surfaces already drained
 
-Do not repeat these merely by rerunning keyword search:
+Do not blindly repeat:
 
 - 617/617 latest-local `PROVED` states;
 - 282 omitted-family states across 97 families;
 - 335 represented-family upgrade states;
 - 556-object formalizer residue;
-- broad `A_proved` atlas headline/scope surface;
-- #738 exact theorem bank through Round 40.
+- broad `A_proved` atlas surface;
+- #738 theorem-bank recovery through forensic Round 40;
+- reviewed 56-row canonical-gold tranche.
 
-Future passes need an **orthogonal lens**: scope expansion, equality cases, bridge theorems, exact equivalences, unused hypotheses, finite-to-infinite upgrades, or archive set-difference mining.
+Future passes need an orthogonal lens: **live commit delta, scope expansion, equality cases, exact equivalences, unused hypotheses, source-authority repair, finite-to-infinite proof upgrades, cross-repository fusions, and specialist literature court.**
 
-## Hunting rules for the next pass
+## Next-pass live lenses
 
-Search specifically for:
+1. Commits newer than this checkpoint.
+2. Exact finite classifications in `combinatorial-records` still absent from this board.
+3. Theorem-map entries whose filenames undersell scope.
+4. K4-free fiber/CSP prior art.
+5. Independent authority upgrades for CH / covering design / SQS packages.
 
-- theorem scope wider than the repo/problem title;
-- equality cases of standard bounds;
-- exact equivalences hiding under the word “reduction”;
-- conditional results whose implication is itself a clean theorem;
-- finite tables that can be upgraded to all-parameter theorems;
-- formal theorems whose hypotheses are unused or stronger than surrounding prose;
-- old archives / tarballs / receipts that never reached a subject README;
-- cross-repository theorem fusions;
-- independent rediscoveries where proof, formalization, range, classification, or structure remains new.
-
-Never declare saturation merely because a pass finds fewer items. Saturation requires repeated genuinely different passes that stop moving the board.
+The default assumption remains: **there is more.**
