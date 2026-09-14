@@ -2,13 +2,13 @@
   "schema": "novelty-hunter-state-v3",
   "author": "Jared Wilder",
   "checkpoint_date": "2026-09-14",
-  "novelty_sweep": 5,
+  "novelty_sweep": 6,
   "forensic_round_merged": 40,
   "saturation": false,
   "canonical_home": "jaredwilder/open-math-frontier/novelty-hunt",
   "canonical_ledger": "CANONICAL_LEDGER.md",
   "canonical_ledger_git_blob_sha": "a0aae59856bcd77e2014b7f158d48a63045272f7",
-  "board_git_blob_sha": "c6ad35d1544f7e6adabc428490c41ff698999662",
+  "board_git_blob_sha": "b5668e1744741074d55481e991ee35b27eb101c8",
   "cross_session_merge": "CROSS_SESSION_MERGE_2026-09-14.md",
   "source_estate": "https://github.com/jaredwilder",
   "top_closure_target": {
@@ -22,21 +22,27 @@
     "claim": "n=999997304512 is kernel-certified bad; any eventual threshold is larger",
     "status": "READY_PRIORITY_COURT"
   },
-  "sweep5_deltas": [
-    "Merged the newer v3 live-commit ledger into the durable GitHub state",
-    "Promoted Erdos #681 kernel theorem to publication queue position 3",
-    "Caccetta-Haggkvist cubic-C4 proof chain is now human-readable; independent replay still outstanding",
-    "Erdos #595 has a fresh pinned CI replay of all 27 sealed Lean theorem files",
-    "Fiber coherence arbitrary-binary-relation -> K4-free strip -> universal binary-CSP realization chain is explicit and prioritized for specialist prior-art court",
-    "Added exact product-free plus nontrivial-GP-free [50] classification: maximum 35, exactly 240 maximizers",
-    "Upgraded shifted x+y=z+c parity pattern to an exact all-parameter theorem for 1<=c<=n",
-    "Downgraded EG203 density-zero findings-ledger claim to theorem schema after source-paper audit",
-    "Cleared odd-Giuga k<=11 and bounded Hadamard-668 runs from headline pressure"
+  "sweep6_deltas": [
+    "Promoted Erdos #271 reflection-multiplicity growth dictionary to PAPER after source-authority audit",
+    "Upgraded fiber coherence to PAPER / specialist-prior-art pending around the universal exact K4-free binary-relation and binary-CSP realization theorem",
+    "Demoted the Erdos-Gyarfas 2/3 and +2 cubic-density headline after July/August 2026 literature collision; retained source-specific bounded-defect-core machinery as MINE",
+    "Classified the exact Bernoulli lemniscate disc-cover cost sqrt(2) as SHORT NOTE / MINE after targeted search found only the broader classical connected-case bound",
+    "Preserved general-Q finite-moment rigidity, finite heat-flow critical-value monotonicity and Epoch-44 Stieltjes transport as standalone auxiliary mathematics under a hard no-RH firewall",
+    "Recorded the Z31 Schur-Roth theorem page and triple replay as an authority/discoverability upgrade rather than a new result family",
+    "Rechecked live commits repeatedly because theorem promotions landed while Sweep 6 was running"
   ],
   "authority_upgrades": [
+    "Erdos #271 source ledger binds corrected reservoir identity, half-utilization, multiplicity-growth equivalence and exact A(4) criterion",
+    "Fiber coherence canonical home now states universal K4-free relation-strip/CSP realization explicitly",
+    "Z31 Schur-Roth classification has a reader-facing theorem page and three independent exhaustive implementations",
     "Erdos #595 27-file fresh CI replay",
     "CH exact-boundary C4 human proof chain",
     "fresh finite theorem-kernel replays in #738/#500 subject homes"
+  ],
+  "demotions": [
+    "Erdos-Gyarfas 2/3 cubic-vertex density and +2 surplus are outflanked by 2026 literature; do not headline them as novel",
+    "Generic K4-free CSP/3-coloring NP-hardness receives no novelty credit; only the exact universal fiber realization remains under court",
+    "EG203 density-zero remains theorem schema / SEAL until missing source obligations are discharged"
   ],
   "drained_surfaces": [
     "617 latest-local PROVED states headline/scope review",
@@ -48,10 +54,12 @@
     "reviewed canonical-gold 56-row tranche"
   ],
   "next_pass_lenses": [
-    "commits newer than this checkpoint",
-    "exact finite classifications in combinatorial-records absent from the board",
-    "theorem-map entries whose names undersell scope",
-    "specialist prior-art court for K4-free fiber/CSP realization",
+    "mandatory live commit differential after the Sweep 6 checkpoint",
+    "remaining unread COUNTEREXAMPLES and BOUNDARY_AUDIT prose from the 351-field transcript seam",
+    "exact finite classifications and standalone theorem homes absent from the board",
+    "specialist priority court for Erdos #271 reflection-multiplicity dictionary",
+    "specialist graph-gadget/CSP/homomorphism court for universal K4-free relation-strip realization",
+    "theorem-map entries whose names undersell scope, especially standalone algebra/analysis inside famous-parent repositories",
     "independent proof/formal authority upgrades for CH, covering-design and SQS paper objects"
   ],
   "instructions": [
