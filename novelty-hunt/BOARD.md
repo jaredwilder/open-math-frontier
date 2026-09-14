@@ -50,6 +50,7 @@
 - **Erdős–Gyárfás local theorem isolated:** the source-specific `2^k+1` cycle / `2^k-1` neighbor-path certificate survives after the broader cubic-density claim was correctly demoted against 2026 literature.
 - **#271 promoted:** the reader-facing reflection-multiplicity theorem is backed by the underlying audited source ledger, including corrected reservoir identity, universal half-utilization, multiplicity-only growth, exact `A(4)` equivalence and the finite route-kill audit.
 - **Fiber program upgraded:** the canonical subject home states the exact arbitrary-relation -> K4-free strip -> arbitrary binary-CSP realization theorem explicitly. The formulation-specific universal realization, not generic NP-completeness, is the novelty candidate.
+- **#727 scope corrected:** the strongest public theorem is not merely a `k=2` obstruction. For every fixed `k>=2` and every prime `p>2k`, `n=p-k` gives `((n+k)!)^2 ∤ (2n)!`; hence every fixed `k` has infinitely many explicit non-witnesses. This does not settle the parent's infinite-witness question.
 - **Z31 Schur–Roth upgraded in discoverability:** maximum 6, exactly 330 maximizers and 12 dilation orbits have a human theorem front door plus three independent exhaustive implementations; this is an authority/readability upgrade, not a new board family.
 - **#595 evidence semantics corrected:** current CI compilation authority is distinct from historical byte-provenance enforcement; this is a precision upgrade, not a mathematical downgrade.
 - **CH remains upgraded in readability:** full exact-boundary C4 theorem chain is public; independent replay remains outstanding.
@@ -69,7 +70,7 @@
 - Greedy singleton-seed sum-avoiding sequence: for seed `{k}`, the exact sequence is `{n>=k : n mod (3k-1) in [k,2k-1]}`; global elementary theorem, priority unadjudicated.
 - #1212 infinite isolated admissible family `(2,3^k)`.
 - #251 exact denominator `2^N` for dyadic prime partial sums.
-- #727 infinite `k=2` non-witness family `n=2p-2`.
+- #727 all-`k` infinite obstruction family: for every fixed `k>=2`, every prime `p>2k` with `n=p-k` gives `((n+k)!)^2 ∤ (2n)!`; the parent infinite-witness question remains open.
 - #289 all-prime p-adic necessary condition for integral reciprocal sums.
 
 These are real mathematics, but none presently displaces the front queue.
@@ -85,7 +86,8 @@ Do not blindly repeat:
 - broad `A_proved` atlas surface;
 - #738 theorem-bank recovery through forensic Round 40;
 - reviewed 56-row canonical-gold tranche;
-- first-pass P6 / #142 / R55 / Erdős–Gyárfás repo-scale program fronts.
+- first-pass P6 / #142 / R55 / Erdős–Gyárfás repo-scale program fronts;
+- Pass-3 sibling-dominance audit for the routed child-theorem bank.
 
 Future passes need an orthogonal lens: **live commit delta, scope expansion, equality cases, exact equivalences, unused hypotheses, source-authority repair, finite-to-infinite proof upgrades, cross-repository fusions, and specialist literature court.**
 
