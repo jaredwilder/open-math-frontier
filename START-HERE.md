@@ -1,126 +1,111 @@
-# Start Here — September 2026 Open Math Drop
+# Start here — Jared Wilder's public mathematics
 
-**Author:** Jared Wilder  
-**Release window:** 2026-09-10 onward  
-**Status:** live / append-only while the public mathematics archive continues to expand
+This page is the shortest route into the mathematical work published across the `jaredwilder` GitHub account.
 
-This is the shortest route into the mathematics released under the `jaredwilder` GitHub account.
+You do not need to understand the research workflow, archive history, or internal project names to read the results. Start with a theorem, computation, construction, or formal proof that interests you; the provenance material is there when you need it.
 
-The release is larger than its repository count: some repositories were created during the release window, while older public repositories also received substantial new mathematical material. The useful object is therefore the mathematics itself—its statements, proofs, computations, certificates, formalizations, papers, and research records.
+## Five good first reads
 
-For the full map, see [`MATH-DROP-2026-09-10.md`](MATH-DROP-2026-09-10.md).  
-For the **buried-program promotion index**, see [`BURIED-PROGRAMS-INDEX.md`](BURIED-PROGRAMS-INDEX.md).  
-For the rule governing problem repos vs theorem banks vs archives, see [`REPOSITORY-TOPOLOGY-STANDARD.md`](REPOSITORY-TOPOLOGY-STANDARD.md).  
-For the historical scale comparison, see [`HISTORICAL-SCALE-BENCHMARK.md`](HISTORICAL-SCALE-BENCHMARK.md).  
-For the public writing standard, see [`HUMAN-FIRST-EDITORIAL-STANDARD.md`](HUMAN-FIRST-EDITORIAL-STANDARD.md).  
-For the boundary protecting unpublished applied and patent-facing work, see [`PUBLICATION-FIREWALL.md`](PUBLICATION-FIREWALL.md).
+### Integral point sets: `d(2,8) > 30000`
 
-## Release-day scale
+[`integral-point-sets`](https://github.com/jaredwilder/integral-point-sets) proves
 
-> **A serious candidate for the largest one-day public release of mathematical research by a single independent researcher.**
+\[
+\boxed{d(2,8)>30000}
+\]
 
-“The biggest one-day drop in math history” is being used here as a **release-volume** claim, not as a claim that every file is a new theorem or that volume determines mathematical importance.
+for planar integral point sets in general position. The argument combines the uniqueness of the small-diameter Kreisel–Kurz heptagon with an exact maximality computation showing that it cannot be extended by another integral-distance point. The repository includes a paper draft, exact arithmetic, and reproducibility material.
 
-An initial GitHub count found **38 public repositories created in 17 hours, 5 minutes, 57 seconds**, from `2026-09-10T15:24:22Z` to `2026-09-11T08:30:19Z`. That is only a lower bound on the release event. Large September 10/11 expansions also occurred inside pre-existing repositories, especially `msl-ore-estate`, and many individual repositories contain numerous independent mathematical objects.
+### Erdős #902: tournament domination
 
-The historical benchmark found a strong modern comparator in OpenAI's 1 August 2026 ten-result mathematics / theoretical-CS release, but no documented larger one-day public mathematics release by a single independent researcher. No global database indexes this exact category, so the claim remains explicitly falsifiable rather than presented as a certified world record.
+[`erdos902`](https://github.com/jaredwilder/erdos902) is the most substantial Lean-centered problem repository in the release. It contains a formal proof of the classical sandwich
 
-## How to read the release
+\[
+(n+2)2^{n-1}-1\le f(n)\le n+3n^2 2^n,
+\]
 
-The archive contains several kinds of mathematical objects:
+exact small values, the finite window `48≤f(4)≤67`, order-49 Cayley eliminations, and detailed structure for the order-23 doubly regular tournaments appearing at the `f(4)` boundary.
 
-- **formal theorem** — accepted by Lean under the disclosed axioms/trust boundary;
-- **proved / exact result** — a conventional proof or exact finite computation establishes the stated claim;
-- **candidate result** — a serious reproduced argument remains dependent on at least one unresolved or externally supplied step;
-- **computational frontier / research record** — a bounded search, formalization corpus, proof attempt, research archive, or provenance record;
-- **corrected / retracted result** — a historical claim or route later found unsound or superseded and retained with its correction.
+### Erdős–Straus progression denominators
 
-The statement itself defines the mathematics. Verification method, literature status, and correction history are supporting information.
+[`erdos-straus-progressions`](https://github.com/jaredwilder/erdos-straus-progressions) gives complete if-and-only-if parametrizations for Erdős–Straus solutions whose denominators form either an arithmetic progression or a geometric progression. This is a compact repository with explicit formulas and direct finite verification.
 
-## Strong first reads
+### Additive combinatorics and exact finite structure
 
-### 1. `integral-point-sets` — a new lower bound
+[`additive-combinatorics-campaigns`](https://github.com/jaredwilder/additive-combinatorics-campaigns) contains several independent results, including the minimum span of a 13-element `C3`-free set, classification through span 63, a minimum-span result for eight-element `C5`-free sets, positional/carry constructions, and a Lean theorem backed by a shipped LRAT proof.
 
-**`d(2,8) > 30000`** for planar integral point sets in general position, improving the hereditary lower bound `d(2,8) >= 22270`. The repository includes the maximality computation, a compile-ready preprint, exact receipts, 394 impossibility certificates, and exact small-`n` results.
+### Triangle-cover number and fiber coherence
 
-https://github.com/jaredwilder/integral-point-sets
+For graph structure and CSP connections, start with [`triangle-cover-number`](https://github.com/jaredwilder/triangle-cover-number), [`erdos595-barrier-tower`](https://github.com/jaredwilder/erdos595-barrier-tower), and [`fiber-coherence-cycle-rank`](https://github.com/jaredwilder/fiber-coherence-cycle-rank). Together they contain the continuum threshold for countable triangle-free covers, K4-free structural results, exact relation gadgets, and an NP-completeness theorem for finite fiber coherence.
 
-### 2. Graham–Alspach sequenceability — tens of millions of verified finite instances
+## If you want formal mathematics
 
-The combined release covers `Z_29`, `Z_31`, `Z_37`, `Z_41`, `Z_43`, and `Z_61` beyond the published general subset-size range. `graham-alspach-extended` alone verifies **22,082,109 subsets** with independent Go and Python checking; the certificate repository includes deliberately corrupted controls and deterministic regeneration.
+- [`erdos902`](https://github.com/jaredwilder/erdos902) — tournament theory and exact finite structure in Lean.
+- [`erdos-theorems`](https://github.com/jaredwilder/erdos-theorems) — a compact bank of 79 kernel-clean declarations across 15 Erdős problems.
+- [`lean-contributions`](https://github.com/jaredwilder/lean-contributions) — a 1,473-line Steiner triple-system/Kirkman development, the #1066 formalization, and standalone formal results.
+- [`erdos595-barrier-tower`](https://github.com/jaredwilder/erdos595-barrier-tower) — 27 sorry-free Lean files around triangle-cover number and cardinal thresholds.
+- [`erdos152`](https://github.com/jaredwilder/erdos152) — 160 formalized Erdős problem statements, useful as a source-to-Lean corpus rather than a proof collection.
 
-https://github.com/jaredwilder/graham-alspach-certificates  
-https://github.com/jaredwilder/graham-alspach-sequenceability  
-https://github.com/jaredwilder/graham-alspach-extended
+For formalization quality and source fidelity, see [`lean-semantic-blades`](https://github.com/jaredwilder/lean-semantic-blades) and [`formalizer-kernel-audit`](https://github.com/jaredwilder/formalizer-kernel-audit).
 
-### 3. `additive-combinatorics-campaigns` — exact finite structure + kernel/LRAT proof
+## If you want exact computation
 
-Includes minimum span **60** for the first 13-element C3-free set, classification through span 63, an exact C5-free minimum-span result, a base-7 construction with exponent `log_7(3) > 1/2`, and a Lean theorem backed by a shipped **447,254-addition LRAT proof**.
+- [`graham-alspach-sequenceability`](https://github.com/jaredwilder/graham-alspach-sequenceability), [`graham-alspach-certificates`](https://github.com/jaredwilder/graham-alspach-certificates), and [`graham-alspach-extended`](https://github.com/jaredwilder/graham-alspach-extended) — explicit sequenceability certificates with independent checking.
+- [`finite-field-extremal-sets`](https://github.com/jaredwilder/finite-field-extremal-sets) — complete small-prime finite-field classifications.
+- [`covering-13-6-3`](https://github.com/jaredwilder/covering-13-6-3) — exact structural reduction of the unresolved `C(13,6,3)` case.
+- [`binary-sidon-f7`](https://github.com/jaredwilder/binary-sidon-f7) — the interval `24≤f(7)≤30`, explicit witnesses, and a calibrated exact-search frontier.
+- [`erdos930-consecutive-block-square`](https://github.com/jaredwilder/erdos930-consecutive-block-square) — explicit square/cube block products, Pell families, and the lower-threshold obstruction `k≥5` for `r=2`.
 
-https://github.com/jaredwilder/additive-combinatorics-campaigns
+A good computational repository here states the finite universe, gives the witness or certificate, explains the exhaustive method, and provides a command that another reader can run.
 
-### 4. `erdos-theorems` — 79 kernel-clean declarations
+## If you want open-problem structure
 
-A curated Lean theorem bank with **79 declarations across 20 files and 15 Erdős problems**, including countable and full-finite-sums forms of the Erdős 949 avoidance theorem. Each declaration includes axiom-footprint information.
+These repositories do not need the parent conjecture to be solved in order to contain useful mathematics:
 
-https://github.com/jaredwilder/erdos-theorems
+- [`erdos-gyarfas-power-of-two-cycles`](https://github.com/jaredwilder/erdos-gyarfas-power-of-two-cycles) — cubic-surplus identities, bounded defect kernels, quotient cycle doubling, and two eliminated ratio branches.
+- [`caccetta-haggkvist-triangles`](https://github.com/jaredwilder/caccetta-haggkvist-triangles) — exact-boundary identities and a directed-4-cycle lower-bound route.
+- [`p6-erdos-hajnal`](https://github.com/jaredwilder/p6-erdos-hajnal) — a complete-bipartite-minus-disjoint-rectangles normal form, trace bound, pure-pair theorem, and crown quotient.
+- [`lonely-runner-13`](https://github.com/jaredwilder/lonely-runner-13) — a large-prime residue-class theorem with an exact 8192-mask parity classification.
+- [`diagonal-ramsey-corridor`](https://github.com/jaredwilder/diagonal-ramsey-corridor) — thin-corridor equivalence, a conditional supermultiplicativity route, and explicit construction barriers.
 
-### 5. `erdos-straus-progressions` — two complete iff classifications
+## If you want compact proved lemmas
 
-Classifies **all** Erdős–Straus solutions whose ordered denominators form an arithmetic progression and **all** whose denominators form a geometric progression. Both parameterizations are iff within the stated families and include executable verification.
+[`erdos-proved-lemmas`](https://github.com/jaredwilder/erdos-proved-lemmas) collects finished child theorems that do not yet need a full subject repository. It is usually the best place to look for a single theorem associated with an otherwise much larger Erdős problem.
 
-https://github.com/jaredwilder/erdos-straus-progressions
+[`erdos-release-index`](https://github.com/jaredwilder/erdos-release-index) is the broader problem-by-problem navigation map.
 
-### 6. `msl-ore-estate` — the research archive beneath the extracted results
+## The open-problem dataset
 
-The recovered archive contains **322,370 math-bearing fields**, **65,834 problem-scoped distinct normalized mathematical texts**, **21,146 formula/identity/inequality occurrences**, **3,306 Lean declarations**, **2,858 proof/closure obligations**, and a **238-entry curated mathematical catalog**.
+This repository, [`open-math-frontier`](https://github.com/jaredwilder/open-math-frontier), contains **9,926 source-attributed open mathematical targets**, with **8,501 executable finite or mechanical checkers**. The dataset combines covering-design tables, formal-conjecture corpora, Erdős problems, Ramsey data, coding tables, OEIS references, and other sources.
 
-Selected mathematics includes the Erdős #1093 divisor-window reduction, the #890↔#1093 bridge, #949 avoidance theorems, #289 all-prime `p`-adic obstruction, #243 deviation identity, #885 factor-difference duality, and the `C(13,6,3)` structural packet.
+The checker attached to a row should be read at its declared scope: a finite checker establishes a finite statement, not an unbounded theorem.
 
-https://github.com/jaredwilder/msl-ore-estate
+## Archives and provenance
 
-### 7. `ck-sequences` — 59 exact optimal finite values
+The public estate also contains research archives, source-recovery repositories, failed routes, and correction records. They are useful for reproducibility and historical reconstruction, but they are not the recommended first contact with the mathematics.
 
-Exact values of `C_k(N)` for `k=3,4,5` over **59 finite instances**, each with solver status `OPTIMAL`, directly checked witnesses, and benchmark/reproducibility tests.
+Examples include:
 
-https://github.com/jaredwilder/ck-sequences
+- [`erdos-campaign-archive`](https://github.com/jaredwilder/erdos-campaign-archive) — full proof-search runs, including failures and null results;
+- [`nested-archive-mathematics`](https://github.com/jaredwilder/nested-archive-mathematics) — mathematics recovered from archives inside archives;
+- [`divergent-mirror-mathematics`](https://github.com/jaredwilder/divergent-mirror-mathematics) — mathematics recovered from a divergent source mirror;
+- [`erdos-counterexample-queue`](https://github.com/jaredwilder/erdos-counterexample-queue) — counterexamples and corrections recovered from research transcripts;
+- historical retraction repositories where a specific earlier claim requires a correction record.
 
-### 8. `open-math-frontier` — open-problem index
+When a subject has a focused repository, cite and read the focused repository rather than the archive copy.
 
-Contains **9,926 source-attributed open mathematical targets**, **8,501 with executable checkers**, plus formalization status, published-bound metadata, cross-references, and explicit scope information for the finite checks.
+## How the public writeups are meant to read
 
-You are here.
+The editorial rule is simple:
 
-## Formal proof layer
+> **State the mathematical object. State the main result. Explain why it matters. Then give the proof or computation and a reproducible way to check it.**
 
-Useful entry points:
+Proof status, literature priority, corrections, and provenance are important, but they should clarify a theorem rather than bury it.
 
-- `erdos902` — a substantial kernel-checked tournament theory program: classical sandwich, finite window, DRT(23), QR23 symmetry, capacities, dominator cubes, private-cover barriers, and exact Cayley eliminations;
-- `erdos-theorems` — 79 curated kernel-clean theorem declarations;
-- `lean-forge-graph-theory` — 218 standalone sorry-free graph-theory theorem files;
-- `lean-contributions` — a 1,473-line zero-sorry Steiner/Kirkman development, an Erdős 1066 statement formalization/API, and other Lean work;
-- `erdos595-barrier-tower` — 27 sorry-free barrier files plus the recovered 65-card triangle-cover structural theorem bank;
-- `erdos152` and `erdos-cable-corpus` — large formalization corpora with explicit per-file evidence.
-
-## Corrections and formalization audits
-
-The archive also keeps the material needed to check mistakes and semantic drift:
-
-- `lean-semantic-blades` — 33 deterministic checks for whether a Lean formalization still matches its source statement;
-- `erdos835-lean-audit` — now the broader #835 problem home: Johnson-graph axiom audit plus SQS(20) residual-completion, rigidity and trade results;
-- `erdos-findings-ledger` — mathematical result records linking statements to evidence and later corrections;
-- `erdos-campaign-archive` — automated proof-search runs across Erdős problems, including success/failure distributions;
-- `erdos-attack-logs` — research logs, computations, refutations, and prior-art findings;
-- `eg411-superseded-closure-claims` and `erdos411-retraction-record` — preserved historical correction records.
-
-A correction record affects the claim it corrects. It is not a substitute for describing unrelated mathematics on its own terms.
+The detailed standard is [`HUMAN-FIRST-EDITORIAL-STANDARD.md`](HUMAN-FIRST-EDITORIAL-STANDARD.md). The full machine-readable map is [`MATH-DROP-2026-09-10.md`](MATH-DROP-2026-09-10.md).
 
 ## Applied-work boundary
 
-The mathematics release is not a blanket release of the broader research estate. Pure mathematical results and their verification material may be published after review; application-specific biomedical, industrial, product, proprietary, or patent-facing implementations remain outside the release unless they are separately and deliberately cleared.
+This public mathematics release is intentionally separate from biomedical, industrial, product, proprietary, and patent-facing work. See [`PUBLICATION-FIREWALL.md`](PUBLICATION-FIREWALL.md) before extracting material from mixed research sources.
 
-See [`PUBLICATION-FIREWALL.md`](PUBLICATION-FIREWALL.md) before extracting material from mixed mathematical/applied sources.
-
-## Live-release rule
-
-This file is a front door, not a frozen inventory. As additional pure mathematics is checked for correctness, evidence, literature status, and publication boundaries, it can be added to the larger map and included here when it materially improves a new reader's understanding of the release.
+Author: Jared Wilder.
