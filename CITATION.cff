@@ -1,0 +1,9 @@
+cff-version: 1.2.0
+message: "If you use this dataset, please cite it using the metadata below."
+type: dataset
+title: "Open Math Frontier"
+authors:
+  - family-names: "Wilder"
+    given-names: "Jared"
+repository-code: "https://github.com/jaredwilder/open-math-frontier"
+license: "Apache-2.0"
